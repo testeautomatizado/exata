@@ -1,0 +1,70 @@
+{
+    "version": 8,
+    "id": "d03bd9bc-fa09-acbc-f854-b81014abb192",
+    "title": "Busca resultado REFEITORIO TESTE (Coletor)",
+    "description": "",
+    "steps": [
+        {
+            "id": "66d6ba5e-1176-7d51-1396-d378c34199c0",
+            "originalFrame": "41be81c5-3332-48a7-fb68-8dc378384164_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1717443105325,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0.1631578947368421,
+                "width": 1,
+                "height": 0.40650154798761606
+            },
+            "matchIndex": 0,
+            "searchText": "REFEITORIO TESTE TRES",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "720x1600",
+            "baseSize": "720x1600",
+            "serial": "RX8T50DG1RJ",
+            "deviceId": "RX8T50DG1RJ",
+            "name": "SM-M127F",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1717585754988,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "216690e5-e6de-d2d0-4505-412679733c80",
+            "date": 1717499513943,
+            "completed": true,
+            "stepResults": [],
+            "devices": [],
+            "duration": 2577,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "111.0.5563.116",
+                    "code": 556311633,
+                    "minSdk": 29,
+                    "targetSdk": 33,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": false
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

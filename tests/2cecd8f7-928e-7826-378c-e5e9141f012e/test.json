@@ -1,0 +1,82 @@
+{
+    "version": 8,
+    "id": "2cecd8f7-928e-7826-378c-e5e9141f012e",
+    "title": "Busca Resultado Visitante - Consulta refeição",
+    "description": "Busca resultado na tela de consulta refeição",
+    "steps": [
+        {
+            "id": "121051c6-ae04-9077-625f-adf7f30886c7",
+            "originalFrame": "d7073b4b-f854-a02f-a310-907a925a48d5_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1717001334443,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.17786934673366836,
+                "y": 0.7780589812332438,
+                "width": 0.06264656616415411,
+                "height": 0.08927613941018767
+            },
+            "matchIndex": 0,
+            "searchText": "CINCO",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1717184450771,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "ea3640e6-4acf-ce83-9767-0d7a77721900",
+            "date": 1717005407966,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 33963,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "111.0.5563.116",
+                    "code": 556311633,
+                    "minSdk": 29,
+                    "targetSdk": 33,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        }
+    ],
+    "testRunExports": [],
+    "completed": true
+}

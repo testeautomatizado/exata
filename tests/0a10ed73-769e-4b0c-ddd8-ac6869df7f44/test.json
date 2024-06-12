@@ -1,0 +1,108 @@
+{
+    "version": 8,
+    "id": "0a10ed73-769e-4b0c-ddd8-ac6869df7f44",
+    "title": "Busca resultado - Colaborador genérico",
+    "description": "Valida se colaborador existe de acordo com a busca",
+    "steps": [
+        {
+            "id": "44bbe3cc-e685-003a-adfa-b521828cc255",
+            "originalFrame": "d245409d-06ad-b62f-4dbc-aa78b87e11b7_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1716564547531,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.09514237855946397,
+                "y": 0.6010723860589812,
+                "width": 0.22680067001675042,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "FUNCIONARIO GENERICO REPEATO UM",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1716579533542,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "94a97455-a2da-1ef9-791b-32bf99a609bc",
+            "date": 1716579221297,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "67881048-cf02-a1b7-4ebc-1c8971f5a5d0",
+                    "step": "44bbe3cc-e685-003a-adfa-b521828cc255",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.09514237855946397,
+                                "y": 0.6010723860589812
+                            },
+                            "size": {
+                                "width": 0.2265625,
+                                "height": 0.1
+                            },
+                            "probability": 1,
+                            "text": "FUNCIONARIO GENERICO REPEATO UM O"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"FUNCIONARIO GENERICO REPEATO UM O\"",
+                    "scannedText": "FUNCIONARIO GENERICO REPEATO UM O",
+                    "screenshot": "2e166821-763b-986c-a8aa-b802ce524667-screenshot.jpg",
+                    "createdOn": 1716579530925,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 309964,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "111.0.5563.116",
+                    "code": 556311633,
+                    "minSdk": 29,
+                    "targetSdk": 33,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        }
+    ],
+    "testRunExports": [],
+    "completed": true
+}

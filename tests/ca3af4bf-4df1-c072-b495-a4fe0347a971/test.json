@@ -1,0 +1,279 @@
+{
+    "version": 8,
+    "id": "ca3af4bf-4df1-c072-b495-a4fe0347a971",
+    "title": "Encerrar Teste Web",
+    "description": "Fecha o navegador com o ExataWeb Aberto",
+    "steps": [
+        {
+            "id": "2363e38c-7eb7-7934-8b99-9d552bcbe5df",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716815689414,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "dc354bfc-9748-2e90-fabe-a8249865c410",
+            "type": "appSwitch",
+            "optional": false,
+            "createdOn": 1716815689415,
+            "recordedOn": ""
+        },
+        {
+            "id": "ab21a113-7034-5b53-8a2c-d3bfab958ee7",
+            "originalFrame": "d3ff364c-0cd6-04da-7616-b344c0cac419_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1716815689416,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.13492264416315047,
+                "y": 0.52,
+                "width": 0.74,
+                "height": 0.48000000000000004
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.4649226441631505,
+                "y": 0.7881293952180028,
+                "width": 0.08,
+                "height": 0.08
+            },
+            "image": "26aa9e78-d77c-9ff7-6dfd-92f1cdd1a95d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.46461014416315044,
+                        "y": 0.7875
+                    },
+                    "size": {
+                        "width": 0.0796875,
+                        "height": 0.08
+                    },
+                    "probability": 0.9991162240936914
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.5049226441631505,
+                "y": 0.8281293952180029
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "817ca6e0-462a-c618-d2e7-8a72ec14b743",
+            "date": 1717003311703,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 2852,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.launcher",
+                    "name": "14.5.01.27",
+                    "code": 1450105027,
+                    "minSdk": 28,
+                    "targetSdk": 33,
+                    "firstInstallTime": "2008-12-31 13:00:00",
+                    "lastUpdateTime": "2008-12-31 13:00:00"
+                }
+            ],
+            "wasSuccessful": true
+        },
+        {
+            "id": "a5207c0a-534d-a766-24a6-5c297be2f492",
+            "date": 1717006502731,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "51c1dfe8-b71b-96a9-475e-3d3314c4c535",
+                    "step": "2363e38c-7eb7-7934-8b99-9d552bcbe5df",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "c69c24e9-8611-d69f-70f6-26146b54020d-screenshot.jpg",
+                    "createdOn": 1717006503885,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "a29feed3-4713-ea27-aa47-115575935e37",
+                    "step": "dc354bfc-9748-2e90-fabe-a8249865c410",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "9788c89c-09be-9f3c-e307-8990111613e6-screenshot.jpg",
+                    "createdOn": 1717006504003,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "dec23ecf-6b92-e24d-a3ed-806cf26d4e89",
+                    "step": "ab21a113-7034-5b53-8a2c-d3bfab958ee7",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.46461014416315044,
+                                "y": 0.7875
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9991162240936914
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "bf99330a-9698-0947-9309-e0d9693b3328-screenshot.jpg",
+                    "createdOn": 1717006505107,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 2632,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.launcher",
+                    "name": "14.5.01.27",
+                    "code": 1450105027,
+                    "minSdk": 28,
+                    "targetSdk": 33,
+                    "firstInstallTime": "2008-12-31 13:00:00",
+                    "lastUpdateTime": "2008-12-31 13:00:00"
+                }
+            ],
+            "wasSuccessful": true
+        },
+        {
+            "id": "adbfdda7-95d2-f7d2-bfe6-3e81592f6762",
+            "date": 1717008098813,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "8488836a-393a-2132-6ef1-401812f69bba",
+                    "step": "2363e38c-7eb7-7934-8b99-9d552bcbe5df",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "db1ba708-bda1-4129-eece-12dde583708c-screenshot.jpg",
+                    "createdOn": 1717008099969,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "82aabfbe-6c15-887a-6241-e99aaedf37f8",
+                    "step": "dc354bfc-9748-2e90-fabe-a8249865c410",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "da39b4a1-e5d5-bbf9-4d20-f205cdc3b03c-screenshot.jpg",
+                    "createdOn": 1717008100087,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "9e592835-cf55-b48c-f783-4ec4ad0c172a",
+                    "step": "ab21a113-7034-5b53-8a2c-d3bfab958ee7",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.46461014416315044,
+                                "y": 0.7875
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9991162240936914
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "dbd9da5a-bec5-c0a1-cf4f-eb9e64a6c19d-screenshot.jpg",
+                    "createdOn": 1717008101108,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 2517,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.launcher",
+                    "name": "14.5.01.27",
+                    "code": 1450105027,
+                    "minSdk": 28,
+                    "targetSdk": 33,
+                    "firstInstallTime": "2008-12-31 13:00:00",
+                    "lastUpdateTime": "2008-12-31 13:00:00"
+                }
+            ],
+            "wasSuccessful": true
+        }
+    ],
+    "testRunExports": [],
+    "completed": true
+}

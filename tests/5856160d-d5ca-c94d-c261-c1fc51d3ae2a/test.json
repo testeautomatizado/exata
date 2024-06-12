@@ -1,0 +1,70 @@
+{
+    "version": 8,
+    "id": "5856160d-d5ca-c94d-c261-c1fc51d3ae2a",
+    "title": "Busca Resultado Coletor -  Tela Grupo",
+    "description": "Busca Coletor - Grupo",
+    "steps": [
+        {
+            "id": "57a9ae3d-b00d-b2d3-d186-6a45039c8c1d",
+            "originalFrame": "90c5fb1b-9136-8695-aef6-3449a89a5206_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1716832449496,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.10951758793969855,
+                "y": 0.3919571045576407,
+                "width": 0.10117252931323285,
+                "height": 0.550402144772118
+            },
+            "matchIndex": 0,
+            "searchText": "37001",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1718133452474,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "d59a7cde-c288-2835-9cbf-1c155182ecf0",
+            "date": 1716899424275,
+            "completed": true,
+            "stepResults": [],
+            "devices": [],
+            "duration": 946734389,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.launcher",
+                    "name": "15.0.03.60",
+                    "code": 1500305060,
+                    "minSdk": 33,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2008-12-31 13:00:00",
+                    "lastUpdateTime": "2008-12-31 13:00:00"
+                }
+            ],
+            "wasSuccessful": false
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

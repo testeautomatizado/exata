@@ -1,0 +1,111 @@
+{
+    "version": 8,
+    "id": "98cafed4-f5ab-036e-df23-75ebd7d649e1",
+    "title": "Buscar resultado - Cód ERP",
+    "description": "Busca por cód ERP ",
+    "steps": [
+        {
+            "id": "dd37b373-6db4-0115-fc4c-535684782047",
+            "originalFrame": "93b7fb36-38f7-2e56-afb6-67df24021374_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1716567425578,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.6763819095477388,
+                "y": 0.560857908847185,
+                "width": 0.10452261306532666,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "11",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1718134115822,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "1d241e59-80b0-4558-266c-935d774ae864",
+            "date": 1718134111761,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "da9a34e9-0ddd-b418-5fcb-f90dc6d73ba4",
+                    "step": "dd37b373-6db4-0115-fc4c-535684782047",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.6763819095477388,
+                                "y": 0.560857908847185
+                            },
+                            "size": {
+                                "width": 0.10416666666666667,
+                                "height": 0.1
+                            },
+                            "probability": 1,
+                            "text": "11\nB o"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"11\nB o\"",
+                    "scannedText": "11\nB o",
+                    "screenshot": "76179902-cdef-78f9-01ff-0a7c5b932f38-screenshot.jpg",
+                    "createdOn": 1718134112032,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "1200x1920",
+                    "baseSize": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 597,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "117.0.5938.60",
+                    "code": 593806031,
+                    "minSdk": 29,
+                    "targetSdk": 34,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

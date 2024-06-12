@@ -1,0 +1,140 @@
+{
+    "version": 8,
+    "id": "8f082520-2c2b-58dc-2034-a11928fcebc9",
+    "title": "Ponto Exataface - Tablet",
+    "description": "Realiza a marcação de ponto no tablet",
+    "steps": [
+        {
+            "id": "2d3b6fc0-6614-b590-d755-7ad08520d764",
+            "originalFrame": "bc12c6eb-e8ef-1327-e271-b8bd3edcf969_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1716811752904,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.18555555555555553,
+                "y": 0.169563994374121,
+                "width": 0.74,
+                "height": 0.48000000000000004
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.5155555555555555,
+                "y": 0.369563994374121,
+                "width": 0.08,
+                "height": 0.08
+            },
+            "image": "248b111c-7b41-2d1f-ef85-55f4393c144c_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5152430555555555,
+                        "y": 0.369563994374121
+                    },
+                    "size": {
+                        "width": 0.0796875,
+                        "height": 0.08
+                    },
+                    "probability": 0.9981581022685414
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.5555555555555556,
+                "y": 0.409563994374121
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "Ex"
+                }
+            ]
+        },
+        {
+            "id": "a8d91fa1-c9ac-8fd6-938e-0401a0f43f23",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716811752961,
+            "recordedOn": "SM-X200",
+            "testId": "bb924234-53cd-bd6e-c3a0-fbbdb36ac66e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "75baf616-072a-03a4-3fea-2d10012f50e1",
+            "originalFrame": "931ccc2a-416a-da87-699c-7331525e5b0d_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716811752971,
+            "recordedOn": "SM-X200",
+            "duration": 6000
+        },
+        {
+            "id": "56b8d989-f812-0775-f0a6-8bdabf72376c",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716811753020,
+            "recordedOn": "SM-X200",
+            "testId": "7cf9c5cc-5fcf-4bcc-ed4f-4baf0d6d349f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "9758eb68-f01d-4e02-2ddf-0243042aa42d",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1716811753030,
+            "recordedOn": ""
+        },
+        {
+            "id": "0b7a0534-a3f3-4a3a-0427-f3e29ecfda0a",
+            "originalFrame": "0dc122c5-3208-d69f-7385-26dfcf1a62b5_frame.jpg",
+            "timeout": 15,
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716811753041,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.7505154639175257,
+                "y": 0.410752688172043,
+                "width": 0.2,
+                "height": 0.13010752688172045
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "10cc919a-f6c6-b0dd-9d69-80655dc34642",
+            "originalFrame": "0d28155c-c1f9-e8d1-e8b1-2673c13aa71b_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716811753082,
+            "recordedOn": "SM-X200",
+            "duration": 12000
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "completed": true
+}

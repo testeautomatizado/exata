@@ -1,0 +1,556 @@
+{
+    "version": 8,
+    "id": "dbf756af-44ca-bd7b-781f-b6aca3982816",
+    "title": "Cadastra Face - Coletor",
+    "description": "Valida face e cadastra para enviar para web",
+    "steps": [
+        {
+            "id": "df77b378-f58b-4919-2e89-5a8a5ab576c6",
+            "originalFrame": "9d6423fa-1585-702b-96e6-84c808bb75a4_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716492438424,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.540893470790378,
+                "y": 0.3907120743034056,
+                "width": 0.3649484536082474,
+                "height": 0.17275541795665636
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "3e3f232d-72d8-5756-032d-c44a79ed1d80",
+            "originalFrame": "6e4de392-762c-9fd4-2ae1-0ecb2072221d_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716492438471,
+            "recordedOn": "SM-M127F",
+            "duration": 12000
+        },
+        {
+            "id": "3c9e11fb-37cc-f29e-99c3-a00ff4f5a5a2",
+            "originalFrame": "ae5faa64-0797-66bf-ba8b-3194c7bf9fa5_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1716492438513,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0.10842105263157892,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.20666666666666667,
+                "y": 0.30842105263157893,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "594c6523-6362-a76e-4caf-49d840741433_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.20555555555555555,
+                        "y": 0.30842105263157893
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9966993957085452
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.26666666666666666,
+                "y": 0.32842105263157895
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "CADASTRAR"
+                }
+            ]
+        },
+        {
+            "id": "7fae55d5-c319-a008-d75e-41bfde24df73",
+            "originalFrame": "13964a37-049b-2e65-e2ed-9598bd996867_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1716492438567,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.052280701754385955,
+                "y": 0.18210526315789474,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "350a8c08-06ae-9df3-6dca-12ea2b5efebb_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.05138888888888889,
+                        "y": 0.181875
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9999764362970988
+                },
+                {
+                    "position": {
+                        "x": 0.05694444444444444,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999047441770052
+                },
+                {
+                    "position": {
+                        "x": 0.059722222222222225,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990605150554727
+                },
+                {
+                    "position": {
+                        "x": 0.06666666666666667,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990421965613118
+                },
+                {
+                    "position": {
+                        "x": 0.11388888888888889,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999047441770052
+                },
+                {
+                    "position": {
+                        "x": 0.12777777777777777,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990658397370726
+                },
+                {
+                    "position": {
+                        "x": 0.15138888888888888,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999047441770052
+                },
+                {
+                    "position": {
+                        "x": 0.15416666666666667,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990658397370726
+                },
+                {
+                    "position": {
+                        "x": 0.18472222222222223,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990658397370726
+                },
+                {
+                    "position": {
+                        "x": 0.19027777777777777,
+                        "y": 0.181875
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9996103082988809
+                },
+                {
+                    "position": {
+                        "x": 0.225,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999047441770052
+                },
+                {
+                    "position": {
+                        "x": 0.2652777777777778,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990658397370726
+                },
+                {
+                    "position": {
+                        "x": 0.31805555555555554,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990711644186726
+                },
+                {
+                    "position": {
+                        "x": 0.32916666666666666,
+                        "y": 0.181875
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9995997781449706
+                },
+                {
+                    "position": {
+                        "x": 0.32916666666666666,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999047441770052
+                },
+                {
+                    "position": {
+                        "x": 0.3763888888888889,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990658397370726
+                },
+                {
+                    "position": {
+                        "x": 0.38055555555555554,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999047441770052
+                },
+                {
+                    "position": {
+                        "x": 0.4236111111111111,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990711644186726
+                },
+                {
+                    "position": {
+                        "x": 0.45694444444444443,
+                        "y": 0.181875
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9995997781449706
+                },
+                {
+                    "position": {
+                        "x": 0.4875,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990658397370726
+                },
+                {
+                    "position": {
+                        "x": 0.49166666666666664,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999047441770052
+                },
+                {
+                    "position": {
+                        "x": 0.5069444444444444,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999047441770052
+                },
+                {
+                    "position": {
+                        "x": 0.5402777777777777,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990711644186726
+                },
+                {
+                    "position": {
+                        "x": 0.5791666666666667,
+                        "y": 0.235
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990421965613118
+                },
+                {
+                    "position": {
+                        "x": 0.6013888888888889,
+                        "y": 0.181875
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9996103082988809
+                },
+                {
+                    "position": {
+                        "x": 0.6222222222222222,
+                        "y": 0.08125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990658397370726
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.11228070175438595,
+                "y": 0.20210526315789473
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "ab92f423-9148-fe6f-456e-074c599def38",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716492438616,
+            "recordedOn": "SM-M127F",
+            "testId": "adbf0261-61b4-ad4e-ac78-91cc792f6ebd",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "ae64172a-c673-7d08-cbb5-0b0b1fb44bd1",
+            "originalFrame": "78580e3b-4ab8-712d-f832-b5530efcb7ed_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1716492438636,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.049484536082474266,
+                "y": 0.27925696594427246,
+                "width": 0.8666666666666666,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "CADASTRAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "69b75b3e-ccee-cafa-b4ca-22c7f433d71b",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716492438674,
+            "recordedOn": "SM-M127F",
+            "duration": 1500,
+            "subtype": "waitForAnimationFinish"
+        },
+        {
+            "id": "a880de04-c46d-c684-13d3-0ed1606a1dae",
+            "originalFrame": "09a99b19-5057-d769-c91e-c1d4803f363f_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1716492438683,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.0076608187134503125,
+                "y": 0.10631578947368414,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.33766081871345033,
+                "y": 0.30631578947368415,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "7e05682d-263e-3f8f-cfdd-15edd86e015c_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.33821637426900586,
+                        "y": 0.30631578947368415
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9973177233834889
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.3976608187134503,
+                "y": 0.32631578947368417
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "e3c50d68-a5fa-9bab-098f-d38d3be01817",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716552654296,
+            "recordedOn": "SM-M127F",
+            "testId": "24027a0d-a6d0-e0a4-acd8-23020681df39",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "2ee442b0-f55f-0070-8fd8-7dc83a956c9c",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1716492438930,
+            "recordedOn": ""
+        },
+        {
+            "id": "fcb88746-a938-17b0-5b82-975a8bfe4be0",
+            "originalFrame": "97ca6dcf-5ffa-5273-d34a-3787f19c6678_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716492438939,
+            "recordedOn": "SM-M127F",
+            "duration": 2500
+        },
+        {
+            "id": "6ed03e5f-ba40-af1f-8f20-e51e9aaa50a8",
+            "originalFrame": "23c3c9f0-3410-20ea-33b0-2da82080827d_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716492438976,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.540893470790378,
+                "y": 0.3907120743034056,
+                "width": 0.3649484536082474,
+                "height": 0.17275541795665636
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "8c8de085-d60c-b09a-0367-f8e3acc9f765",
+            "originalFrame": "5113c4af-2fe7-94f9-47a3-f919d08ff07a_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716492439012,
+            "recordedOn": "SM-M127F",
+            "duration": 12000
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "720x1600",
+            "serial": "RX8T50DG1RJ",
+            "deviceId": "RX8T50DG1RJ",
+            "name": "SM-M127F",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1716552671510,
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "completed": true
+}

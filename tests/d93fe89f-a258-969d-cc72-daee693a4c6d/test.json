@@ -1,0 +1,71 @@
+{
+    "version": 8,
+    "id": "d93fe89f-a258-969d-cc72-daee693a4c6d",
+    "title": "Busca resultado Empresa antes de Iniciar Web",
+    "description": "",
+    "steps": [
+        {
+            "id": "71752153-b079-b1d5-b3c9-c903461ce8ac",
+            "originalFrame": "2189b768-113b-629b-e2bc-0cf50349525b_frame.jpg",
+            "timeout": 80,
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1717845072517,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.3865996649916248,
+                "y": 0.15335120643431638,
+                "width": 0.3088777219430486,
+                "height": 0.1080428954423592
+            },
+            "matchIndex": 0,
+            "searchText": "EMPRESA TRINTA SETE",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1718133634868,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "392ba1d1-a772-9dab-bc4b-24e0c226c73d",
+            "date": 1717848958822,
+            "completed": true,
+            "stepResults": [],
+            "devices": [],
+            "duration": 265173514,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.launcher",
+                    "name": "15.0.03.60",
+                    "code": 1500305060,
+                    "minSdk": 33,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2008-12-31 13:00:00",
+                    "lastUpdateTime": "2008-12-31 13:00:00"
+                }
+            ],
+            "wasSuccessful": false
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

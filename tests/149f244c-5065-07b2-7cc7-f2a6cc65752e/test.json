@@ -1,0 +1,135 @@
+{
+    "version": 8,
+    "id": "149f244c-5065-07b2-7cc7-f2a6cc65752e",
+    "title": "Cesta Básica Completo",
+    "description": "",
+    "steps": [
+        {
+            "id": "b42106af-e559-08d0-3a8f-9e9f90623c0d",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1717163472107,
+            "recordedOn": "SM-X200",
+            "testId": "3a566629-22ae-919f-2c39-076e4c61f11a",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "65ea0657-2a37-2877-8ee5-672b50631809",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1717163480115,
+            "recordedOn": "SM-X200",
+            "testId": "001a4ffc-9612-72a0-ab5d-5cb785b4e7c9",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "58b46edb-e542-8008-221c-37a0d07521d2",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1717163492003,
+            "recordedOn": "SM-X200",
+            "testId": "829875d9-c22e-aa8b-2ae8-f0c7f5fb4b7a",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "e083ce5d-3e40-9898-663f-e2d545511dcc",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1717163887377,
+            "recordedOn": "SM-X200",
+            "testId": "636f74d7-3ea4-8de5-a1dd-01c0808dfcd2",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "tags": [
+        "criar.colaborador",
+        "criar.coletor",
+        "web",
+        "exataface"
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "createdOn": 1717163469855,
+    "changedOn": 1717163892516,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "7ff930f4-cb7d-251d-8465-8c32636bdf48",
+            "date": 1718136588877,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "94e95652-7c72-c41c-b83e-84153c0238e6",
+                    "step": "605ea3ca-2cfb-ad0e-2c93-f2cf63782db8",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint in the region of interest",
+                    "screenshot": "2765eb8e-17d7-abd2-ce36-36f57c1c1851-screenshot.jpg",
+                    "createdOn": 1718136597826,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "24116e49-028d-7123-bc85-99d70acd2123",
+                    "step": "b42106af-e559-08d0-3a8f-9e9f90623c0d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint in the region of interest",
+                    "screenshot": "062b3256-7277-68f9-9315-5595c6330821-screenshot.jpg",
+                    "createdOn": 1718136597886,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "1200x1920",
+                    "baseSize": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 9430,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "117.0.5938.60",
+                    "code": 593806031,
+                    "minSdk": 29,
+                    "targetSdk": 34,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": false
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

@@ -1,0 +1,86 @@
+{
+    "version": 8,
+    "id": "11ac64fa-331b-2004-31d4-8dd8130d5132",
+    "title": "Sincroniza Coletor para remover Módulo",
+    "description": "",
+    "steps": [
+        {
+            "id": "58761e6f-a314-3fd1-8975-8d248bb22822",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1717421973633,
+            "recordedOn": "SM-X200",
+            "testId": "a493da33-17fd-5efa-f40f-43b2603f491f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "d36a3f82-a689-f130-dbb1-c39180cad8df",
+            "originalFrame": "76c1e935-e425-5b9a-6587-fce7f96c0562_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1717421973634,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.31752577319587627,
+                "y": 0.5888544891640867,
+                "width": 0.3615120274914089,
+                "height": 0.14643962848297215
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "b03e63a3-4138-a751-8e10-7aade633f15c",
+            "originalFrame": "5aebbd4f-781b-79b1-37d0-e3b37e17d914_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1717421973699,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.5374570446735395,
+                "y": 0.3876160990712074,
+                "width": 0.35807560137457045,
+                "height": 0.17120743034055727
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "fbe7cba7-b5f6-a5cc-2392-1bf29c1e6a41",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1717421973764,
+            "recordedOn": "SM-M127F",
+            "testId": "f03a962d-cd60-b506-8fde-d865a43b3465",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "completed": true
+}

@@ -1,0 +1,585 @@
+{
+    "version": 8,
+    "id": "ca910535-d8fe-936a-60de-711ea77aa6d0",
+    "title": "Login Web - Usuário repeato",
+    "description": "faz o login no web",
+    "steps": [
+        {
+            "id": "0c0c5b4c-1611-cec7-c2ff-405e23656366",
+            "originalFrame": "d4222f69-9708-3236-49b3-5b3c116e83f7_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1715873919682,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.20524613220815752,
+                "y": 0.31133614627285505,
+                "width": 0.74,
+                "height": 0.48000000000000004
+            },
+            "matchIndex": 1,
+            "selection": {
+                "x": 0.5352461322081575,
+                "y": 0.5113361462728551,
+                "width": 0.08,
+                "height": 0.08
+            },
+            "image": "710300f3-e8ac-0fff-48df-d2b40f7da987_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.40420446554149086,
+                        "y": 0.3721694796061884
+                    },
+                    "size": {
+                        "width": 0.0796875,
+                        "height": 0.08
+                    },
+                    "probability": 0.9832694360953066
+                },
+                {
+                    "position": {
+                        "x": 0.5349336322081576,
+                        "y": 0.5113361462728551
+                    },
+                    "size": {
+                        "width": 0.0796875,
+                        "height": 0.08
+                    },
+                    "probability": 0.9970948307063936
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.5752461322081576,
+                "y": 0.5513361462728551
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "be03130b-2a0e-41c2-320e-c72c350fc19d",
+            "originalFrame": "80e439fc-6568-7f1f-83ce-6cd155bf6213_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716814216922,
+            "recordedOn": "SM-X200",
+            "duration": 5000
+        },
+        {
+            "id": "4b1a58cd-5563-1797-ea5f-3f92dd1bc363",
+            "originalFrame": "43e66b22-0cc3-0a74-0a50-fabf55920b31_frame.jpg",
+            "type": "someContentClick",
+            "optional": false,
+            "createdOn": 1716813414220,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.38324958123953096,
+                "y": 0.30616621983914205,
+                "width": 0.24187604690117254,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "delay": 0,
+            "longClick": false
+        },
+        {
+            "id": "c22ec943-79c0-65d5-92c6-aa2da865a766",
+            "originalFrame": "3a41cbf9-244d-ff6a-b598-350c9e0ebaf2_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1715873919733,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.2710217755443886,
+                "y": 0.5152815013404826,
+                "width": 0.46968174204355106,
+                "height": 0.4324396782841823
+            },
+            "matchIndex": 0,
+            "searchText": "repeato",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "c6e20f88-b985-c957-abad-f7e7edc0cb96",
+            "originalFrame": "79aa2ed8-34ce-5204-e8ec-4bec335f24fa_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1715873919755,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0,
+                "y": 0.3747138964577657,
+                "width": 0.74,
+                "height": 0.48000000000000004
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.2842506811989101,
+                "y": 0.5747138964577657,
+                "width": 0.08,
+                "height": 0.08
+            },
+            "image": "f68aaf2d-35f7-3bde-5a79-b3a12e36a37b_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2838541666666667,
+                        "y": 0.5747138964577656
+                    },
+                    "size": {
+                        "width": 0.0796875,
+                        "height": 0.08
+                    },
+                    "probability": 0.993681060232305
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.3242506811989101,
+                "y": 0.6147138964577658
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        }
+    ],
+    "tags": [],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1716814223612,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "21abc603-0db0-7029-6e33-006441399c77",
+            "date": 1716392872949,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 3294,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "111.0.5563.116",
+                    "code": 556311633,
+                    "minSdk": 29,
+                    "targetSdk": 33,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "46e166c9-54a5-d678-6780-a0df0ced9a22",
+            "date": 1717003314681,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 11482,
+            "appStartupDuration": 752,
+            "skippedFramesCount": 62,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "111.0.5563.116",
+                    "code": 556311633,
+                    "minSdk": 29,
+                    "targetSdk": 33,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        },
+        {
+            "id": "94806a9e-a086-3485-6f86-f4d2fcfc1abf",
+            "date": 1717006505484,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 10854,
+            "appStartupDuration": 669,
+            "skippedFramesCount": 49,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "111.0.5563.116",
+                    "code": 556311633,
+                    "minSdk": 29,
+                    "targetSdk": 33,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        },
+        {
+            "id": "c9289423-9e63-181e-1717-139d0e34dd69",
+            "date": 1717008101451,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "2be127a4-9d1a-6dcf-f5d4-50a5d395cb36",
+                    "step": "0c0c5b4c-1611-cec7-c2ff-405e23656366",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.40420446554149086,
+                                "y": 0.3721694796061884
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9831887847512514
+                        },
+                        {
+                            "position": {
+                                "x": 0.5349336322081576,
+                                "y": 0.5113361462728551
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9975191678320066
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "787e2bcd-7fb1-9d0b-01e8-d1618bfcf173-screenshot.jpg",
+                    "createdOn": 1717008102331,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "52e8409a-dd20-9ae1-e02f-4001c01d50bc",
+                    "step": "be03130b-2a0e-41c2-320e-c72c350fc19d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "cf3c6096-36ae-e7ea-c21e-fc9a3304b83a-screenshot.jpg",
+                    "createdOn": 1717008107362,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "824870e5-5275-75cd-5a87-f6916ab2a522",
+                    "step": "4b1a58cd-5563-1797-ea5f-3f92dd1bc363",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.38324958123953096,
+                                "y": 0.30616621983914205
+                            },
+                            "size": {
+                                "width": 0.24166666666666667,
+                                "height": 0.1
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "9d6761a8-3885-2e98-2dc0-e0363cfe6b3c-screenshot.jpg",
+                    "createdOn": 1717008107464,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "cbd7c42a-a12e-35bd-e932-6079c29244ae",
+                    "step": "c22ec943-79c0-65d5-92c6-aa2da865a766",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.3350842755443886,
+                                "y": 0.6519481680071493
+                            },
+                            "size": {
+                                "width": 0.04583333333333333,
+                                "height": 0.0275
+                            },
+                            "probability": 0.92,
+                            "text": "repeato"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"repeato\"",
+                    "scannedText": "T",
+                    "screenshot": "c72d8544-cbcc-14f8-223e-97e67fb28863-screenshot.jpg",
+                    "createdOn": 1717008110191,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "c49c552a-a408-b799-d1e3-baf25c5fcbd4",
+                    "step": "c6e20f88-b985-c957-abad-f7e7edc0cb96",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.2838541666666667,
+                                "y": 0.5747138964577656
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9936809135878045
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "03bb5b0d-a208-e280-fdb1-ce55c87d0d96-screenshot.jpg",
+                    "createdOn": 1717008111479,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 10451,
+            "appStartupDuration": 641,
+            "skippedFramesCount": 40,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "111.0.5563.116",
+                    "code": 556311633,
+                    "minSdk": 29,
+                    "targetSdk": 33,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        },
+        {
+            "id": "5fd24f00-6fb4-a1f3-1a5e-fdf5316f0d94",
+            "date": 1718049689515,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "a35e02a7-acca-7502-0c35-92c6ab4b85dd",
+                    "step": "0c0c5b4c-1611-cec7-c2ff-405e23656366",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.40368363220815756,
+                                "y": 0.35883614627285504
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9645173288361658
+                        },
+                        {
+                            "position": {
+                                "x": 0.5338919655414909,
+                                "y": 0.5030028129395218
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9772503036491565
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "7eafa082-39c1-a2aa-debd-ea79a3cf3688-screenshot.jpg",
+                    "createdOn": 1718049690604,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "a916881b-32ae-3c05-3f77-0314f2bceb52",
+                    "step": "be03130b-2a0e-41c2-320e-c72c350fc19d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "bdcdb6c6-6b74-bab6-229a-4526505ec517-screenshot.jpg",
+                    "createdOn": 1718049695643,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "ccae01df-6719-0a6a-9717-d9f3639dc16f",
+                    "step": "4b1a58cd-5563-1797-ea5f-3f92dd1bc363",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.38324958123953096,
+                                "y": 0.30616621983914205
+                            },
+                            "size": {
+                                "width": 0.24166666666666667,
+                                "height": 0.1
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "06cd0e73-46cd-e9d9-2645-3f627b9792cb-screenshot.jpg",
+                    "createdOn": 1718049695744,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "744a9801-72ea-a500-3870-855cc89635f3",
+                    "step": "c22ec943-79c0-65d5-92c6-aa2da865a766",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.3350842755443886,
+                                "y": 0.6519481680071493
+                            },
+                            "size": {
+                                "width": 0.04583333333333333,
+                                "height": 0.0275
+                            },
+                            "probability": 0.91,
+                            "text": "repeato"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"repeato\"",
+                    "scannedText": "T",
+                    "screenshot": "1ddee3ee-06a9-ec77-636f-d8778b98024c-screenshot.jpg",
+                    "createdOn": 1718049700531,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "f76a59ba-2c5a-8fd7-1587-78de4d219399",
+                    "step": "c6e20f88-b985-c957-abad-f7e7edc0cb96",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.2838541666666667,
+                                "y": 0.5747138964577656
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9936809135878045
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "77fbb6cf-dc9b-7b33-04f1-d6c4eaea378a-screenshot.jpg",
+                    "createdOn": 1718049701430,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "1200x1920",
+                    "baseSize": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 12321,
+            "appStartupDuration": 610,
+            "skippedFramesCount": 48,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "117.0.5938.60",
+                    "code": 593806031,
+                    "minSdk": 29,
+                    "targetSdk": 34,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

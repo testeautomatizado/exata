@@ -1,0 +1,84 @@
+{
+    "version": 8,
+    "id": "278a2c94-d38a-d5fe-35ba-84f29890991e",
+    "title": "Busca Resultado Coletor - Registros Diversos",
+    "description": "Busca coletor na tela de Registros Diversos",
+    "steps": [
+        {
+            "id": "11735b39-0684-2a82-a465-7c3d53ec86a6",
+            "originalFrame": "15ca6456-bf37-5a8e-48f6-b0321c6a6615_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1717176777538,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.1671691792294807,
+                "y": 0.689544235924933,
+                "width": 0.16147403685092127,
+                "height": 0.20723860589812332
+            },
+            "matchIndex": 0,
+            "searchText": "37001",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1718133561062,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "622c10ff-4a1b-c67d-da79-6de668546494",
+            "date": 1717180809747,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 577,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "111.0.5563.116",
+                    "code": 556311633,
+                    "minSdk": 29,
+                    "targetSdk": 33,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

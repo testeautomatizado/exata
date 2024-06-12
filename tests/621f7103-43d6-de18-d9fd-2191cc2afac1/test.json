@@ -1,0 +1,73 @@
+{
+    "version": 8,
+    "id": "621f7103-43d6-de18-d9fd-2191cc2afac1",
+    "title": "Busca Resultado Coletor ",
+    "description": "Número do Coletor",
+    "steps": [
+        {
+            "id": "84805f27-77e6-d97b-2be1-b62bc049a5be",
+            "originalFrame": "ee5844dd-88c5-656a-de66-6500addd480a_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1716401365513,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.09780234505862645,
+                "y": 0.8779356568364611,
+                "width": 0.15812395309882749,
+                "height": 0.05710455764075064
+            },
+            "matchIndex": 0,
+            "searchText": "37001",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "tags": [
+        "num.coletor"
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1718133462977,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "14b5c3b0-2017-366f-e33b-c8e6d09b08e4",
+            "date": 1716403432735,
+            "completed": true,
+            "stepResults": [],
+            "devices": [],
+            "duration": 1204423306,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "117.0.5938.60",
+                    "code": 593806031,
+                    "minSdk": 29,
+                    "targetSdk": 34,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": false
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

@@ -1,0 +1,245 @@
+{
+    "version": 8,
+    "id": "5829e3a4-8e6b-ae4f-a989-86b7d66643e5",
+    "title": "Busca resultado de Terceiros/Visitantes",
+    "description": "Busca resultado de filtros na tela de terceiros/Visitante",
+    "steps": [
+        {
+            "id": "27359f2a-0fda-2733-c480-b9c13cd52c14",
+            "originalFrame": "cfe6c238-0039-95ad-0aea-6786a8adb3c8_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716983689803,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.0030150753768844398,
+                "y": 0.41808579088471853,
+                "width": 0.31390284757118925,
+                "height": 0.04906166219839142
+            },
+            "matchIndex": 0,
+            "searchText": "Todos",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "8ac766d9-9720-b878-e2f6-2b3cc39a24d6",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716983689850,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "4a3eae88-5246-65fc-e7c1-dccca90a3489",
+            "originalFrame": "2192d581-8b1b-26b8-2f47-5f0937baa43c_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716983689864,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.018090452261306567,
+                "y": 0.3088471849865952,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "CPF",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "db1bdd90-de0c-a2d0-e787-e56152b76af4",
+            "originalFrame": "9293a596-9f6a-b453-96c0-97bd900b7410_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716983689928,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.019765494137353415,
+                "y": 0.32493297587131365,
+                "width": 0.2,
+                "height": 0.17506702412868635
+            },
+            "matchIndex": 0,
+            "searchText": "Nome",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "a97f3524-17a0-da78-571b-aba1fdc43327",
+            "originalFrame": "3dc5462d-32d9-29bd-e4a0-e179ae947c61_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716983689982,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.2375209380234506,
+                "y": 0.2820375335120644,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Buscar",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "4f8a1175-d962-50fd-a0cb-b18aa4ddf2bb",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716983690026,
+            "recordedOn": "SM-X200",
+            "testId": "6ccaae75-6be5-774d-c4ad-6845720fac1e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f9629768-6acc-d13d-69b3-09b1d4aab8fc",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716983690036,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "ceaa983e-2a46-4d12-7e89-2ff6386382b7",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1716983690047,
+            "recordedOn": ""
+        },
+        {
+            "id": "c1dca5e9-75c0-446e-f7b9-a89b8e335b70",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716983690059,
+            "recordedOn": "SM-X200",
+            "testId": "6f647b63-7bc5-1966-29df-338ed0e9459e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "82c664c1-b089-5ece-ef8f-6e40b8ef1da4",
+            "originalFrame": "21e46520-b41a-0866-a66b-cdf34db194b5_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716983690074,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.018090452261306567,
+                "y": 0.3115281501340483,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Nome",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "1ba80d3e-b23c-6835-ef7d-517181a04c3f",
+            "originalFrame": "f0fca451-6a66-8a31-6622-3dd0cf7166e9_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716983690113,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.018090452261306567,
+                "y": 0.27667560321715834,
+                "width": 0.2,
+                "height": 0.17506702412868635
+            },
+            "matchIndex": 0,
+            "searchText": "Centro",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "ba9c8a17-7b09-b7e6-319f-d84340595564",
+            "originalFrame": "6896f061-a0ec-5ddb-4d88-ae076fb672f2_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716983690150,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.2375209380234506,
+                "y": 0.2820375335120644,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Buscar",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "9bba62e6-5f2e-0d8b-8633-f180f6b52201",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716983690201,
+            "recordedOn": "SM-X200",
+            "testId": "75d105ae-c37b-62ae-cafe-357990b9b9ba",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "16c5fcfe-5830-8038-a719-c7b37e5588c9",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716983690212,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "15f3aa1d-7306-33af-c83a-1b9a8c61cbb0",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1716983690228,
+            "recordedOn": ""
+        },
+        {
+            "id": "d0b11729-7d25-742c-50cb-2c3825af6893",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716983690240,
+            "recordedOn": "SM-X200",
+            "testId": "6f647b63-7bc5-1966-29df-338ed0e9459e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "completed": true
+}

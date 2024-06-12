@@ -1,0 +1,159 @@
+{
+    "version": 8,
+    "id": "bb924234-53cd-bd6e-c3a0-fbbdb36ac66e",
+    "title": "Câmera Ponto - Frontal",
+    "description": "Escolhe a Camera Frontal para Ponto",
+    "steps": [
+        {
+            "id": "d0a29ee2-ba08-9a6e-a671-735d5174af85",
+            "originalFrame": "92183ac1-c87c-be87-8831-8ac3577e82b4_frame.jpg",
+            "timeout": 20,
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1716304724129,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 7.105427357601002e-17,
+                "y": 0.12043010752688192,
+                "width": 1,
+                "height": 0.596774193548387
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "fba8c9d8-5fa3-123f-bf73-1bb2fbb42159",
+            "originalFrame": "00822d06-cf5f-e050-a038-8561dbf9e3a9_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716304724197,
+            "recordedOn": "SM-X200",
+            "duration": 12000
+        },
+        {
+            "id": "9eca60d0-8dc7-11d2-79b9-e882128d4dc3",
+            "originalFrame": "cdac270b-3681-f171-d075-03f5ea2db248_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1716304724275,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.007473684210526299,
+                "y": 0.013684210526315771,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.3374736842105263,
+                "y": 0.21368421052631578,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "b21e6600-8449-76e6-0b0b-5a8b42702b37_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.3374736842105263,
+                        "y": 0.21368421052631575
+                    },
+                    "size": {
+                        "width": 0.12,
+                        "height": 0.03958333333333333
+                    },
+                    "probability": 0.9942519893698524
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.3974736842105263,
+                "y": 0.23368421052631577
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "PONTO"
+                }
+            ]
+        },
+        {
+            "id": "6ff45a25-29c5-e547-fddb-e748b433a40f",
+            "originalFrame": "19a737c3-ddc9-b490-5087-b946977d406b_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1716304724307,
+            "recordedOn": "SM-X200",
+            "tags": [
+                "camera"
+            ],
+            "region": {
+                "x": 0.1489473684210526,
+                "y": 0.20526315789473676,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.19960852544584598,
+                "y": 0.4217920835145715,
+                "width": 0.5943801652892562,
+                "height": 0.07822314049586776
+            },
+            "image": "0cd07396-9bb5-c1ab-6a5f-c921fe641360_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.19978070175438595,
+                        "y": 0.4214089912280701
+                    },
+                    "size": {
+                        "width": 0.5941666666666666,
+                        "height": 0.078125
+                    },
+                    "probability": 0.9963223081818343
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.5389473684210526,
+                "y": 0.4252631578947368
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "NI"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "camera"
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "createdOn": 1716304721508,
+    "changedOn": 1716304841462,
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "completed": true
+}
