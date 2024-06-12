@@ -220,10 +220,30 @@
         },
         {
             "id": "a338f953-285f-aae6-7859-40b26ed5e86b",
-            "originalFrame": "87a37941-2539-e937-186e-9207ea3ca782_frame.jpg",
+            "originalFrame": "3dcdf14e-de24-2671-b8a7-86413040d2ca_frame.jpg",
             "type": "scanTextClick",
             "optional": false,
             "createdOn": 1717011249077,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.01474036850921273,
+                "y": 0.6171581769436998,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Facial",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "75c082a2-3ef9-7de4-d66a-a9becb8e34e5",
+            "originalFrame": "66f08ab0-3037-27cc-d820-d28ea799a4a5_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1718218625845,
             "recordedOn": "SM-X200",
             "region": {
                 "x": 0.01474036850921273,
@@ -312,9 +332,10 @@
         {
             "os": "Android",
             "abi": "arm64-v8a",
-            "sdk": "33",
-            "osVersion": "13",
+            "sdk": "34",
+            "osVersion": "14",
             "size": "1200x1920",
+            "baseSize": "1200x1920",
             "serial": "R9XT3043MRJ",
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
@@ -324,7 +345,7 @@
         }
     ],
     "createdOn": 1717010924755,
-    "changedOn": 1717011472437,
+    "changedOn": 1718218640208,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -692,31 +713,6 @@
                     "screenshot": "95ba5454-2cfd-7a8e-1f1c-8eeb9f1b6524-screenshot.jpg",
                     "createdOn": 1717011300365,
                     "executedOn": "SM-X200"
-                },
-                {
-                    "id": "3290353e-7c67-4dfc-3b9c-fa64cc916fbf",
-                    "step": "a338f953-285f-aae6-7859-40b26ed5e86b",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.09286536850921273,
-                                "y": 0.6679915102770331
-                            },
-                            "size": {
-                                "width": 0.03854166666666667,
-                                "height": 0.014166666666666666
-                            },
-                            "probability": 0.92,
-                            "text": "QRCode"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"QRCode\"",
-                    "scannedText": "QRCode",
-                    "screenshot": "ac340e5c-bbb9-d662-ef21-2be92d81f2a3-screenshot.jpg",
-                    "createdOn": 1717011301385,
-                    "executedOn": "SM-X200"
                 }
             ],
             "devices": [
@@ -750,5 +746,6 @@
         }
     ],
     "testRunExports": [],
-    "completed": true
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
 }
