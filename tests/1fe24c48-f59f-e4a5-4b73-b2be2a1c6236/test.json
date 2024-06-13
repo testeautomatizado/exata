@@ -553,12 +553,14 @@
             ]
         },
         {
-            "id": "819e3662-ec66-b4f7-b2f2-b7e9190ee27d",
-            "type": "text",
+            "id": "33c8fd28-5e8d-5c29-c5a7-1c098f96ae75",
+            "type": "subTest",
             "optional": false,
-            "createdOn": 1716392647944,
+            "createdOn": 1718285131121,
             "recordedOn": "",
-            "text": "repeato"
+            "testId": "320c1c22-2a4f-5a10-9a43-2d629446a78f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
         },
         {
             "id": "01b5a0e5-80bc-ea44-fa1c-893d3f15b5c3",
@@ -576,24 +578,14 @@
             "recordedOn": ""
         },
         {
-            "id": "b9297dc4-65e1-c448-6ace-7b5d6f615021",
-            "originalFrame": "568c75b5-6924-0f27-b6d6-00fa657bb30f_template.png",
-            "timeout": 20,
-            "type": "scanTextWait",
+            "id": "7f2ea645-a8d9-8266-1d8f-d436bcd2415a",
+            "type": "subTest",
             "optional": false,
-            "createdOn": 1717677794535,
-            "recordedOn": "SM-X200",
-            "region": {
-                "x": 0.04154103852596314,
-                "y": 0.5018766756032171,
-                "width": 0.2,
-                "height": 0.27962466487935655
-            },
-            "matchIndex": 0,
-            "searchText": "repeato",
-            "operator": "contains",
-            "variableName": "scannedText",
-            "ocrLanguage": "eng"
+            "createdOn": 1718285161410,
+            "recordedOn": "",
+            "testId": "a78bbd2d-b6d6-8726-1c5d-878facda2ef1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
         },
         {
             "id": "f67d0fe3-23e4-e913-fcd1-2ba9ec680b9e",
@@ -1052,7 +1044,7 @@
         }
     ],
     "createdOn": 1716392565915,
-    "changedOn": 1717849901104,
+    "changedOn": 1718285174911,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -1548,17 +1540,6 @@
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "6563ecdf-06c7-7212-2ed2-322e4b84ebf5",
-                    "step": "819e3662-ec66-b4f7-b2f2-b7e9190ee27d",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "f435e216-d52f-e812-1ca9-efed4634688b-screenshot.jpg",
-                    "createdOn": 1717606942549,
-                    "executedOn": "SM-X200"
-                },
-                {
                     "id": "fbb57862-65b7-8910-a172-6669e861d2e6",
                     "step": "01b5a0e5-80bc-ea44-fa1c-893d3f15b5c3",
                     "matches": [],
@@ -1578,31 +1559,6 @@
                     "message": "",
                     "screenshot": "bc8736ab-1025-35f2-2f8f-5692c595dfa9-screenshot.jpg",
                     "createdOn": 1717606943786,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "f3d1e65d-e685-f393-fe2e-760243cdb0ae",
-                    "step": "b9297dc4-65e1-c448-6ace-7b5d6f615021",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.04154103852596314,
-                                "y": 0.5018766756032171
-                            },
-                            "size": {
-                                "width": 0.2,
-                                "height": 0.2791666666666667
-                            },
-                            "probability": 1,
-                            "text": "=\nrepeato"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"=\nrepeato\"",
-                    "scannedText": "=\nrepeato",
-                    "screenshot": "a62e981e-4293-fea5-2644-e8933ae1f355-screenshot.jpg",
-                    "createdOn": 1717606944309,
                     "executedOn": "SM-X200"
                 },
                 {
@@ -2485,17 +2441,6 @@
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "4cf6c74d-79c1-605c-1778-067de6d1f685",
-                    "step": "819e3662-ec66-b4f7-b2f2-b7e9190ee27d",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "5ad351a6-e5f9-cd3d-a835-0e2db4965be0-screenshot.jpg",
-                    "createdOn": 1717676381735,
-                    "executedOn": "SM-X200"
-                },
-                {
                     "id": "ee410189-f637-8951-300b-7f1cb5e14177",
                     "step": "01b5a0e5-80bc-ea44-fa1c-893d3f15b5c3",
                     "matches": [],
@@ -2515,31 +2460,6 @@
                     "message": "",
                     "screenshot": "7d0308ae-41a5-bf78-4409-cc10f6839ca4-screenshot.jpg",
                     "createdOn": 1717676383050,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "8e50df3c-b96b-a204-a5dd-e96b7bda193c",
-                    "step": "b9297dc4-65e1-c448-6ace-7b5d6f615021",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.04154103852596314,
-                                "y": 0.5018766756032171
-                            },
-                            "size": {
-                                "width": 0.2,
-                                "height": 0.2791666666666667
-                            },
-                            "probability": 1,
-                            "text": "=\nrepeato"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"=\nrepeato\"",
-                    "scannedText": "=\nrepeato",
-                    "screenshot": "e21d0abc-bb21-9063-815f-75d565fcc902-screenshot.jpg",
-                    "createdOn": 1717676383773,
                     "executedOn": "SM-X200"
                 },
                 {
