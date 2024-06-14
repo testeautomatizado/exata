@@ -427,76 +427,6 @@
     "isWorkingCopy": false,
     "testRuns": [
         {
-            "id": "66d428f5-d862-b7cb-6e58-b37a36de93cb",
-            "date": 1718052648164,
-            "completed": true,
-            "stepResults": [],
-            "devices": [
-                {
-                    "os": "Android",
-                    "abi": "arm64-v8a",
-                    "sdk": "33",
-                    "osVersion": "13",
-                    "size": "720x1600",
-                    "baseSize": "720x1600",
-                    "serial": "RX8T50DG1RJ",
-                    "deviceId": "RX8T50DG1RJ",
-                    "name": "SM-M127F",
-                    "brand": "samsung",
-                    "currentRotation": 0,
-                    "isSimulator": false
-                }
-            ],
-            "duration": 35377,
-            "appVersions": [
-                {
-                    "packageName": "exataid.exatarep",
-                    "name": "8.003.02",
-                    "code": 800302,
-                    "minSdk": 26,
-                    "targetSdk": 34,
-                    "firstInstallTime": "2024-05-13 14:22:53",
-                    "lastUpdateTime": "2024-06-08 08:31:48"
-                }
-            ],
-            "wasSuccessful": false
-        },
-        {
-            "id": "261c3b8a-9ac7-ea3b-b2c1-647b517e3c59",
-            "date": 1718115576321,
-            "completed": true,
-            "stepResults": [],
-            "devices": [
-                {
-                    "os": "Android",
-                    "abi": "arm64-v8a",
-                    "sdk": "34",
-                    "osVersion": "14",
-                    "size": "1200x1920",
-                    "baseSize": "1200x1920",
-                    "serial": "R9XT3043MRJ",
-                    "deviceId": "R9XT3043MRJ",
-                    "name": "SM-X200",
-                    "brand": "samsung",
-                    "currentRotation": 1,
-                    "isSimulator": false
-                }
-            ],
-            "duration": 9948,
-            "appVersions": [
-                {
-                    "packageName": "com.android.chrome",
-                    "name": "117.0.5938.60",
-                    "code": 593806031,
-                    "minSdk": 29,
-                    "targetSdk": 34,
-                    "firstInstallTime": "1969-12-31 20:59:59",
-                    "lastUpdateTime": "1969-12-31 20:59:59"
-                }
-            ],
-            "wasSuccessful": false
-        },
-        {
             "id": "af965ea6-0bac-771b-5879-ab749749d00b",
             "date": 1718130020380,
             "completed": true,
@@ -540,19 +470,7 @@
             "id": "8b42e4eb-9937-d0c2-b660-d696df4defbe",
             "date": 1718136613606,
             "completed": true,
-            "stepResults": [
-                {
-                    "id": "b0b36852-e523-34cb-135d-c254cccb6617",
-                    "step": "3e335759-ab8e-a145-33ce-f118f6b19ab7",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": false,
-                    "message": "Could not find fingerprint in the region of interest",
-                    "screenshot": "e19e7a9d-abd1-55d1-6627-f07eefd5f45c-screenshot.jpg",
-                    "createdOn": 1718136622729,
-                    "executedOn": "SM-X200"
-                }
-            ],
+            "stepResults": [],
             "devices": [
                 {
                     "os": "Android",
@@ -579,6 +497,73 @@
                     "targetSdk": 34,
                     "firstInstallTime": "1969-12-31 20:59:59",
                     "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "f8fe12d6-a0b8-e215-c859-af7a64c432e5",
+            "date": 1718304527473,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "RX8T50DG1RJ",
+                    "deviceId": "RX8T50DG1RJ",
+                    "name": "SM-M127F",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 31125,
+            "appVersions": [
+                {
+                    "packageName": "exataid.exatarep",
+                    "name": "8.003.02",
+                    "code": 800302,
+                    "minSdk": 26,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2024-05-13 14:22:53",
+                    "lastUpdateTime": "2024-06-08 08:31:48"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "ec20130b-3ed3-a0e9-73ff-3bae0d727543",
+            "date": 1718306752344,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "28fdd49f-06f7-1e4d-76b4-cd5756761fb9",
+                    "step": "3e335759-ab8e-a145-33ce-f118f6b19ab7",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "TestRunner stopped manually",
+                    "screenshot": "6831f757-e649-2604-bc8d-f38d9b156036-screenshot.jpg",
+                    "createdOn": 1718306760711,
+                    "executedOn": ""
+                }
+            ],
+            "devices": [],
+            "duration": 9059,
+            "appStartupDuration": 347,
+            "appVersions": [
+                {
+                    "packageName": "exataid.exatarep",
+                    "name": "8.003.02",
+                    "code": 800302,
+                    "minSdk": 26,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2024-05-13 14:22:53",
+                    "lastUpdateTime": "2024-06-08 08:31:48"
                 }
             ],
             "wasSuccessful": false

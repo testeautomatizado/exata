@@ -142,8 +142,8 @@
     "isWorkingCopy": false,
     "testRuns": [
         {
-            "id": "5d8d2e65-6043-dcb1-67ed-17b055a83ccf",
-            "date": 1717421875710,
+            "id": "349b0e45-eed1-2f52-ef57-e2210208553f",
+            "date": 1718304494938,
             "completed": true,
             "stepResults": [],
             "devices": [
@@ -152,20 +152,8 @@
                     "abi": "arm64-v8a",
                     "sdk": "33",
                     "osVersion": "13",
-                    "size": "1200x1920",
-                    "serial": "R9XT3043MRJ",
-                    "deviceId": "R9XT3043MRJ",
-                    "name": "SM-X200",
-                    "brand": "samsung",
-                    "currentRotation": 1,
-                    "isSimulator": false
-                },
-                {
-                    "os": "Android",
-                    "abi": "arm64-v8a",
-                    "sdk": "33",
-                    "osVersion": "13",
                     "size": "720x1600",
+                    "baseSize": "720x1600",
                     "serial": "RX8T50DG1RJ",
                     "deviceId": "RX8T50DG1RJ",
                     "name": "SM-M127F",
@@ -174,23 +162,93 @@
                     "isSimulator": false
                 }
             ],
-            "duration": 70718,
+            "duration": 31437,
             "appVersions": [
                 {
-                    "packageName": "com.android.chrome",
-                    "name": "111.0.5563.116",
-                    "code": 556311633,
-                    "minSdk": 29,
-                    "targetSdk": 33,
-                    "firstInstallTime": "1969-12-31 20:59:59",
-                    "lastUpdateTime": "1969-12-31 20:59:59"
+                    "packageName": "exataid.exatarep",
+                    "name": "8.003.02",
+                    "code": 800302,
+                    "minSdk": 26,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2024-05-13 14:22:53",
+                    "lastUpdateTime": "2024-06-08 08:31:48"
                 }
             ],
             "wasSuccessful": false
         },
         {
-            "id": "d78ed214-17e3-1852-19d8-9d18a2506b51",
-            "date": 1718136600486,
+            "id": "9d15cd48-7ad1-00bf-2969-c23c56ea5c31",
+            "date": 1718306263182,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "RX8T50DG1RJ",
+                    "deviceId": "RX8T50DG1RJ",
+                    "name": "SM-M127F",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 3590,
+            "appVersions": [
+                {
+                    "packageName": "exataid.exatarep",
+                    "name": "8.003.02",
+                    "code": 800302,
+                    "minSdk": 26,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2024-05-13 14:22:53",
+                    "lastUpdateTime": "2024-06-08 08:31:48"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "1594347b-0505-c7de-abd3-ce9c2a108d3c",
+            "date": 1718306567571,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "RX8T50DG1RJ",
+                    "deviceId": "RX8T50DG1RJ",
+                    "name": "SM-M127F",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 4012,
+            "appVersions": [
+                {
+                    "packageName": "exataid.exatarep",
+                    "name": "8.003.02",
+                    "code": 800302,
+                    "minSdk": 26,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2024-05-13 14:22:53",
+                    "lastUpdateTime": "2024-06-08 08:31:48"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "a14f668a-2e5d-01a6-6b47-e7a5502008d4",
+            "date": 1718306618808,
             "completed": true,
             "stepResults": [],
             "devices": [
@@ -209,7 +267,7 @@
                     "isSimulator": false
                 }
             ],
-            "duration": 10831,
+            "duration": 4793,
             "appVersions": [
                 {
                     "packageName": "com.android.chrome",
@@ -224,47 +282,51 @@
             "wasSuccessful": false
         },
         {
-            "id": "2459f895-9009-43bc-1575-804d966e08fa",
-            "date": 1718214682474,
+            "id": "e00309b1-7312-91ee-b866-fe6654e587f4",
+            "date": 1718306719670,
             "completed": true,
-            "stepResults": [],
+            "stepResults": [
+                {
+                    "id": "09486253-1f24-90f4-0851-25848782c6f3",
+                    "step": "196878a8-694c-2560-8784-332ae725d34d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint in the region of interest",
+                    "screenshot": "c2f77863-193a-14f8-0134-314dae48257c-screenshot.jpg",
+                    "createdOn": 1718306750692,
+                    "executedOn": "SM-M127F"
+                },
+                {
+                    "id": "de1ad6fc-9b80-fec5-2069-9088d91907c2",
+                    "step": "5c086826-ec72-382c-79e9-97a7027eb68e",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint in the region of interest",
+                    "screenshot": "52b62d8c-3de4-0641-150b-943966664457-screenshot.jpg",
+                    "createdOn": 1718306750741,
+                    "executedOn": "SM-M127F"
+                }
+            ],
             "devices": [
                 {
                     "os": "Android",
                     "abi": "arm64-v8a",
-                    "sdk": "34",
-                    "osVersion": "14",
-                    "size": "1200x1920",
-                    "baseSize": "1200x1920",
-                    "serial": "R9XT3043MRJ",
-                    "deviceId": "R9XT3043MRJ",
-                    "name": "SM-X200",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "RX8T50DG1RJ",
+                    "deviceId": "RX8T50DG1RJ",
+                    "name": "SM-M127F",
                     "brand": "samsung",
-                    "currentRotation": 1,
+                    "currentRotation": 0,
                     "isSimulator": false
                 }
             ],
-            "duration": 13319,
-            "appVersions": [
-                {
-                    "packageName": "com.android.chrome",
-                    "name": "117.0.5938.60",
-                    "code": 593806031,
-                    "minSdk": 29,
-                    "targetSdk": 34,
-                    "firstInstallTime": "1969-12-31 20:59:59",
-                    "lastUpdateTime": "1969-12-31 20:59:59"
-                }
-            ],
-            "wasSuccessful": false
-        },
-        {
-            "id": "27eecf97-19c0-99a2-1b10-4a0c0fff0551",
-            "date": 1718217824452,
-            "completed": false,
-            "stepResults": [],
-            "devices": [],
-            "duration": 937,
+            "duration": 31501,
+            "appStartupDuration": 384,
             "appVersions": [
                 {
                     "packageName": "exataid.exatarep",
