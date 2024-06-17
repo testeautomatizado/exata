@@ -843,6 +843,25 @@
             "failureMode": "firstOptional"
         },
         {
+            "id": "065bdc62-9467-5e85-e98a-8d1b7335ca98",
+            "originalFrame": "45cf3aa6-e646-e7d5-f167-e0dc096d700a_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718640385523,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.5512027491408935,
+                "y": 0.3891640866873065,
+                "width": 0.33745704467353954,
+                "height": 0.17275541795665636
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
             "id": "1f1d04ba-6ea4-4f6f-e456-76518ed22fcf",
             "originalFrame": "4f4fc8e0-b963-545f-c4e4-2d64b3f0b2ae_frame.jpg",
             "type": "scanTextClick",
@@ -1470,7 +1489,7 @@
         }
     ],
     "createdOn": 1716894335760,
-    "changedOn": 1718280227214,
+    "changedOn": 1718640486689,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -2513,7 +2532,32 @@
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "a48a7935-c31d-e6ee-ca91-bbf0cb4d16b7",
+                    "id": "0884a75e-014b-09ea-a128-8dc22d2193cf",
+                    "step": "065bdc62-9467-5e85-e98a-8d1b7335ca98",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5512027491408935,
+                                "y": 0.3891640866873065
+                            },
+                            "size": {
+                                "width": 0.33611111111111114,
+                                "height": 0.1725
+                            },
+                            "probability": 1,
+                            "text": "Y\n&\nSINCRONIZAR"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Y\n&\nSINCRONIZAR\"",
+                    "scannedText": "Y\n&\nSINCRONIZAR",
+                    "screenshot": "0cdaee28-3247-c895-9327-73145b253c50-screenshot.jpg",
+                    "createdOn": 1718640399978,
+                    "executedOn": "SM-M127F"
+                },
+                {
+                    "id": "1e553956-1229-07ee-d972-16555133493d",
                     "step": "1f1d04ba-6ea4-4f6f-e456-76518ed22fcf",
                     "matches": [
                         {
@@ -2533,12 +2577,12 @@
                     "success": true,
                     "message": "Text found in region: \"FACIAL\"",
                     "scannedText": "FACIAL",
-                    "screenshot": "6ddfd12e-016e-92a5-ed64-81a15e4625cd-screenshot.jpg",
-                    "createdOn": 1718280157784,
+                    "screenshot": "6a98441f-9f21-7960-c6f8-4eed3eaf5532-screenshot.jpg",
+                    "createdOn": 1718640400589,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "9de93814-9ec3-c263-b08d-8ed26a6939f6",
+                    "id": "f658d065-c19f-bd83-94da-964bab3064dc",
                     "step": "3d9bddd6-ff1b-0502-11fd-619106e90f61",
                     "matches": [
                         {
@@ -2558,23 +2602,23 @@
                     "success": true,
                     "message": "Text found in region: \"TRASEIRA\"",
                     "scannedText": "TRASEIRA",
-                    "screenshot": "e3ea0b25-d699-fa56-9403-a3b47b9ce92e-screenshot.jpg",
-                    "createdOn": 1718280159653,
+                    "screenshot": "90e9eca6-a542-7201-d17b-6ef73db7298d-screenshot.jpg",
+                    "createdOn": 1718640401449,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "250678a2-2fe0-5c7f-4503-5bd293a29d30",
+                    "id": "c8313ca3-82da-97b3-4136-9e0ea258a991",
                     "step": "55902c1e-1860-dcec-2dfa-53246f3086e7",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "f29405ac-021f-9d88-a930-051d7cd40d6b-screenshot.jpg",
-                    "createdOn": 1718280166712,
+                    "screenshot": "f2bfd465-c49a-73ef-e5a1-1e98a094f173-screenshot.jpg",
+                    "createdOn": 1718640408927,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "18546d3c-8816-2f2f-66c8-13fded4613a5",
+                    "id": "73ab49c8-8885-1b58-09e9-24396fd515c6",
                     "step": "929448d8-aa14-a7b6-dc55-7182150d5605",
                     "matches": [
                         {
@@ -2587,41 +2631,41 @@
                                 "height": 0.344375
                             },
                             "probability": 1,
-                            "text": "TESTE AUTOMATICO\nREPEATO"
+                            "text": "T T TN\nREPEATO"
                         }
                     ],
                     "scaleFactor": 1,
                     "success": true,
-                    "message": "Text found in region: \"TESTE AUTOMATICO\nREPEATO\"",
-                    "scannedText": "TESTE AUTOMATICO\nREPEATO",
-                    "screenshot": "aa75b5f6-143c-8388-961d-22df85bc6961-screenshot.jpg",
-                    "createdOn": 1718280169966,
+                    "message": "Text found in region: \"T T TN\nREPEATO\"",
+                    "scannedText": "T T TN\nREPEATO",
+                    "screenshot": "d8214210-9a7e-41ff-1aa9-340efc930f42-screenshot.jpg",
+                    "createdOn": 1718640409186,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "e9928517-8911-0e9d-2646-98ae9361bd27",
+                    "id": "b81699d3-919b-32a2-3939-3d3ed8bb7b5b",
                     "step": "dedaeae0-356e-0e43-2147-35f0f3efc8ed",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "4d58a400-d86a-8e29-f84f-ede91a4a2192-screenshot.jpg",
-                    "createdOn": 1718280171033,
+                    "screenshot": "3385bae2-c67b-b5ff-e026-9edd2dfb7806-screenshot.jpg",
+                    "createdOn": 1718640410257,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "188cc757-cb07-83ac-1079-3629775aa95f",
+                    "id": "18df6892-639e-b758-55d5-97ac5fac3fb0",
                     "step": "8a1bcea5-0edc-8d9e-1bc1-fff816fd4fcf",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "297a9495-cf14-88a7-bc6a-a5c83ac7b80c-screenshot.jpg",
-                    "createdOn": 1718280171256,
+                    "screenshot": "ab7f3177-24ab-2240-b0ee-4b286e6b4f42-screenshot.jpg",
+                    "createdOn": 1718640410483,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "0741a744-8bc5-f400-ee4e-917b383778a3",
+                    "id": "3b7cb36f-b61c-35c4-0fa9-5f97160c9a96",
                     "step": "910e0889-829d-0b5d-b60b-57a6cb65befc",
                     "matches": [
                         {
@@ -2641,78 +2685,78 @@
                     "success": true,
                     "message": "Text found in region: \"SINCRONIZAR\"",
                     "scannedText": "SINCRONIZAR",
-                    "screenshot": "baadee4f-26df-a502-dd2c-312d3ffd1168-screenshot.jpg",
-                    "createdOn": 1718280172966,
+                    "screenshot": "f71725e4-c0c9-cf07-fd39-9b6828ed4703-screenshot.jpg",
+                    "createdOn": 1718640412140,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "dcb67b84-dfc2-255b-9c04-287850a00d41",
+                    "id": "631d6d6d-3e60-3e8f-2003-54a984b972b3",
                     "step": "74d8c648-f16a-785b-75cc-23723fcd13e4",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "841a19bd-335e-c5b8-6681-dd889ec0c5be-screenshot.jpg",
-                    "createdOn": 1718280185010,
+                    "screenshot": "3c4f6fb2-2cb4-a1d5-ad4c-5dfd3eabcf5a-screenshot.jpg",
+                    "createdOn": 1718640424591,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "073e03bd-1d30-802e-e9b3-1ca73ec119b1",
+                    "id": "ed7e279d-b59e-ce8e-3242-3e72af790ec4",
                     "step": "b9d6e59e-1baa-f7f1-9b6e-07fda6d9fb1a",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "7ec2c1b1-d489-a017-235d-8c7801bab663-screenshot.jpg",
-                    "createdOn": 1718280185054,
+                    "screenshot": "ac1a90ca-d4ad-f6e4-ae29-16f856833c6e-screenshot.jpg",
+                    "createdOn": 1718640424648,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "c203c744-21c6-3fe2-a318-3365bc8e61b9",
+                    "id": "3dfc250c-d643-4697-242f-1a4c0ae59e02",
                     "step": "33f4ddc8-72b0-4879-f3be-01e1bfaf18e8",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "d7fa9ee5-834a-b79c-2f84-810d6061d089-screenshot.jpg",
-                    "createdOn": 1718280187626,
+                    "screenshot": "704b6baf-f822-8976-9ef0-9cdfffcf0533-screenshot.jpg",
+                    "createdOn": 1718640427213,
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "07ccd866-11b1-4de3-6eb0-34ec683e8ac4",
+                    "id": "0d5632e2-3bd1-e99c-38d5-3654078ae7ed",
                     "step": "a540a1f1-2f17-de23-5697-ce0cf2d2dd70",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "532ac92c-f060-d6fc-2029-5cfb7d81c8b2-screenshot.jpg",
-                    "createdOn": 1718280187730,
+                    "screenshot": "6bbf8a9e-4425-4fb7-9188-68f7dbec86e1-screenshot.jpg",
+                    "createdOn": 1718640427317,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "d2866792-f960-5129-a017-50b1fccf0357",
+                    "id": "d2aa511c-d0eb-6438-e5dc-917e20471c88",
                     "step": "2323f02f-f6bd-bd5a-3244-6318f31c55d4",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "82c77a0e-2c42-2333-6413-4c09bbb6ae08-screenshot.jpg",
-                    "createdOn": 1718280190278,
+                    "screenshot": "e6fde3c3-efe5-38b7-a218-7d0332632b34-screenshot.jpg",
+                    "createdOn": 1718640429863,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "41148123-b457-ab1a-7573-039a4349a130",
+                    "id": "4b688c15-6949-42af-ccc1-db09a73bbe0a",
                     "step": "de566555-74f0-3f56-cb9c-74f526a58e8d",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "8e52036c-a063-9076-8a72-74644b7c9ac1-screenshot.jpg",
-                    "createdOn": 1718280190325,
+                    "screenshot": "87734119-0c22-2c46-b1ac-2e1693607a7b-screenshot.jpg",
+                    "createdOn": 1718640429914,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "f55dbade-51db-5401-686c-2b8e8566c3e2",
+                    "id": "363f0c31-af77-726a-9315-6bb446760fb9",
                     "step": "83df097f-190e-2dfd-82d5-b215e45429f6",
                     "matches": [
                         {
@@ -2730,12 +2774,12 @@
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "bbeed68c-0981-8eb3-2f68-1c40928b66f5-screenshot.jpg",
-                    "createdOn": 1718280190455,
+                    "screenshot": "7aaa92b4-b249-ea99-68b7-e6aff6aca925-screenshot.jpg",
+                    "createdOn": 1718640430045,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "93249674-59db-3f8d-8482-0917a1663c7b",
+                    "id": "1a8d8c7b-8b3e-4d7c-254b-68be08582e10",
                     "step": "9a494ed5-88e9-0234-f033-f839c35619ae",
                     "matches": [
                         {
@@ -2755,12 +2799,12 @@
                     "success": true,
                     "message": "Text found in region: \"Cadastros\"",
                     "scannedText": "Terceiros/Visitantes",
-                    "screenshot": "77b89478-b7b0-0222-7fab-3e4e76ccb68f-screenshot.jpg",
-                    "createdOn": 1718280198168,
+                    "screenshot": "52944f16-059a-9874-6c8f-1ade56442250-screenshot.jpg",
+                    "createdOn": 1718640457116,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "9a4b4c83-1b4c-570e-52ca-f87d8a2bb2b3",
+                    "id": "834343a2-efcb-e3a7-9720-116da4a96f44",
                     "step": "904b7b8d-be65-75f7-f569-3ceba383406b",
                     "matches": [
                         {
@@ -2780,23 +2824,23 @@
                     "success": true,
                     "message": "Text found in region: \"Pontos\"",
                     "scannedText": "Refei¢ao",
-                    "screenshot": "833381ff-ebcc-d22c-8508-34cdd9e17225-screenshot.jpg",
-                    "createdOn": 1718280199547,
+                    "screenshot": "11d09861-c678-5f7f-73c6-92907be088af-screenshot.jpg",
+                    "createdOn": 1718640458903,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "3522d730-f162-043c-db3f-b2c69a13e677",
+                    "id": "f08d36d8-939e-785c-6847-a0bf5a352b56",
                     "step": "e345a0a9-de6b-a18c-517f-ddadf813be51",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "5b39e346-84e5-4ebd-a71e-5e6f1f271700-screenshot.jpg",
-                    "createdOn": 1718280201006,
+                    "screenshot": "6ab38ad9-5ada-86c2-23cf-9f24f4633e4c-screenshot.jpg",
+                    "createdOn": 1718640460376,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "631e7177-7cc7-79f0-0797-a7599d84620f",
+                    "id": "4914fff8-d3b1-f6bb-fef6-04045b0b285d",
                     "step": "e208d2a0-9e5e-4cbc-381d-93eaead53e8d",
                     "matches": [
                         {
@@ -2808,52 +2852,52 @@
                                 "width": 0.0796875,
                                 "height": 0.08
                             },
-                            "probability": 0.9826037365922287
+                            "probability": 0.9826016305614466
                         }
                     ],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "ce90e56f-fbc0-a0eb-2c2b-7707656d1b2e-screenshot.jpg",
-                    "createdOn": 1718280201936,
+                    "screenshot": "c50163ee-6d8d-a91f-3c4a-821af9224765-screenshot.jpg",
+                    "createdOn": 1718640461283,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "742eea8d-4c05-778a-68cf-1ab6fffaa9ab",
+                    "id": "4dc6ab45-7de0-5658-5d36-2dd9654c3332",
                     "step": "b6f52315-26e7-5e71-0b7e-990abc9fa31f",
                     "matches": [
                         {
                             "position": {
                                 "x": 0.0734375,
-                                "y": 0.7841666666666667
+                                "y": 0.8008333333333333
                             },
                             "size": {
                                 "width": 0.0796875,
                                 "height": 0.08
                             },
-                            "probability": 0.9946478935213473
+                            "probability": 0.9941748150395765
                         }
                     ],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "988d3265-9543-6e91-7e93-4d85ee74347f-screenshot.jpg",
-                    "createdOn": 1718280203889,
+                    "screenshot": "e5038fd5-ae65-2a25-7e37-13f9ea11a0d3-screenshot.jpg",
+                    "createdOn": 1718640462923,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "aa13c217-10e3-a46e-b432-60c17576cf50",
+                    "id": "d5a4004c-3d4c-c105-fc4e-1209fdaf2019",
                     "step": "f1ed1cb0-c71e-3270-4e59-4ac3abe76aaf",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "e9b42f5a-ccca-dd7b-95f7-1719b4babf0f-screenshot.jpg",
-                    "createdOn": 1718280206448,
+                    "screenshot": "8f18c050-c23f-4e35-ee77-3e60bf7b1cbc-screenshot.jpg",
+                    "createdOn": 1718640465885,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "02bf5e02-249c-bad6-f91f-f1b82d49384c",
+                    "id": "330b4bd7-9fb4-8a44-5959-65f24522a414",
                     "step": "74130e88-7bc6-13f0-90b3-cdbf81df2061",
                     "matches": [
                         {
@@ -2871,34 +2915,34 @@
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "0e4bab39-2a32-18c5-f5a7-07530950804c-screenshot.jpg",
-                    "createdOn": 1718280206906,
+                    "screenshot": "90f954b6-f9e6-a0cf-6e31-d8dc0459bfbe-screenshot.jpg",
+                    "createdOn": 1718640466027,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "3e1312f3-21c3-ebe5-56d1-e67ed2463bde",
+                    "id": "5449e029-fbe7-7f44-4b27-36c3a987f207",
                     "step": "4416932a-1c1c-e606-c6f7-d4d7e1f876d1",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "f263f337-c7fd-f251-1118-0d22ff08a2f0-screenshot.jpg",
-                    "createdOn": 1718280207965,
+                    "screenshot": "d29c8062-c2c8-1806-caf5-30c1310d5371-screenshot.jpg",
+                    "createdOn": 1718640467516,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "fbad24f8-bab5-f76a-9c73-d1002d946ee8",
+                    "id": "819d8d21-7b31-56e2-937b-180892d2a436",
                     "step": "e47615e8-1172-166d-bbdb-ddde8c5afdba",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "cb9feb16-2c43-aadd-7c34-a6fd2a1f62c3-screenshot.jpg",
-                    "createdOn": 1718280209860,
+                    "screenshot": "bbcfc130-9ec7-e45f-1bc0-fce15ce3f429-screenshot.jpg",
+                    "createdOn": 1718640469458,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "11028fd7-6373-359c-8228-85a93688110d",
+                    "id": "cab26d4c-21da-53a6-121a-a6282990fbd8",
                     "step": "5efeedb2-4c49-41ca-d2a0-029b56f7f61d",
                     "matches": [
                         {
@@ -2918,23 +2962,23 @@
                     "success": true,
                     "message": "Text found in region: \"Inconsistência(s)\"",
                     "scannedText": "sN",
-                    "screenshot": "28d90a32-4e7e-91fc-3b5c-fcb31d4e1429-screenshot.jpg",
-                    "createdOn": 1718280210710,
+                    "screenshot": "17f18e93-2719-5856-cb49-43751fd1ad5f-screenshot.jpg",
+                    "createdOn": 1718640470257,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "62808064-b935-a562-bf9f-6c1e5c5096c6",
+                    "id": "c16e7515-fc1f-a06d-03ce-145ce56dd3b9",
                     "step": "c01f4257-97f0-4197-f3ef-32503a88caef",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "be33b73d-25a2-f45a-85d7-7ccc7f70bba0-screenshot.jpg",
-                    "createdOn": 1718280211765,
+                    "screenshot": "0e362f1c-ccce-e56b-038a-dabd69785402-screenshot.jpg",
+                    "createdOn": 1718640471320,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "77ea5d44-742c-09da-ae13-e4923a3b1054",
+                    "id": "900ee2dc-59a1-dd99-9728-0422037abef9",
                     "step": "5d8e962e-9671-1424-2fce-c0fcbc5675aa",
                     "matches": [
                         {
@@ -2954,23 +2998,23 @@
                     "success": true,
                     "message": "Text found in region: \"Registros\"",
                     "scannedText": "Registros",
-                    "screenshot": "ad41a964-384e-73b6-ed2e-e9edea8e5e50-screenshot.jpg",
-                    "createdOn": 1718280211933,
+                    "screenshot": "0cd9e958-a18c-b02c-39e3-161a0cead1ea-screenshot.jpg",
+                    "createdOn": 1718640471818,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "e9f2fc86-afe6-22ae-1d03-9b146e8b6fad",
+                    "id": "efa13b6d-d499-970b-ef88-3945f9c0ac89",
                     "step": "9d45b630-8b55-66e6-bac2-e8f88798685e",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "2518ae52-130f-7975-64c4-b027e946b38a-screenshot.jpg",
-                    "createdOn": 1718280213401,
+                    "screenshot": "237a8787-f325-2536-6de7-8238edba5aa2-screenshot.jpg",
+                    "createdOn": 1718640472882,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "5fb3f4d0-c32a-80fb-6fc0-23acf42089d2",
+                    "id": "e4b1573a-5599-052d-dffa-d0cf1a79f686",
                     "step": "8d7e81f1-f56b-96b8-7ffe-86ac0822c640",
                     "matches": [
                         {
@@ -2990,12 +3034,12 @@
                     "success": true,
                     "message": "Text found in region: \"Selecione\"",
                     "scannedText": "Inconsisténc",
-                    "screenshot": "5688a897-24a9-0fe8-6c5c-3694599984c9-screenshot.jpg",
-                    "createdOn": 1718280213609,
+                    "screenshot": "32739698-c4e3-09d4-4c8f-d2cd6b5e566e-screenshot.jpg",
+                    "createdOn": 1718640473097,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "1577d719-e506-c887-b112-aac07d1c5662",
+                    "id": "7c732a76-8560-4ced-b9e7-db5f3b3c643d",
                     "step": "db4ff1cb-5cb8-3ff4-98b3-93424f45f098",
                     "matches": [
                         {
@@ -3015,23 +3059,23 @@
                     "success": true,
                     "message": "Text found in region: \"associado\"",
                     "scannedText": "permitido",
-                    "screenshot": "3d77dc97-84c7-19ca-2ae3-781f26e8b1e6-screenshot.jpg",
-                    "createdOn": 1718280215857,
+                    "screenshot": "8ea882c4-be92-3628-a479-6c05dc6fe577-screenshot.jpg",
+                    "createdOn": 1718640475303,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "11ebd99f-b180-b104-8508-5176e732bc7d",
+                    "id": "5d2fa8e8-7a31-6686-74a3-c8077f5daf61",
                     "step": "2a9a8567-cc21-fa7f-225f-e1cfbc308303",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "58d4ab3c-174d-1c03-eb4e-37a7aa57433f-screenshot.jpg",
-                    "createdOn": 1718280216921,
+                    "screenshot": "8d3e35a9-531b-f800-ab34-075032fc6aee-screenshot.jpg",
+                    "createdOn": 1718640476362,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "c5b065bc-da3f-f7ab-de23-804e0e2bca2d",
+                    "id": "ba5c1d68-b028-316a-29fb-b9d50615b7ef",
                     "step": "853119f5-1955-18b5-958c-e061bde1e816",
                     "matches": [
                         {
@@ -3051,12 +3095,12 @@
                     "success": true,
                     "message": "Text found in region: \"Registros\"",
                     "scannedText": "Registros",
-                    "screenshot": "7a3e7324-3138-0cb5-f9b0-fa95d4b3e40e-screenshot.jpg",
-                    "createdOn": 1718280217110,
+                    "screenshot": "f86879e7-e151-4625-0056-5043eb8819d2-screenshot.jpg",
+                    "createdOn": 1718640476533,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "4ba1542d-b385-0949-db7f-a991d5c2f7b7",
+                    "id": "4a13f741-7ea4-add3-737a-bf9c135da2a8",
                     "step": "a0955e2f-4497-d28e-9895-50ae2dd206f5",
                     "matches": [
                         {
@@ -3069,26 +3113,26 @@
                                 "height": 0.39416666666666667
                             },
                             "probability": 1,
-                            "text": "AT\n-\nEscolha uma cerca: v l] “X. D\nonsisténcia(s) O\ne Funciondrio nédo esta associado e 0O\nLS\nCéd. Cod. Céd. LN\nL1t 125 CPF R [Exportado  (Coletor |NSR |REP- LR\nLl B 23 Setor LGy\nTESTE\n062.351.978-062.351.978- SETORC\nAUTOMATICO i CQ SOFTWARE N 39001 11 15 11 1 Q 39001\nREPEATO 02 02 SOFTWARE"
+                            "text": "AT\n-\nO\nEscolha uma cerca: v l]\nonsisténcia(s) W. O\ne Funciondrio nédo esta associado e 0O\nLS\nCéd. Cod. Céd. LN\nL1t 125 CPF R [Exportado  (Coletor |NSR |REP- LR\nLl B 23 Setor LGy\nTESTE\n062.351.978-062.351.978- SETORC\nAUTOMATICO 02 02 i CQ SOFTWARE N 2001 2 6 11 1 SOFTWAF?E 2001\nREPEATO"
                         }
                     ],
                     "scaleFactor": 1,
                     "success": true,
-                    "message": "Text found in region: \"AT\n-\nEscolha uma cerca: v l] “X. D\nonsisténcia(s) O\ne Funciondrio nédo esta associado e 0O\nLS\nCéd. Cod. Céd. LN\nL1t 125 CPF R [Exportado  (Coletor |NSR |REP- LR\nLl B 23 Setor LGy\nTESTE\n062.351.978-062.351.978- SETORC\nAUTOMATICO i CQ SOFTWARE N 39001 11 15 11 1 Q 39001\nREPEATO 02 02 SOFTWARE\"",
-                    "scannedText": "AT\n-\nEscolha uma cerca: v l] “X. D\nonsisténcia(s) O\ne Funciondrio nédo esta associado e 0O\nLS\nCéd. Cod. Céd. LN\nL1t 125 CPF R [Exportado  (Coletor |NSR |REP- LR\nLl B 23 Setor LGy\nTESTE\n062.351.978-062.351.978- SETORC\nAUTOMATICO i CQ SOFTWARE N 39001 11 15 11 1 Q 39001\nREPEATO 02 02 SOFTWARE",
-                    "screenshot": "7d8e5df9-1ab4-0f3d-8a7b-3b5ba1d72a6a-screenshot.jpg",
-                    "createdOn": 1718280219656,
+                    "message": "Text found in region: \"AT\n-\nO\nEscolha uma cerca: v l]\nonsisténcia(s) W. O\ne Funciondrio nédo esta associado e 0O\nLS\nCéd. Cod. Céd. LN\nL1t 125 CPF R [Exportado  (Coletor |NSR |REP- LR\nLl B 23 Setor LGy\nTESTE\n062.351.978-062.351.978- SETORC\nAUTOMATICO 02 02 i CQ SOFTWARE N 2001 2 6 11 1 SOFTWAF?E 2001\nREPEATO\"",
+                    "scannedText": "AT\n-\nO\nEscolha uma cerca: v l]\nonsisténcia(s) W. O\ne Funciondrio nédo esta associado e 0O\nLS\nCéd. Cod. Céd. LN\nL1t 125 CPF R [Exportado  (Coletor |NSR |REP- LR\nLl B 23 Setor LGy\nTESTE\n062.351.978-062.351.978- SETORC\nAUTOMATICO 02 02 i CQ SOFTWARE N 2001 2 6 11 1 SOFTWAF?E 2001\nREPEATO",
+                    "screenshot": "51869349-1a6b-0535-7bcc-d32482f428e8-screenshot.jpg",
+                    "createdOn": 1718640479105,
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "609f8a9b-96c7-56e5-ece1-3b41b71b19b3",
+                    "id": "d11b78b6-77d8-b6f3-f797-91284ec32c84",
                     "step": "bae0e223-3225-39f2-3e30-83e70ba624f4",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "60b3e0b9-c3bd-d15f-b511-a664fd042025-screenshot.jpg",
-                    "createdOn": 1718280219706,
+                    "screenshot": "f8aae57d-bcfc-0d6b-502e-0a5954675323-screenshot.jpg",
+                    "createdOn": 1718640479168,
                     "executedOn": "SM-X200"
                 }
             ],
@@ -3122,7 +3166,7 @@
                     "isSimulator": false
                 }
             ],
-            "duration": 62744963,
+            "duration": 423004421,
             "appVersions": [
                 {
                     "packageName": "com.android.chrome",

@@ -733,8 +733,16 @@
             "longClick": false
         },
         {
+            "id": "674b413b-908b-1f6d-22f0-1027140525cb",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718644271017,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
             "id": "f9f4d0db-6533-2b85-e916-16b92c339f4c",
-            "originalFrame": "1e856a95-b1f7-2e56-6755-fc4057861ea3_frame.jpg",
+            "originalFrame": "b0ef0ecf-1e2d-cf3a-0f2d-0a183fca3e60_frame.jpg",
             "type": "scanTextClick",
             "optional": false,
             "createdOn": 1718628956521,
@@ -743,7 +751,7 @@
                 "x": 0.5658291457286433,
                 "y": 0.5796246648793566,
                 "width": 0.2,
-                "height": 0.1482573726541555
+                "height": 0.18042895442359252
             },
             "matchIndex": 0,
             "searchText": "ATIVO",
@@ -751,6 +759,14 @@
             "variableName": "scannedText",
             "ocrLanguage": "eng",
             "longClick": false
+        },
+        {
+            "id": "19830e7a-3786-22fa-a7fc-9c484f41b504",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718644272577,
+            "recordedOn": "",
+            "duration": 1000
         },
         {
             "id": "460d580b-bdf7-a1d8-6e60-1d4c49f2c42b",
@@ -857,7 +873,7 @@
         }
     ],
     "createdOn": 1717785328160,
-    "changedOn": 1718628986827,
+    "changedOn": 1718644274759,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -2520,68 +2536,6 @@
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "f07f6200-bce0-0148-cdde-0bebb6bfbb53",
-                    "step": "55547814-ecc6-d67f-bbdf-007083592b18",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.5920540201005025,
-                                "y": 0.6672296693476318
-                            },
-                            "size": {
-                                "width": 0.04010416666666667,
-                                "height": 0.0125
-                            },
-                            "probability": 0.7,
-                            "text": "INATIVO"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"INATIVO\"",
-                    "scannedText": "v",
-                    "screenshot": "b6b85fb0-2487-8795-a05f-cd701137d8ca-screenshot.jpg",
-                    "createdOn": 1718628952553,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "2c5aea98-9aca-1b10-0808-06e68fc6a344",
-                    "step": "f9f4d0db-6533-2b85-e916-16b92c339f4c",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.5913499790619767,
-                                "y": 0.6196246648793566
-                            },
-                            "size": {
-                                "width": 0.033854166666666664,
-                                "height": 0.014166666666666666
-                            },
-                            "probability": 0.9,
-                            "text": "ATIVO"
-                        },
-                        {
-                            "position": {
-                                "x": 0.5923916457286433,
-                                "y": 0.6796246648793566
-                            },
-                            "size": {
-                                "width": 0.0453125,
-                                "height": 0.014166666666666666
-                            },
-                            "probability": 0,
-                            "text": " INATIVO"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"ATIVO\"",
-                    "scannedText": "Blo",
-                    "screenshot": "e75022d1-4f37-7ef6-f0d6-e47a562d8093-screenshot.jpg",
-                    "createdOn": 1718628969241,
-                    "executedOn": "SM-X200"
-                },
-                {
                     "id": "21379ceb-bd84-141d-a454-62d85f6f934f",
                     "step": "460d580b-bdf7-a1d8-6e60-1d4c49f2c42b",
                     "matches": [],
@@ -2635,6 +2589,68 @@
                     "screenshot": "0631b424-6617-96e4-5737-c981a6e93b10-screenshot.jpg",
                     "createdOn": 1718628983505,
                     "executedOn": "SM-X200"
+                },
+                {
+                    "id": "3e3df04d-6a8d-0865-00cf-76e1cce60361",
+                    "step": "55547814-ecc6-d67f-bbdf-007083592b18",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5920540201005025,
+                                "y": 0.6672296693476318
+                            },
+                            "size": {
+                                "width": 0.04010416666666667,
+                                "height": 0.0125
+                            },
+                            "probability": 0.7,
+                            "text": "INATIVO"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"INATIVO\"",
+                    "scannedText": "v",
+                    "screenshot": "c8da26f2-b2aa-2997-e9ae-f4cc5f336fbb-screenshot.jpg",
+                    "createdOn": 1718644262876,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "d79f631f-1cc5-343a-de4d-882613c1f8d2",
+                    "step": "f9f4d0db-6533-2b85-e916-16b92c339f4c",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5913499790619767,
+                                "y": 0.6196246648793566
+                            },
+                            "size": {
+                                "width": 0.033854166666666664,
+                                "height": 0.014166666666666666
+                            },
+                            "probability": 0.9,
+                            "text": "ATIVO"
+                        },
+                        {
+                            "position": {
+                                "x": 0.5923916457286433,
+                                "y": 0.6796246648793566
+                            },
+                            "size": {
+                                "width": 0.0453125,
+                                "height": 0.014166666666666666
+                            },
+                            "probability": 0,
+                            "text": " INATIVO"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"ATIVO\"",
+                    "scannedText": "Blo",
+                    "screenshot": "79fddd06-6942-3064-03ad-743da9bc8177-screenshot.jpg",
+                    "createdOn": 1718644264472,
+                    "executedOn": "SM-X200"
                 }
             ],
             "devices": [
@@ -2653,7 +2669,7 @@
                     "isSimulator": false
                 }
             ],
-            "duration": 248475298,
+            "duration": 263756296,
             "appVersions": [
                 {
                     "packageName": "com.android.chrome",
