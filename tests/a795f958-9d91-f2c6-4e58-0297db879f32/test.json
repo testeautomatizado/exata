@@ -331,7 +331,7 @@
         },
         {
             "id": "bd004c58-77c9-c992-1d23-fde414669ccb",
-            "originalFrame": "09ade353-ac51-4f03-fa2a-0bf45aede92d_frame.jpg",
+            "originalFrame": "75f9978a-2ff5-9a6c-1fb9-3b63db432feb_frame.jpg",
             "type": "scanTextClick",
             "optional": false,
             "createdOn": 1716987401220,
@@ -343,7 +343,7 @@
                 "height": 0.1777479892761394
             },
             "matchIndex": 0,
-            "searchText": "REPEATO",
+            "searchText": "PADRAO",
             "operator": "contains",
             "variableName": "scannedText",
             "ocrLanguage": "eng",
@@ -378,6 +378,14 @@
             "longClick": false
         },
         {
+            "id": "c266b853-eae6-88c0-086a-c5e6dd30ef43",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718622555123,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
             "id": "403f0693-3bee-dbd5-19bd-b534bb0f1689",
             "originalFrame": "33f6e37d-d1e2-1514-5f33-61ff421df48f_frame.jpg",
             "type": "scanTextClick",
@@ -396,6 +404,14 @@
             "variableName": "scannedText",
             "ocrLanguage": "eng",
             "longClick": false
+        },
+        {
+            "id": "7f2131d0-df88-a2f2-bbfb-6a7fda65d814",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718622556898,
+            "recordedOn": "",
+            "duration": 1000
         },
         {
             "id": "b14fc23a-4280-f02f-b872-f979c05f30c1",
@@ -468,9 +484,10 @@
         {
             "os": "Android",
             "abi": "arm64-v8a",
-            "sdk": "33",
-            "osVersion": "13",
+            "sdk": "34",
+            "osVersion": "14",
             "size": "1200x1920",
+            "baseSize": "1200x1920",
             "serial": "R9XT3043MRJ",
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
@@ -479,9 +496,203 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1716988670317,
+    "changedOn": 1718622568934,
     "isWorkingCopy": false,
-    "testRuns": [],
+    "testRuns": [
+        {
+            "id": "b7d19661-a84b-9580-ee4a-1b40d8b447bb",
+            "date": 1718622537930,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "454b2992-b337-e8b9-6f0e-3d8e1c94c7ad",
+                    "step": "bd004c58-77c9-c992-1d23-fde414669ccb",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5800774706867672,
+                                "y": 0.6689678284182304
+                            },
+                            "size": {
+                                "width": 0.04635416666666667,
+                                "height": 0.014166666666666666
+                            },
+                            "probability": 0.89,
+                            "text": "PADRAO"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"PADRAO\"",
+                    "scannedText": "PADRAO",
+                    "screenshot": "6d270828-ddfb-14c4-214e-515a4dbc566d-screenshot.jpg",
+                    "createdOn": 1718622538096,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "afa4de74-b828-1e46-a027-f2a12789baac",
+                    "step": "cad0ba7e-2392-e4d8-9c8e-d2dab8640bbd",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "2e5a664d-f03c-331e-0828-7254c3db1c5d-screenshot.jpg",
+                    "createdOn": 1718622539520,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "0425582c-5a2c-647a-1d61-18cb2ee7cd27",
+                    "step": "8e72aa21-4042-76ff-a413-67c9c7aa6d0a",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.892794702680067,
+                                "y": 0.5565482573726541
+                            },
+                            "size": {
+                                "width": 0.041666666666666664,
+                                "height": 0.0125
+                            },
+                            "probability": 0.92,
+                            "text": "Diversos"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Diversos\"",
+                    "scannedText": ">",
+                    "screenshot": "afaec0bb-84e2-72a5-fa9c-59be812cb2ce-screenshot.jpg",
+                    "createdOn": 1718622561806,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "1d95f924-602d-1e7c-cff0-03fb9c1ed688",
+                    "step": "c266b853-eae6-88c0-086a-c5e6dd30ef43",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "5fbf96a1-b51b-9409-a1e2-82b0423a74e1-screenshot.jpg",
+                    "createdOn": 1718622563235,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "d3edd8f1-39a9-16db-21a3-6046203bd8f7",
+                    "step": "403f0693-3bee-dbd5-19bd-b534bb0f1689",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.03788211892797323,
+                                "y": 0.6010008936550492
+                            },
+                            "size": {
+                                "width": 0.028125,
+                                "height": 0.0125
+                            },
+                            "probability": 0.89,
+                            "text": "Ativar"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Ativar\"",
+                    "scannedText": "Ativar",
+                    "screenshot": "8da9eeff-6b91-a51e-f0f2-a9e5395da36c-screenshot.jpg",
+                    "createdOn": 1718622563438,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "5e14b3ce-823d-7875-b356-c3019c47b8b0",
+                    "step": "7f2131d0-df88-a2f2-bbfb-6a7fda65d814",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "b6fd0009-6c73-c040-50c3-255e2b977bda-screenshot.jpg",
+                    "createdOn": 1718622564863,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "30c84be0-6f25-5883-7325-af21f6644536",
+                    "step": "b14fc23a-4280-f02f-b872-f979c05f30c1",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.845
+                            },
+                            "size": {
+                                "width": 0.0796875,
+                                "height": 0.08
+                            },
+                            "probability": 0.9942210078179706
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "386b3025-2640-4254-99c2-691d709b924c-screenshot.jpg",
+                    "createdOn": 1718622564947,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "96b325a9-35cc-2750-2dc9-8625a99ac82e",
+                    "step": "d3c20634-281c-2e36-54f4-a50418857b2b",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.3261239530988276,
+                                "y": 0.8343163538873994
+                            },
+                            "size": {
+                                "width": 0.38385416666666666,
+                                "height": 0.0725
+                            },
+                            "probability": 1,
+                            "text": ". Equipamento atualizado com sucesso! -"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \". Equipamento atualizado com sucesso! -\"",
+                    "scannedText": ". Equipamento atualizado com sucesso! -",
+                    "screenshot": "23165632-7dd6-5cf9-6013-0e96cc8a8552-screenshot.jpg",
+                    "createdOn": 1718622566461,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "1200x1920",
+                    "baseSize": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 28779,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "117.0.5938.60",
+                    "code": 593806031,
+                    "minSdk": 29,
+                    "targetSdk": 34,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": false
+        }
+    ],
     "testRunExports": [],
-    "completed": true
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
 }

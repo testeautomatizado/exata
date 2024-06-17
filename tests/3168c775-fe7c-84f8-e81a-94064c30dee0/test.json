@@ -235,15 +235,6 @@
             "failureMode": "firstOptional"
         },
         {
-            "id": "78f031c8-c4f3-5aab-9cce-8599a044bc60",
-            "originalFrame": "ca6e535e-595a-d7bc-41e5-e34134337bb5_frame.jpg",
-            "type": "waitForDuration",
-            "optional": false,
-            "createdOn": 1716998334377,
-            "recordedOn": "SM-X200",
-            "duration": 7000
-        },
-        {
             "id": "73d7e94b-f913-556b-62e8-9a653f2f7dd2",
             "type": "subTest",
             "optional": false,
@@ -326,6 +317,7 @@
             "sdk": "33",
             "osVersion": "13",
             "size": "720x1600",
+            "baseSize": "720x1600",
             "serial": "RX8T50DG1RJ",
             "deviceId": "RX8T50DG1RJ",
             "name": "SM-M127F",
@@ -336,9 +328,10 @@
         {
             "os": "Android",
             "abi": "arm64-v8a",
-            "sdk": "33",
-            "osVersion": "13",
+            "sdk": "34",
+            "osVersion": "14",
             "size": "1200x1920",
+            "baseSize": "1200x1920",
             "serial": "R9XT3043MRJ",
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
@@ -348,7 +341,7 @@
         }
     ],
     "createdOn": 1716997257975,
-    "changedOn": 1717000351993,
+    "changedOn": 1718627443521,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -671,17 +664,6 @@
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "f5edfc59-fb79-030e-4a55-9102230562f9",
-                    "step": "78f031c8-c4f3-5aab-9cce-8599a044bc60",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "9d659df2-5e7e-3e4f-95b3-d51d1f4bf7fb-screenshot.jpg",
-                    "createdOn": 1716998353645,
-                    "executedOn": "SM-X200"
-                },
-                {
                     "id": "52e46da7-6e1f-4e6c-2253-3f8c84e6a9af",
                     "step": "9be89962-ff84-4d0e-df23-25c46bfc9868",
                     "matches": [
@@ -812,5 +794,6 @@
         }
     ],
     "testRunExports": [],
-    "completed": true
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
 }
