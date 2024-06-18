@@ -5,80 +5,53 @@
     "description": "Valida face e cadastra para enviar para web",
     "steps": [
         {
-            "id": "df77b378-f58b-4919-2e89-5a8a5ab576c6",
-            "originalFrame": "9d6423fa-1585-702b-96e6-84c808bb75a4_frame.jpg",
-            "type": "scanTextClick",
+            "id": "686692d0-36e3-139e-00e8-fd1490f3af02",
+            "type": "subTest",
             "optional": false,
-            "createdOn": 1716492438424,
+            "createdOn": 1718710295137,
+            "recordedOn": "SM-M127F",
+            "testId": "ea929a1b-3ca7-36ac-9da0-cb4f27136a6f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0f2f0dff-89c2-3548-216d-ebe13cda8cf1",
+            "originalFrame": "af3c0978-289d-7270-316c-77b45670d5d2_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718710310992,
             "recordedOn": "SM-M127F",
             "region": {
-                "x": 0.540893470790378,
-                "y": 0.3907120743034056,
-                "width": 0.3649484536082474,
-                "height": 0.17275541795665636
+                "x": 0.5443298969072164,
+                "y": 0.3984520123839009,
+                "width": 0.3512027491408935,
+                "height": 0.16656346749226006
             },
             "matchIndex": 0,
             "searchText": "SINCRONIZAR",
             "operator": "contains",
             "variableName": "scannedText",
-            "ocrLanguage": "eng",
-            "longClick": false
-        },
-        {
-            "id": "3e3f232d-72d8-5756-032d-c44a79ed1d80",
-            "originalFrame": "6e4de392-762c-9fd4-2ae1-0ecb2072221d_frame.jpg",
-            "type": "waitForDuration",
-            "optional": false,
-            "createdOn": 1716492438471,
-            "recordedOn": "SM-M127F",
-            "duration": 12000
+            "ocrLanguage": "eng"
         },
         {
             "id": "3c9e11fb-37cc-f29e-99c3-a00ff4f5a5a2",
-            "originalFrame": "ae5faa64-0797-66bf-ba8b-3194c7bf9fa5_frame.jpg",
-            "type": "click",
+            "originalFrame": "a8ed8b6b-b865-a821-a0a0-d1c8b086813f_frame.jpg",
+            "type": "scanTextClick",
             "optional": false,
             "createdOn": 1716492438513,
             "recordedOn": "SM-M127F",
             "region": {
-                "x": 0,
-                "y": 0.10842105263157892,
-                "width": 0.78,
-                "height": 0.44
+                "x": 0.09415807560137456,
+                "y": 0.19876160990712077,
+                "width": 0.354639175257732,
+                "height": 0.18049535603715172
             },
             "matchIndex": 0,
-            "selection": {
-                "x": 0.20666666666666667,
-                "y": 0.30842105263157893,
-                "width": 0.12,
-                "height": 0.04
-            },
-            "image": "594c6523-6362-a76e-4caf-49d840741433_template.png",
-            "matches": [
-                {
-                    "position": {
-                        "x": 0.20555555555555555,
-                        "y": 0.30842105263157893
-                    },
-                    "size": {
-                        "width": 0.11944444444444445,
-                        "height": 0.04
-                    },
-                    "probability": 0.9966993957085452
-                }
-            ],
-            "mouseDownPosition": {
-                "x": 0.26666666666666666,
-                "y": 0.32842105263157895
-            },
-            "mouseMoveCoordinates": [],
-            "longClick": false,
-            "locatorFallbacks": [
-                {
-                    "type": "text",
-                    "text": "CADASTRAR"
-                }
-            ]
+            "searchText": "CADASTRAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
         },
         {
             "id": "7fae55d5-c319-a008-d75e-41bfde24df73",
@@ -540,6 +513,7 @@
             "sdk": "33",
             "osVersion": "13",
             "size": "720x1600",
+            "baseSize": "720x1600",
             "serial": "RX8T50DG1RJ",
             "deviceId": "RX8T50DG1RJ",
             "name": "SM-M127F",
@@ -548,9 +522,10 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1716552671510,
+    "changedOn": 1718710324795,
     "isWorkingCopy": false,
     "testRuns": [],
     "testRunExports": [],
-    "completed": true
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
 }

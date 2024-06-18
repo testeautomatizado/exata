@@ -36,7 +36,8 @@
         },
         {
             "id": "b03e63a3-4138-a751-8e10-7aade633f15c",
-            "originalFrame": "5aebbd4f-781b-79b1-37d0-e3b37e17d914_frame.jpg",
+            "originalFrame": "67b9ddb1-37b0-00de-9e89-9a25d02bc659_frame.jpg",
+            "timeout": 60,
             "type": "scanTextWait",
             "optional": false,
             "createdOn": 1717421973699,
@@ -68,19 +69,156 @@
         {
             "os": "Android",
             "abi": "arm64-v8a",
-            "sdk": "33",
-            "osVersion": "13",
+            "sdk": "34",
+            "osVersion": "14",
             "size": "1200x1920",
+            "baseSize": "1200x1920",
             "serial": "R9XT3043MRJ",
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
             "brand": "samsung",
-            "currentRotation": 1,
+            "currentRotation": 0,
+            "isSimulator": false
+        },
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "720x1600",
+            "baseSize": "720x1600",
+            "serial": "RX8T50DG1RJ",
+            "deviceId": "RX8T50DG1RJ",
+            "name": "SM-M127F",
+            "brand": "samsung",
+            "currentRotation": 0,
             "isSimulator": false
         }
     ],
+    "changedOn": 1718737042265,
     "isWorkingCopy": false,
-    "testRuns": [],
+    "testRuns": [
+        {
+            "id": "66855c2c-ebe4-bd1c-51bf-5f0d8c938e1b",
+            "date": 1718737035898,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "de35f024-1a88-fd86-2c07-b36eeb567687",
+                    "step": "b03e63a3-4138-a751-8e10-7aade633f15c",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5374570446735395,
+                                "y": 0.3876160990712074
+                            },
+                            "size": {
+                                "width": 0.35694444444444445,
+                                "height": 0.170625
+                            },
+                            "probability": 1,
+                            "text": "Y\n&>\nSINCRONIZAR"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Y\n&>\nSINCRONIZAR\"",
+                    "scannedText": "Y\n&>\nSINCRONIZAR",
+                    "screenshot": "86ebc99d-1c23-8396-353b-7a5a39f54339-screenshot.jpg",
+                    "createdOn": 1718737036088,
+                    "executedOn": "SM-M127F"
+                },
+                {
+                    "id": "1f74d811-d7bf-884e-e8f2-98d349c78148",
+                    "step": "33f4ddc8-72b0-4879-f3be-01e1bfaf18e8",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "12fc05bb-a15d-cdae-1d1f-3adefc4007a5-screenshot.jpg",
+                    "createdOn": 1718737038604,
+                    "executedOn": "SM-M127F"
+                },
+                {
+                    "id": "25572962-6310-6467-49c7-3744fbe688aa",
+                    "step": "a540a1f1-2f17-de23-5697-ce0cf2d2dd70",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "3ac0d243-2fcb-8e17-73eb-3c97ba883d68-screenshot.jpg",
+                    "createdOn": 1718737038626,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "94e04739-6906-c66c-710a-6c052eb1ac2a",
+                    "step": "2323f02f-f6bd-bd5a-3244-6318f31c55d4",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "3b6edc0d-fbdc-c811-acab-6988b57af1e2-screenshot.jpg",
+                    "createdOn": 1718737041141,
+                    "executedOn": "SM-X200"
+                },
+                {
+                    "id": "a8d07305-f980-edfc-c144-a2053e5c96b3",
+                    "step": "fbe7cba7-b5f6-a5cc-2392-1bf29c1e6a41",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "8e6adc5f-10f6-53de-df30-66a960de85a3-screenshot.jpg",
+                    "createdOn": 1718737041154,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "RX8T50DG1RJ",
+                    "deviceId": "RX8T50DG1RJ",
+                    "name": "SM-M127F",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                },
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "1200x1920",
+                    "baseSize": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 5496,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "117.0.5938.60",
+                    "code": 593806031,
+                    "minSdk": 29,
+                    "targetSdk": 34,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": false
+        }
+    ],
     "testRunExports": [],
-    "completed": true
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
 }

@@ -1,0 +1,72 @@
+{
+    "version": 8,
+    "id": "aec6a824-bd62-76d6-d779-f0278db90812",
+    "title": "Sincronismo com 5 Módulos",
+    "description": "Sincronismo com 5 módulos na tela",
+    "steps": [
+        {
+            "id": "02372452-f46f-7f3a-78d0-4388651b93b9",
+            "originalFrame": "299947e8-44f2-446f-0ad7-21cab7b6a775_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1718647128363,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.3072164948453608,
+                "y": 0.5780185758513932,
+                "width": 0.3683848797250859,
+                "height": 0.15572755417956657
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "19bf9b93-b1ad-13a2-3a14-b8f778610732",
+            "originalFrame": "7f0d2d04-fdc3-b302-6247-6dda3ca93093_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718647128404,
+            "recordedOn": "SM-M127F",
+            "duration": 12000
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        },
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "720x1600",
+            "baseSize": "720x1600",
+            "serial": "RX8T50DG1RJ",
+            "deviceId": "RX8T50DG1RJ",
+            "name": "SM-M127F",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        }
+    ],
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}
