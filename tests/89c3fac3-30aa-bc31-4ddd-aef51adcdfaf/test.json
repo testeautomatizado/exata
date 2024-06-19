@@ -1,7 +1,7 @@
 {
     "version": 8,
     "id": "89c3fac3-30aa-bc31-4ddd-aef51adcdfaf",
-    "title": "Registro de Terceiro e Apaga Face",
+    "title": "Registro de Visitantee Apaga Face",
     "description": "",
     "steps": [
         {
@@ -35,7 +35,7 @@
         },
         {
             "id": "6eb89bcf-dacb-b9ca-3e74-5d5363721e9a",
-            "originalFrame": "b51986eb-6b4a-671b-5b99-6a867a3762b2_frame.jpg",
+            "originalFrame": "7470c284-655d-0ffb-0f7a-50737836e648_frame.jpg",
             "type": "scanTextClick",
             "optional": false,
             "createdOn": 1718728161783,
@@ -47,7 +47,7 @@
                 "height": 0.17430340557275542
             },
             "matchIndex": 0,
-            "searchText": "TERCEIROS",
+            "searchText": "VISITANTES",
             "operator": "contains",
             "variableName": "scannedText",
             "ocrLanguage": "eng",
@@ -85,7 +85,7 @@
         },
         {
             "id": "c928c4e5-d80f-594c-94df-6367278c421f",
-            "originalFrame": "e464e9fd-7692-a271-9eab-7d6fd1795dc8_frame.jpg",
+            "originalFrame": "5f7d98fa-dcc4-ee14-ecc4-2febe17e3d5e_frame.jpg",
             "timeout": 20,
             "type": "scanTextWait",
             "optional": true,
@@ -98,7 +98,7 @@
                 "height": 0.2656346749226006
             },
             "matchIndex": 0,
-            "searchText": "TERCEIRO",
+            "searchText": "VISITANTE",
             "operator": "contains",
             "variableName": "scannedText",
             "ocrLanguage": "eng"
@@ -268,12 +268,12 @@
             "longClick": false
         },
         {
-            "id": "5227669e-cf5c-ac1c-f657-6d25167041e6",
+            "id": "0bf0f3cc-9a69-fa9e-e4e1-5456cced5895",
             "type": "subTest",
             "optional": false,
-            "createdOn": 1718729652595,
+            "createdOn": 1718804863997,
             "recordedOn": "SM-X200",
-            "testId": "c8431b58-d7b4-aab6-ea50-0aa793754e3c",
+            "testId": "6f576d8e-9306-bb01-a84e-0231fa935fba",
             "isExpanded": true,
             "failureMode": "firstOptional"
         },
@@ -396,7 +396,7 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1718734174598,
+    "changedOn": 1718804898525,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -485,28 +485,6 @@
                     "scannedText": "CPF(s)...",
                     "screenshot": "f77a981f-6463-8af7-db94-b1cc189eb2ea-screenshot.jpg",
                     "createdOn": 1718729627332,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "473e3e22-e38a-c178-c08e-34393815e843",
-                    "step": "f8e9e022-0dc6-8130-0ee6-2d0bebb46813",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "584852b5-a550-6f5c-b511-32132a324d42-screenshot.jpg",
-                    "createdOn": 1718729660192,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "13304b2e-0235-48d9-145c-3c5f3de5066a",
-                    "step": "5227669e-cf5c-ac1c-f657-6d25167041e6",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "38f6d3d5-3fab-79c1-3201-e5f7b1d58f71-screenshot.jpg",
-                    "createdOn": 1718729660209,
                     "executedOn": "SM-X200"
                 },
                 {

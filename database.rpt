@@ -4,7 +4,7 @@
   "testBatches": [
     {
       "id": "0",
-      "title": "Teste 8.003.04",
+      "title": "Teste 8.003.06",
       "tests": [
         "d3f8be25-8734-e3f9-1d2a-ea881de4df87",
         "5a42fb1e-9f09-31db-6e69-c8e42f2a96e3",
@@ -30,12 +30,6 @@
         "e9ff1d23-636d-8fe6-6eb5-bcc5ada4eb56"
       ],
       "exceptionHandlers": []
-    },
-    {
-      "id": "17f7157b-b8a3-1d05-36ae-10d13b30aa1b",
-      "title": "Cerca",
-      "tests": [],
-      "exceptionHandlers": []
     }
   ],
   "folders": {
@@ -46,7 +40,7 @@
       {
         "id": "64ef33e9-e04b-12f7-8a2a-074145da65f3",
         "title": "Teste Diário - Atualizar dados para Iniciar",
-        "expanded": false,
+        "expanded": true,
         "children": [
           {
             "id": "09e00154-2ef1-7052-8d57-d77cc89cc7e2",
@@ -157,7 +151,7 @@
           {
             "id": "f917e293-9d34-9e64-a1f7-2d50567233b9",
             "title": "Cadastros",
-            "expanded": false,
+            "expanded": true,
             "children": [
               {
                 "id": "6f15b5a4-9c51-4a58-a846-d47fd76fcc29",
@@ -427,7 +421,7 @@
                   {
                     "id": "0344bee3-64b8-0f5d-e391-eb3dad997b10",
                     "title": "Etapas de teste - Terceiros/Visitantes",
-                    "expanded": true,
+                    "expanded": false,
                     "children": [
                       "f05348f4-b5d6-1bf8-1db7-2bc267090350",
                       "b9a72363-8982-c711-c774-5026e813bfab",
@@ -459,7 +453,7 @@
                   {
                     "id": "81fd2e1e-2757-54cc-515c-f81fbacae44a",
                     "title": "Terceiros - Tags",
-                    "expanded": false,
+                    "expanded": true,
                     "children": [
                       "75d105ae-c37b-62ae-cafe-357990b9b9ba",
                       "6ccaae75-6be5-774d-c4ad-6845720fac1e",
@@ -483,7 +477,7 @@
                   {
                     "id": "3d7ac501-725c-e2ec-c4b1-b37aa296c1ae",
                     "title": "Visitantes - Tags",
-                    "expanded": true,
+                    "expanded": false,
                     "children": [
                       "ac1b6189-d68b-3477-5e1b-edd02939ba96",
                       "faaf5de5-5e77-e756-aa76-ff1754c26508",
@@ -665,7 +659,7 @@
               {
                 "id": "cbfc8067-b69e-b4ae-1c9c-e7071f6032c9",
                 "title": "Etapas de Teste - Registros Diversos",
-                "expanded": false,
+                "expanded": true,
                 "children": [
                   "f717510c-cc60-e12e-f047-74c441d0a6e1",
                   "b323e5bc-101f-281a-3416-11c3d15628d3",
@@ -708,12 +702,12 @@
       {
         "id": "163e0b78-be22-7e6d-cfee-c1f1b0ae11b2",
         "title": "Configurações",
-        "expanded": true,
+        "expanded": false,
         "children": [
           {
             "id": "d307ee46-49a8-dd1f-33bf-55cccdec9aaa",
             "title": "Coletor",
-            "expanded": true,
+            "expanded": false,
             "children": [
               "a493da33-17fd-5efa-f40f-43b2603f491f",
               "68891ac6-6523-fd23-3c45-14d1f5fe2cfc",
@@ -744,18 +738,7 @@
       }
     ]
   },
-  "schedules": [
-    {
-      "id": "1432c26b-57e3-782a-190a-03554416d715",
-      "createdOn": 1715888881990,
-      "isActive": false,
-      "lastRun": null,
-      "nextRun": null,
-      "testBatch": "17f7157b-b8a3-1d05-36ae-10d13b30aa1b",
-      "hour": 7,
-      "weekDay": 0
-    }
-  ],
+  "schedules": [],
   "advancedConfig": "",
   "tags": [
     {
@@ -4406,16 +4389,6 @@
     ],
     [
       {
-        "stepId": "a1948acc-06c5-a42e-5a71-b25d836a7f6a",
-        "testId": "c2d25aa6-baa9-2244-bede-a1a050ec6c42"
-      },
-      {
-        "stepId": "f2349b96-a862-e6b5-75ad-1c186c1e2b6f",
-        "testId": "c2d25aa6-baa9-2244-bede-a1a050ec6c42"
-      }
-    ],
-    [
-      {
         "stepId": "b6f65c2f-8d5a-fec2-c8ef-2260ba067074",
         "testId": "c2d25aa6-baa9-2244-bede-a1a050ec6c42"
       },
@@ -4570,6 +4543,314 @@
       {
         "stepId": "fb4c02cd-f787-4bc2-69fa-65416dde019a",
         "testId": "9e761b5d-7a5e-2b1e-4c7c-ad15f0e398dc"
+      }
+    ],
+    [
+      {
+        "stepId": "09269788-b6b1-a2c1-8d94-04ef03966943",
+        "testId": "d3f8be25-8734-e3f9-1d2a-ea881de4df87"
+      },
+      {
+        "stepId": "0495af7e-a205-cf34-aa75-30d5f3f653ca",
+        "testId": "d3f8be25-8734-e3f9-1d2a-ea881de4df87"
+      },
+      {
+        "stepId": "5cebee8c-bb5b-ac89-6634-4660a056feaf",
+        "testId": "d3f8be25-8734-e3f9-1d2a-ea881de4df87"
+      },
+      {
+        "stepId": "0a4ed845-3c1d-150c-f0e7-29090376f36c",
+        "testId": "d3f8be25-8734-e3f9-1d2a-ea881de4df87"
+      }
+    ],
+    [
+      {
+        "stepId": "2374de33-527d-5cc6-87fe-c1d4a8986697",
+        "testId": "ed10ec26-0b0c-2456-6b18-401b971300e8"
+      },
+      {
+        "stepId": "b1b2ac88-123f-76b9-5f10-b773b1a0a897",
+        "testId": "ed10ec26-0b0c-2456-6b18-401b971300e8"
+      }
+    ],
+    [
+      {
+        "stepId": "a4711ec9-6d8a-3648-2810-c2be1de68663",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "4d9be238-243c-7f35-2af9-7aa5f9d9b411",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "37a172ca-ffda-65e9-75a5-7bf58ddf9006",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      }
+    ],
+    [
+      {
+        "stepId": "712c5c96-1346-2718-79da-9c3e9a2906ee",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "d2a447bf-1f38-f2ad-20a3-9fbe3761bc77",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "e5c86f9f-2bfe-3413-c156-9561bb516d4f",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "3708d36c-1df0-6fee-4f29-e181005ed047",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "535ecd9f-ed73-341a-43e7-9e4dc121a9aa",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "c14afe1e-c322-2fa2-0778-4dff813d9739",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "5615ab91-fe02-5f80-c70f-85dd68479754",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "533a03d8-a082-4be9-e4ba-814cb0c384ef",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "a91bb742-6e81-c3f5-3cbc-8fd19ec41bb9",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "5e5dc413-b225-c095-1b03-89ed1d3a05f0",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "7823ad73-f78a-a5be-0d35-86fa55e113da",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "01fcf405-444b-ca2f-45b5-a76890eaca16",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "4c095774-2054-af3d-b65c-5649ca3481d6",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "229ef05e-59b2-02b0-b7b0-e1607d620544",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "97f1362a-e5c4-396f-d128-266824a24323",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "16424bcc-9f73-dd08-48ba-c245edb0a728",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "f82845b9-126a-7a92-59f3-85865399189c",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "d45313f6-bbc8-f0cf-15fe-b5c089fcb671",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "d065dc9b-44a1-efaf-1424-0338337f1542",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "75df1008-e3bc-8584-aa6f-427a2190fd28",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "ec36a96b-f6e3-aa5f-e6c2-f9abc3ae17e8",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "bc17a463-4659-5fd2-23af-d450868523ff",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "6be958ea-35ab-9c59-ea2f-186ffc659b33",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "6b2adc49-e883-3b74-affa-5102171a3686",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "6879fcfb-f5a6-c103-3658-e8e507e7cb67",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "697d0105-8383-1ac8-ca82-044900aefbdd",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "faa9ad66-8aaf-8bd8-60da-db00d457680b",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "e5281c9a-cdca-e04d-6077-cc03bcd47372",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "2368bc07-346f-52eb-bf73-1c375800d315",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "ce66f824-b771-36d0-ca1f-143ccc920d0b",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "06b11444-ffc4-ff1f-8949-70b8ebb23a84",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "e2effb2d-a8f3-45c4-31fb-f6b6ea6afb2c",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "166bc610-acd4-d8c6-c35c-d3b71038e9bd",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "0e8bd75e-2696-b5ed-cffa-cd8d9c949be0",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "d8d66289-2d17-9293-f98a-5c6878f06b79",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "1e489af5-24b1-2e40-e59b-3a23ca441f9b",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "9af2777d-5ce6-cd16-f9e3-6f3bd19d620f",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "85242303-5485-49aa-7e45-f87e07334b46",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "9a0e19dc-ca8c-0c02-5838-ef4141d2d3a3",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "fe8bfce7-63fe-7c4d-1f7c-e5e142a6b7f4",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "8cb71da6-a0dc-75cf-ee5a-b5c7429525de",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "c351a7dc-6f9c-9a3f-1cc2-b57fddd692a6",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "e31112fc-af2d-8f83-c39e-eb6e6afe69c0",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "95d1cd67-71ab-1db7-bf92-797077bac64c",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "0abeb21d-4fab-e106-f1a7-1047eae578d4",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "1d02052b-2e71-ef9e-fc5a-8ee9dd9e3bb8",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "67f4d362-331d-2f00-8b4e-39a3f0ab1b4c",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "a5cb2687-ba0b-20ca-ca9b-6de9c930040d",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "56a4a959-102c-29e2-674a-d1d99c93eb80",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "c1884a93-9381-2caa-41f1-1b6e53a2f9b5",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "bf812329-a0c8-d13f-8bbc-5ad023cd0ee0",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "c19c1d3f-6496-d205-df38-18da9f422de7",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "1bc4b0d6-00e2-f4c6-1898-6f73d9a0c0cc",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "a13944d0-b495-9460-bd63-04cea25b6766",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "de4c71b1-8f6b-8404-a924-5d83674128f9",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "a6988cd9-8e92-9744-1d42-590bf7820f77",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "bcb51bc2-367c-5103-6330-5c42c5f3d7ec",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "8aa3dc09-4deb-4bb1-8448-b553ff2517cd",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "374392ee-4034-1895-15f5-bd090c772038",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "94da9dd2-e3a5-4896-f006-b4d474c8dda0",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "f2cbb8d4-1e4c-4c72-6d74-ae1472cd1fb2",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "1c4d0703-2405-398d-4e68-79110aa97ed9",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "840219a0-67e2-3152-b419-95368700defe",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "f0871d8b-e131-91e4-655a-9f38d9760991",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "6f8160ee-7b10-b02f-9204-98ddd55a477d",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
+      },
+      {
+        "stepId": "d62a8871-505b-0c90-73bf-1bb7984577c3",
+        "testId": "93aff497-2cb3-52f8-0f95-11cdea356bbe"
       }
     ]
   ],
