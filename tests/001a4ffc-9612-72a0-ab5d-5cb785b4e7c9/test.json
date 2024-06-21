@@ -125,20 +125,12 @@
         },
         {
             "id": "75e41501-daa6-5b14-7cdb-0dac49a14fb8",
-            "originalFrame": "2bdd14b0-8068-9732-9bd8-256e8194aec0_frame.jpg",
+            "originalFrame": "aacc7485-f65e-4f1c-8f49-18f2d2411ec1_frame.jpg",
             "type": "waitForDuration",
             "optional": false,
             "createdOn": 1717154334656,
             "recordedOn": "SM-M127F",
             "duration": 5000
-        },
-        {
-            "id": "0f944ba1-7c84-1c7d-e761-d5fefda1df71",
-            "type": "waitForDuration",
-            "optional": false,
-            "createdOn": 1718306831848,
-            "recordedOn": "",
-            "duration": 1000
         },
         {
             "id": "d04c466f-2b0a-5c35-2900-32bac381c08d",
@@ -234,63 +226,6 @@
             "variableName": "scannedText",
             "ocrLanguage": "eng",
             "longClick": false
-        },
-        {
-            "id": "c3f3aba7-5b65-396b-dde8-0e47eccce1e3",
-            "originalFrame": "f4f5a219-270c-26b1-9073-9a091c7cdb3b_frame.jpg",
-            "timeout": 20,
-            "type": "scanTextWait",
-            "optional": false,
-            "createdOn": 1717154125023,
-            "recordedOn": "SM-M127F",
-            "region": {
-                "x": 0,
-                "y": 0.4510835913312692,
-                "width": 1,
-                "height": 0.49164086687306524
-            },
-            "matchIndex": 0,
-            "searchText": "CONFIRMA",
-            "operator": "contains",
-            "variableName": "scannedText",
-            "ocrLanguage": "por"
-        },
-        {
-            "id": "1da3fb47-8fba-ba64-28fd-2eff36d28d6c",
-            "originalFrame": "94ef9794-9387-9be8-f92e-15d6f201ec62_frame.jpg",
-            "timeout": 20,
-            "type": "someContentClick",
-            "optional": false,
-            "createdOn": 1717154219706,
-            "recordedOn": "SM-M127F",
-            "region": {
-                "x": 0.6061855670103092,
-                "y": 0.6368421052631579,
-                "width": 0.2,
-                "height": 0.1
-            },
-            "matchIndex": 0,
-            "delay": 0,
-            "longClick": false
-        },
-        {
-            "id": "844b4dc4-d7a8-48fb-ed8a-db8aeddb4786",
-            "originalFrame": "7fb342eb-d2cd-11c0-ed2f-b3c9076efd07_frame.jpg",
-            "type": "scanTextWait",
-            "optional": false,
-            "createdOn": 1717154302848,
-            "recordedOn": "SM-M127F",
-            "region": {
-                "x": 0,
-                "y": 0.6910216718266254,
-                "width": 1,
-                "height": 0.253250773993808
-            },
-            "matchIndex": 0,
-            "searchText": "REPEATO",
-            "operator": "contains",
-            "variableName": "scannedText",
-            "ocrLanguage": "eng"
         },
         {
             "id": "8dfd3239-dee4-7a79-0ca4-eccfb9160126",
@@ -405,7 +340,7 @@
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
             "brand": "samsung",
-            "currentRotation": 1,
+            "currentRotation": 0,
             "isSimulator": false
         },
         {
@@ -424,7 +359,7 @@
         }
     ],
     "createdOn": 1717011705063,
-    "changedOn": 1718364216121,
+    "changedOn": 1718894079001,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -745,28 +680,6 @@
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "3bf3b8bf-ca8d-e3d8-4b7f-7606139afb9c",
-                    "step": "75e41501-daa6-5b14-7cdb-0dac49a14fb8",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "12e4f5e6-39cc-0c15-4077-3a22d3fc2889-screenshot.jpg",
-                    "createdOn": 1718364100117,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "7cbb6878-3c24-f663-6127-aca0366612e6",
-                    "step": "0f944ba1-7c84-1c7d-e761-d5fefda1df71",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "8fb26f04-394e-cb8a-d27a-4f8a7ed6eb8d-screenshot.jpg",
-                    "createdOn": 1718364115310,
-                    "executedOn": "SM-M127F"
-                },
-                {
                     "id": "c98f88d6-6ef3-3a56-d7db-b556196c2941",
                     "step": "d04c466f-2b0a-5c35-2900-32bac381c08d",
                     "matches": [],
@@ -886,79 +799,6 @@
                     "scannedText": "TRASEIRA",
                     "screenshot": "0bb95280-e14a-775e-19d4-177e8d83d9bf-screenshot.jpg",
                     "createdOn": 1718364131503,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "e3d7fb7a-c29a-d2e8-a223-620bf89f2061",
-                    "step": "c3f3aba7-5b65-396b-dde8-0e47eccce1e3",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0,
-                                "y": 0.4510835913312692
-                            },
-                            "size": {
-                                "width": 1,
-                                "height": 0.49125
-                            },
-                            "probability": 1,
-                            "text": "' CONFIRMA A\nENTREGA DA CESTA\nBASICA PARA O\nFUNCIONÁRIO ACIMA?"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"' CONFIRMA A\nENTREGA DA CESTA\nBASICA PARA O\nFUNCIONÁRIO ACIMA?\"",
-                    "scannedText": "' CONFIRMA A\nENTREGA DA CESTA\nBASICA PARA O\nFUNCIONÁRIO ACIMA?",
-                    "screenshot": "5942c57a-864b-cbd0-9922-1c140df1e73f-screenshot.jpg",
-                    "createdOn": 1718364149667,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "499ea458-6449-747c-b34e-426c26879f44",
-                    "step": "1da3fb47-8fba-ba64-28fd-2eff36d28d6c",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.6061855670103092,
-                                "y": 0.6368421052631579
-                            },
-                            "size": {
-                                "width": 0.2,
-                                "height": 0.1
-                            },
-                            "probability": 1
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "a505f272-7fac-6183-72a0-be403bb4f4be-screenshot.jpg",
-                    "createdOn": 1718364152991,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "9883b5fb-930e-5e12-bdb5-df2f178b98c5",
-                    "step": "844b4dc4-d7a8-48fb-ed8a-db8aeddb4786",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0,
-                                "y": 0.6910216718266254
-                            },
-                            "size": {
-                                "width": 1,
-                                "height": 0.253125
-                            },
-                            "probability": 1,
-                            "text": "TESTE AUTOMATICO\nREPEATO"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"TESTE AUTOMATICO\nREPEATO\"",
-                    "scannedText": "TESTE AUTOMATICO\nREPEATO",
-                    "screenshot": "4bc17fe7-8b75-91b0-88a8-ad3f9a98effb-screenshot.jpg",
-                    "createdOn": 1718364155348,
                     "executedOn": "SM-M127F"
                 },
                 {

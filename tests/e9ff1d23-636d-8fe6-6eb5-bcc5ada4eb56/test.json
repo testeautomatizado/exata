@@ -153,13 +153,7 @@
             "failureMode": "firstOptional"
         }
     ],
-    "tags": [
-        "web",
-        "exataface",
-        "cadastrar.face",
-        "criar.coletor",
-        "criar.terceiros.visitantes"
-    ],
+    "tags": [],
     "devices": [
         {
             "os": "Android",
@@ -195,92 +189,8 @@
     "isWorkingCopy": false,
     "testRuns": [
         {
-            "id": "fd0f25f9-44d3-8fb7-4433-36a04f763be0",
-            "date": 1718718646156,
-            "completed": true,
-            "stepResults": [],
-            "devices": [
-                {
-                    "os": "Android",
-                    "abi": "arm64-v8a",
-                    "sdk": "34",
-                    "osVersion": "14",
-                    "size": "1200x1920",
-                    "baseSize": "1200x1920",
-                    "serial": "R9XT3043MRJ",
-                    "deviceId": "R9XT3043MRJ",
-                    "name": "SM-X200",
-                    "brand": "samsung",
-                    "currentRotation": 0,
-                    "isSimulator": false
-                }
-            ],
-            "duration": 39842,
-            "appVersions": [
-                {
-                    "packageName": "com.android.chrome",
-                    "name": "117.0.5938.60",
-                    "code": 593806031,
-                    "minSdk": 29,
-                    "targetSdk": 34,
-                    "firstInstallTime": "1969-12-31 20:59:59",
-                    "lastUpdateTime": "1969-12-31 20:59:59"
-                }
-            ],
-            "wasSuccessful": false
-        },
-        {
-            "id": "1b6cda40-1864-a8f7-b03d-461dfe0d7844",
-            "date": 1718718792825,
-            "completed": true,
-            "stepResults": [],
-            "devices": [
-                {
-                    "os": "Android",
-                    "abi": "arm64-v8a",
-                    "sdk": "34",
-                    "osVersion": "14",
-                    "size": "1200x1920",
-                    "baseSize": "1200x1920",
-                    "serial": "R9XT3043MRJ",
-                    "deviceId": "R9XT3043MRJ",
-                    "name": "SM-X200",
-                    "brand": "samsung",
-                    "currentRotation": 0,
-                    "isSimulator": false
-                },
-                {
-                    "os": "Android",
-                    "abi": "arm64-v8a",
-                    "sdk": "33",
-                    "osVersion": "13",
-                    "size": "720x1600",
-                    "baseSize": "720x1600",
-                    "serial": "RX8T50DG1RJ",
-                    "deviceId": "RX8T50DG1RJ",
-                    "name": "SM-M127F",
-                    "brand": "samsung",
-                    "currentRotation": 0,
-                    "isSimulator": false
-                }
-            ],
-            "duration": 9092447,
-            "appVersions": [
-                {
-                    "packageName": "com.android.chrome",
-                    "name": "117.0.5938.60",
-                    "code": 593806031,
-                    "minSdk": 29,
-                    "targetSdk": 34,
-                    "firstInstallTime": "1969-12-31 20:59:59",
-                    "lastUpdateTime": "1969-12-31 20:59:59"
-                }
-            ],
-            "wasSuccessful": false
-        },
-        {
-            "id": "47649346-b3bd-3ff6-1767-d8a93f1b3ebd",
-            "date": 1718803977027,
+            "id": "552c095f-fefb-3838-9aa6-87887482571e",
+            "date": 1718824713884,
             "completed": true,
             "stepResults": [],
             "devices": [
@@ -299,7 +209,7 @@
                     "isSimulator": false
                 }
             ],
-            "duration": 4729,
+            "duration": 31353,
             "appVersions": [
                 {
                     "packageName": "exataid.exatarep",
@@ -314,8 +224,79 @@
             "wasSuccessful": false
         },
         {
-            "id": "864d287a-01be-f3c7-e2cb-f83184a0502d",
-            "date": 1718805091272,
+            "id": "9b647f66-1654-6797-7ea2-e1386e38c361",
+            "date": 1718893911887,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "RX8T50DG1RJ",
+                    "deviceId": "RX8T50DG1RJ",
+                    "name": "SM-M127F",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 31642,
+            "appStartupDuration": 323,
+            "appVersions": [
+                {
+                    "packageName": "exataid.exatarep",
+                    "name": "8.003.07",
+                    "code": 800307,
+                    "minSdk": 26,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2024-05-13 14:22:53",
+                    "lastUpdateTime": "2024-06-20 07:57:54"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "d79a1fc3-a044-2f6b-3808-4352b05e3151",
+            "date": 1718897211222,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "33",
+                    "osVersion": "13",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "RX8T50DG1RJ",
+                    "deviceId": "RX8T50DG1RJ",
+                    "name": "SM-M127F",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 2482,
+            "appVersions": [
+                {
+                    "packageName": "exataid.exatarep",
+                    "name": "8.003.07",
+                    "code": 800307,
+                    "minSdk": 26,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2024-05-13 14:22:53",
+                    "lastUpdateTime": "2024-06-20 07:57:54"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "b79253be-253e-0ab3-e19e-08d5e0f7b499",
+            "date": 1718898363838,
             "completed": true,
             "stepResults": [],
             "devices": [
@@ -332,7 +313,53 @@
                     "brand": "samsung",
                     "currentRotation": 0,
                     "isSimulator": false
+                }
+            ],
+            "duration": 272182,
+            "appStartupDuration": 789,
+            "skippedFramesCount": 113,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "117.0.5938.60",
+                    "code": 593806031,
+                    "minSdk": 29,
+                    "targetSdk": 34,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "ec42c564-f6c5-9cf1-2678-4679577846d1",
+            "date": 1718906456109,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "56fdc0e5-fdda-5895-733a-3f33daf3c88d",
+                    "step": "196878a8-694c-2560-8784-332ae725d34d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "TestRunner stopped manually",
+                    "screenshot": "fd9b042f-0b79-81ce-43a6-02b9f38f4cfc-screenshot.jpg",
+                    "createdOn": 1718906460223,
+                    "executedOn": ""
                 },
+                {
+                    "id": "40520d9b-5d7a-7540-2161-314277552362",
+                    "step": "5c086826-ec72-382c-79e9-97a7027eb68e",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "TestRunner stopped manually",
+                    "screenshot": "d2c7d865-45ea-a47b-9683-9e42d3f51445-screenshot.jpg",
+                    "createdOn": 1718906461257,
+                    "executedOn": "SM-M127F"
+                }
+            ],
+            "devices": [
                 {
                     "os": "Android",
                     "abi": "arm64-v8a",
@@ -348,99 +375,16 @@
                     "isSimulator": false
                 }
             ],
-            "duration": 797111,
-            "appStartupDuration": 630,
-            "skippedFramesCount": 76,
+            "duration": 5556,
             "appVersions": [
                 {
-                    "packageName": "com.android.chrome",
-                    "name": "117.0.5938.60",
-                    "code": 593806031,
-                    "minSdk": 29,
-                    "targetSdk": 34,
-                    "firstInstallTime": "1969-12-31 20:59:59",
-                    "lastUpdateTime": "1969-12-31 20:59:59"
-                }
-            ],
-            "wasSuccessful": false
-        },
-        {
-            "id": "69555a3a-b94f-675a-9c5c-7814a72713cd",
-            "date": 1718806287468,
-            "completed": true,
-            "stepResults": [
-                {
-                    "id": "11f9f8ce-2b4a-a476-c322-0c2dd545ea13",
-                    "step": "196878a8-694c-2560-8784-332ae725d34d",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0,
-                                "y": 0.14666666666666667
-                            },
-                            "size": {
-                                "width": 0.0796875,
-                                "height": 0.08
-                            },
-                            "probability": 0.9966983400723263
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "3703d378-3f9c-8d70-6c0c-c6a0d3908599-screenshot.jpg",
-                    "createdOn": 1718806288724,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "fdd778fa-8b12-4d38-6abe-7bd023362950",
-                    "step": "98005d91-8817-d42d-46dd-255d1cac96a0",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": false,
-                    "message": "",
-                    "screenshot": "19321ade-b46d-eba1-c6d9-f8ce09af17b3-screenshot.jpg",
-                    "createdOn": 1718806289869,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "5dcbe1c2-6290-6d4b-852f-590dce395e33",
-                    "step": "5c086826-ec72-382c-79e9-97a7027eb68e",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": false,
-                    "message": "",
-                    "screenshot": "33312e68-a3ae-577f-4f73-972c78f765da-screenshot.jpg",
-                    "createdOn": 1718806290381,
-                    "executedOn": "SM-X200"
-                }
-            ],
-            "devices": [
-                {
-                    "os": "Android",
-                    "abi": "arm64-v8a",
-                    "sdk": "34",
-                    "osVersion": "14",
-                    "size": "1200x1920",
-                    "baseSize": "1200x1920",
-                    "serial": "R9XT3043MRJ",
-                    "deviceId": "R9XT3043MRJ",
-                    "name": "SM-X200",
-                    "brand": "samsung",
-                    "currentRotation": 0,
-                    "isSimulator": false
-                }
-            ],
-            "duration": 3757,
-            "appVersions": [
-                {
-                    "packageName": "com.android.chrome",
-                    "name": "117.0.5938.60",
-                    "code": 593806031,
-                    "minSdk": 29,
-                    "targetSdk": 34,
-                    "firstInstallTime": "1969-12-31 20:59:59",
-                    "lastUpdateTime": "1969-12-31 20:59:59"
+                    "packageName": "com.sec.android.app.launcher",
+                    "name": "14.1.03.61",
+                    "code": 1410305061,
+                    "minSdk": 28,
+                    "targetSdk": 33,
+                    "firstInstallTime": "2008-12-31 13:00:00",
+                    "lastUpdateTime": "2008-12-31 13:00:00"
                 }
             ],
             "wasSuccessful": false
