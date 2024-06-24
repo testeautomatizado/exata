@@ -1,0 +1,2018 @@
+{
+    "version": 8,
+    "id": "2f48a9cb-b131-2c13-df93-f002e574a9ea",
+    "title": "ATIVAR LICENÇA",
+    "description": "",
+    "steps": [
+        {
+            "id": "d379d33a-14fb-6c19-6b48-c7b3e43a1949",
+            "originalFrame": "7f94e732-b265-922d-0b10-17cb92ab7a2c_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1718983370032,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0.0934176503653738,
+                "y": 0.56,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.4234176503653738,
+                "y": 0.8501517706576729,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "7837e296-9627-54a3-5804-642117129e4f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.4232787614764849,
+                        "y": 0.8501041666666667
+                    },
+                    "size": {
+                        "width": 0.11921296296296297,
+                        "height": 0.03958333333333333
+                    },
+                    "probability": 0.9985231768294195
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.4834176503653738,
+                "y": 0.8701517706576729
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "604e417d-9dd6-7804-c043-0c1a6532392f",
+            "originalFrame": "cee55343-22f7-bd22-b7d3-627a65106f80_template.png",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718984139070,
+            "recordedOn": "",
+            "duration": 5000
+        },
+        {
+            "id": "b9cdf1e5-cad6-5415-14df-1a2a868a1e5a",
+            "originalFrame": "f2c47fcb-0ef4-5a1a-446d-e19688332e24_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1718983378289,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.7390092879256965,
+                "width": 1,
+                "height": 0.18359133126934984
+            },
+            "matchIndex": 0,
+            "searchText": "interno",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "3625c081-f118-f56a-de77-744467fe38ca",
+            "originalFrame": "3725b56e-6cb1-b0dd-e0bb-0024e667bc5f_template.png",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718984139070,
+            "recordedOn": "",
+            "duration": 5000
+        },
+        {
+            "id": "c8d4101b-05a0-d29b-f466-3e7533245269",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1718987264990,
+            "recordedOn": "SM-A536E",
+            "testId": "2b9621f5-c80d-0766-1133-614c3655c603",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "96c2681b-ca0e-87f1-5f67-c2ae3c084bc0",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1718987414581,
+            "recordedOn": "SM-A536E",
+            "testId": "7e6090e9-b957-5572-e354-747d34bc6752",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "058743ad-db4d-cec3-7941-de687c2cfe7c",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1718987692864,
+            "recordedOn": "SM-A536E",
+            "testId": "586bed1c-4dfe-6297-8685-b68e0fa743c8",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "2df411c0-0846-cdd3-f9bf-fb02cf99e70f",
+            "originalFrame": "7af45524-97be-7f52-47df-fa695a13231c_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718984139070,
+            "recordedOn": "",
+            "duration": 5000
+        },
+        {
+            "id": "4f5f2f70-e72f-e424-8700-8321ea0a28c3",
+            "originalFrame": "8891569b-9410-0afa-7426-176fcae7263d_frame.jpg",
+            "timeout": 20,
+            "type": "scanTextAssertion",
+            "optional": true,
+            "createdOn": 1718986433696,
+            "recordedOn": "Pixel_3a_API_29",
+            "region": {
+                "x": 0,
+                "y": 0.4185758513931889,
+                "width": 1,
+                "height": 0.1356037151702786
+            },
+            "matchIndex": 0,
+            "searchText": "License for this serial",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "assertionJs": "scannedText.includes(\"License for this serial\")"
+        },
+        {
+            "id": "35face1b-bd74-47d4-be7b-1591e8574a1d",
+            "type": "execScript",
+            "optional": false,
+            "createdOn": 1691878768458,
+            "recordedOn": "EMULATOR32X1X12X0",
+            "directory": "",
+            "script": "if(testRunner.lastStepResult.success === true){\n    // jump to \"Found\" step\n    //testRunner.setNextStepId('AC3D7D') \n    testRunner.setNextStepIndex(10)\n} else {\n    // jump to \"Not found\" step\n    testRunner.setNextStepIndex(11)\n    //testRunner.setNextStepId('E096C0')\n}",
+            "isExpanded": true,
+            "language": "js"
+        },
+        {
+            "id": "c9e17d95-b1a4-572f-2733-8ac57329c891",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1718984718799,
+            "recordedOn": "SM-A536E",
+            "testId": "ac3d7d57-f8fe-7a87-ce1c-08b62998a9e9",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3a372de8-8d6e-aa56-e168-90fe0b65839a",
+            "originalFrame": "6c38626a-dc23-554f-6ea6-fb58579be0fd_frame.jpg",
+            "timeout": 5,
+            "type": "scanTextAssertion",
+            "optional": true,
+            "createdOn": 1713789874938,
+            "recordedOn": "Pixel_3a_API_29",
+            "region": {
+                "x": 0,
+                "y": 0.11671826625386998,
+                "width": 1,
+                "height": 0.06904024767801857
+            },
+            "matchIndex": 0,
+            "searchText": "Armazenamento interno",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "assertionJs": "scannedText.includes(\"Armazenamento interno\")"
+        },
+        {
+            "id": "4c635484-2a06-8aa9-f1b0-681693fa429f",
+            "type": "execScript",
+            "optional": false,
+            "createdOn": 1691878768458,
+            "recordedOn": "EMULATOR32X1X12X0",
+            "directory": "",
+            "script": "if(testRunner.lastStepResult.success === true){\n    // jump to \"Found\" step\n    testRunner.setNextStepId('BDDAE3') \n} else {\n    // jump to \"Not found\" step\n    testRunner.setNextStepId('ADA948')\n}",
+            "isExpanded": true,
+            "language": "js"
+        },
+        {
+            "id": "2ec14a14-b654-288e-b976-54ac149ad731",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1718986957181,
+            "recordedOn": "SM-A536E",
+            "testId": "82aab138-45d3-ff87-c595-b7ab8b041416",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "bddae39e-1cfc-e33e-d9b7-6cd9347bf4a3",
+            "type": "execScript",
+            "optional": false,
+            "createdOn": 1713779783156,
+            "recordedOn": "EMULATOR32X1X11X0",
+            "directory": "",
+            "script": "data.loopCounter = 0\ndata.maxLoops = 7000",
+            "isExpanded": true,
+            "language": "js"
+        },
+        {
+            "id": "547c8699-a7ad-e863-d64c-755b1493a48f",
+            "originalFrame": "f91a0244-f27d-6cd6-c80e-805af1c20510_frame.jpg",
+            "timeout": 5,
+            "type": "scanTextAssertion",
+            "optional": true,
+            "createdOn": 1718989495360,
+            "recordedOn": "Pixel_3a_API_29",
+            "region": {
+                "x": 0,
+                "y": 0.11671826625386998,
+                "width": 1,
+                "height": 0.06904024767801857
+            },
+            "matchIndex": 0,
+            "searchText": "Armazenamento interno",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "assertionJs": "scannedText.includes(\"Armazenamento interno\")"
+        },
+        {
+            "id": "f050e7e3-a560-bed3-5f8e-6d340dfbc874",
+            "type": "execScript",
+            "optional": false,
+            "createdOn": 1693828088113,
+            "recordedOn": "EMULATOR32X1X11X0",
+            "directory": "",
+            "script": "if(testRunner.lastStepResult.success === true){\n\n    if(data.loopCounter < data.maxLoops){\n        data.loopCounter += 1\n        testRunner.goBackBy(13)\n    }\n    \n}",
+            "isExpanded": true,
+            "language": "js"
+        },
+        {
+            "id": "ada9488f-3361-1d03-91c6-09e8a9da7e32",
+            "type": "execScript",
+            "optional": false,
+            "createdOn": 1713789954729,
+            "recordedOn": "EMULATOR32X1X12X0",
+            "directory": "",
+            "script": "log('Test end!')",
+            "isExpanded": true,
+            "language": "js"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "864x1920",
+            "baseSize": "1080x2400",
+            "serial": "RXCW20764NY",
+            "deviceId": "RXCW20764NY",
+            "name": "SM-A536E",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        }
+    ],
+    "createdOn": 1718982987795,
+    "changedOn": 1718991972204,
+    "isWorkingCopy": false,
+    "testRuns": [
+        {
+            "id": "db2efc6c-e2c7-775e-b32f-7bb35f3beb40",
+            "date": 1718984765842,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "864x1920",
+                    "baseSize": "1080x2400",
+                    "serial": "RXCW20764NY",
+                    "deviceId": "RXCW20764NY",
+                    "name": "SM-A536E",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 514411,
+            "skippedFramesCount": 33,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.myfiles",
+                    "name": "15.0.03.27",
+                    "code": 1500327000,
+                    "minSdk": 33,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2021-12-31 21:00:00",
+                    "lastUpdateTime": "2021-12-31 21:00:00"
+                }
+            ],
+            "wasSuccessful": true
+        },
+        {
+            "id": "1c2a84f1-6f31-88a0-a2c9-b0e3026b718e",
+            "date": 1718985333414,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "ad377fc9-c911-6184-f062-b379cfb468f4",
+                    "step": "d379d33a-14fb-6c19-6b48-c7b3e43a1949",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.4232787614764849,
+                                "y": 0.8501041666666667
+                            },
+                            "size": {
+                                "width": 0.11921296296296297,
+                                "height": 0.03958333333333333
+                            },
+                            "probability": 0.9985231768294195
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "79859e4d-0043-24fd-5873-ee297aedc621-screenshot.jpg",
+                    "createdOn": 1718985333799,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "a7054577-5505-ef70-a74c-aeedec364845",
+                    "step": "604e417d-9dd6-7804-c043-0c1a6532392f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "281fae32-a149-b385-216e-9398fb1668d0-screenshot.jpg",
+                    "createdOn": 1718985335278,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "f78155ca-d2d6-6b5b-58d0-6740d7f9455c",
+                    "step": "b9cdf1e5-cad6-5415-14df-1a2a868a1e5a",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5543981481481481,
+                                "y": 0.8197384545923632
+                            },
+                            "size": {
+                                "width": 0.1527777777777778,
+                                "height": 0.016145833333333335
+                            },
+                            "probability": 0.89,
+                            "text": "interno"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"interno\"",
+                    "scannedText": "SD",
+                    "screenshot": "00db07ca-5704-5625-188a-b18b9b62515d-screenshot.jpg",
+                    "createdOn": 1718985336656,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "156903f9-3d1a-7535-b260-15aaf71718b7",
+                    "step": "3625c081-f118-f56a-de77-744467fe38ca",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "c9b93a9e-1d2f-64fc-c317-aa76bf3f56f3-screenshot.jpg",
+                    "createdOn": 1718985337743,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "3707ee32-8de4-9e48-6557-bb529e355f97",
+                    "step": "35face1b-bd74-47d4-be7b-1591e8574a1d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "8f259b3c-dc49-c9e3-50e7-9ec1bd30dbd0-screenshot.jpg",
+                    "createdOn": 1718985386188,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "5ded1f28-c369-1a20-bc2e-59f56895ee56",
+                    "step": "7516f413-8469-fcd4-dc09-18129e5fff9a",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "c734f552-3529-7592-d0ea-69a9b181a73d-screenshot.jpg",
+                    "createdOn": 1718985420483,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "bb59ce4d-e8ec-8678-086d-c7ead0505e8e",
+                    "step": "7f45add0-a83c-1737-d0bf-95ec00afcfdd",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "8509e0ce-a354-086a-ad95-44b8d39eced5-screenshot.jpg",
+                    "createdOn": 1718985420570,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "c734ce69-1ba5-9fc2-3cb5-791c3e4ea744",
+                    "step": "0b76614b-59fb-e38f-3a95-704df4291273",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "2092b69c-6f27-4ef2-0032-cf58cd3037fd-screenshot.jpg",
+                    "createdOn": 1718985430653,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "ee0bfbea-a8d1-8463-c514-5ae836dd0dc0",
+                    "step": "38655288-3fb7-f7f8-3692-545666228b9d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "805e1926-4876-0d41-50c4-63a4a942431b-screenshot.jpg",
+                    "createdOn": 1718985431764,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "d15a85c8-e1d1-3a0d-4909-112e25f464a7",
+                    "step": "d7a859fb-67fb-77f5-f62a-e0bc7238cff2",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "dc024677-5157-b235-73f7-aa04cdcff3ff-screenshot.jpg",
+                    "createdOn": 1718985432025,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "5b10f6a2-ad8c-d6cc-bd54-b27bce67754f",
+                    "step": "294cbcff-13a1-fb96-7851-9e5450491cb3",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.4232787614764849,
+                                "y": 0.8501041666666667
+                            },
+                            "size": {
+                                "width": 0.11921296296296297,
+                                "height": 0.03958333333333333
+                            },
+                            "probability": 0.9985231768294195
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "d37fce34-733b-77b8-0f13-3df24ccb8268-screenshot.jpg",
+                    "createdOn": 1718985432529,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "f941f048-d2e5-713a-df66-467192211c45",
+                    "step": "70c00169-7d05-3f1e-9f1d-1ebba7475c46",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "121e01aa-cc27-991d-de0a-380cfcb1f14c-screenshot.jpg",
+                    "createdOn": 1718985433662,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "41574ffc-555b-0f60-37f8-6764df479c0e",
+                    "step": "3a9a562f-42fc-2d44-d470-9a5a62bc1328",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "5406be10-8d02-c32f-3143-7d4bf8d8cb74-screenshot.jpg",
+                    "createdOn": 1718985443447,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "2eb46f51-16fb-6991-7e38-8e538f120407",
+                    "step": "11f17736-8c3b-b921-f273-852cc81ccee8",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "83a2f787-c5f4-9cdf-3d34-2e43826244c0-screenshot.jpg",
+                    "createdOn": 1718985443536,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "13a02633-28d0-35c8-af74-184124bd20c6",
+                    "step": "aac37216-fb67-706b-a45c-e760d0ec7aaf",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "bdfc0194-1175-441b-0157-e8a0afb999a8-screenshot.jpg",
+                    "createdOn": 1718985444618,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "50d77a5f-788b-97ec-83fb-39b6772fb79d",
+                    "step": "5a8369d7-9991-b6b7-209b-b033f8fb6d78",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5874045437189768,
+                                "y": 0.08914473684210528
+                            },
+                            "size": {
+                                "width": 0.12037037037037036,
+                                "height": 0.015625
+                            },
+                            "probability": 0.9,
+                            "text": "Editar"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Editar\"",
+                    "scannedText": "o",
+                    "screenshot": "7dec0c1b-6913-0f35-93a9-b8105e30df75-screenshot.jpg",
+                    "createdOn": 1718985445086,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "795fbe06-06a4-8439-c76a-400a661b97e6",
+                    "step": "e4f05131-371e-2cc3-c183-2aa9854504b9",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "bbffb2d1-320a-e036-a08b-4c2d6ecdfbf1-screenshot.jpg",
+                    "createdOn": 1718985446565,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "985f8523-4bf5-14dd-3b30-86d8551a4ba3",
+                    "step": "d4c7b73f-a0c2-ac33-2764-73037023c783",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.05787037037037037,
+                                "y": 0.9163344943240455
+                            },
+                            "size": {
+                                "width": 0.09606481481481481,
+                                "height": 0.01875
+                            },
+                            "probability": 0.9,
+                            "text": "Mover"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Mover\"",
+                    "scannedText": "Mais",
+                    "screenshot": "ccf8f432-3105-b16e-2ca6-a41fb825f39e-screenshot.jpg",
+                    "createdOn": 1718985447043,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "4fab2443-47e2-f454-2636-6c7abb4f158d",
+                    "step": "b39ed212-2800-4585-50b1-87db91bccaf0",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "2d4eb31e-746b-1507-ec05-605f4a060fba-screenshot.jpg",
+                    "createdOn": 1718985448522,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "f1e592d3-dc77-ba9f-6268-1a95cee8333a",
+                    "step": "722a695c-d9c3-6264-d39e-0c9a1162df71",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "fe0b87a0-402c-04b7-0908-9c6e4425b9dc-screenshot.jpg",
+                    "createdOn": 1718985448783,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "2a37d0a7-1562-5b80-758f-b826a8c7840b",
+                    "step": "e34c8409-34d6-131e-2131-95f270d9b0a1",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "d76d6df5-afa2-efd2-9db2-63c718c2d09c-screenshot.jpg",
+                    "createdOn": 1718985449852,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "54788ff3-8a37-d4b4-4761-426ecbf76ff7",
+                    "step": "e21ff8c1-3e2c-9825-dd3a-e839937fd7a7",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.2222222222222222,
+                                "y": 0.3365502450980392
+                            },
+                            "size": {
+                                "width": 0.12268518518518519,
+                                "height": 0.016666666666666666
+                            },
+                            "probability": 0.86,
+                            "text": "1Erro"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"1Erro\"",
+                    "scannedText": "item",
+                    "screenshot": "888f8e47-197a-6846-ac0e-706521f37ed7-screenshot.jpg",
+                    "createdOn": 1718985452763,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "991c4774-5173-69b4-abf3-b6e7bf544e95",
+                    "step": "ecedadf1-dbf7-b57b-1727-88300ee14158",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.7372685185185185,
+                                "y": 0.9034442724458205
+                            },
+                            "size": {
+                                "width": 0.09953703703703703,
+                                "height": 0.0125
+                            },
+                            "probability": 0.91,
+                            "text": "Mover"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Mover\"",
+                    "scannedText": "G",
+                    "screenshot": "e8fa52c0-0d43-a0ea-45a9-b35ee483288f-screenshot.jpg",
+                    "createdOn": 1718985453572,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "213a4034-95bf-79f1-bdd4-ae4791ba8a94",
+                    "step": "ea67e53e-200e-3670-67bc-7b5efecc23e5",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "55e1782a-f3e9-b31d-c7a5-566aa842a77f-screenshot.jpg",
+                    "createdOn": 1718985454652,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "c2af562b-5df3-2039-9921-d15108db1cac",
+                    "step": "255522a0-5f03-d7d1-35f8-db81cad0a762",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.18947368421052635
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.2640625
+                            },
+                            "probability": 1,
+                            "text": "1= Nome @ 1\n\n. SDKNovo-Mt7486.sn\nPR YA 0y 763 B\n\n. SDKNovo-Mt7487.sn\n21dejun. 10:27 763 B\n\nS SDKNovo-Mt7488.sn”"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"1= Nome @ 1\n\n. SDKNovo-Mt7486.sn\nPR YA 0y 763 B\n\n. SDKNovo-Mt7487.sn\n21dejun. 10:27 763 B\n\nS SDKNovo-Mt7488.sn”\"",
+                    "scannedText": "1= Nome @ 1\n\n. SDKNovo-Mt7486.sn\nPR YA 0y 763 B\n\n. SDKNovo-Mt7487.sn\n21dejun. 10:27 763 B\n\nS SDKNovo-Mt7488.sn”",
+                    "screenshot": "b63ee938-3939-0546-64b5-f2eccb142232-screenshot.jpg",
+                    "createdOn": 1718985455491,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "48bcd783-1ce8-1048-e4d4-2b1b80d05973",
+                    "step": "c9e17d95-b1a4-572f-2733-8ac57329c891",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "c096a7af-b43a-6e54-e707-8e971da7e089-screenshot.jpg",
+                    "createdOn": 1718985455607,
+                    "executedOn": "SM-A536E"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "864x1920",
+                    "baseSize": "1080x2400",
+                    "serial": "RXCW20764NY",
+                    "deviceId": "RXCW20764NY",
+                    "name": "SM-A536E",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 122799,
+            "appStartupDuration": 227,
+            "skippedFramesCount": 252,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.myfiles",
+                    "name": "15.0.03.27",
+                    "code": 1500327000,
+                    "minSdk": 33,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2021-12-31 21:00:00",
+                    "lastUpdateTime": "2021-12-31 21:00:00"
+                }
+            ],
+            "wasSuccessful": true
+        },
+        {
+            "id": "53b39fa1-a11c-9a73-1737-70f3c4a27a06",
+            "date": 1718985692395,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "864x1920",
+                    "baseSize": "1080x2400",
+                    "serial": "RXCW20764NY",
+                    "deviceId": "RXCW20764NY",
+                    "name": "SM-A536E",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 2046393,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.myfiles",
+                    "name": "15.0.03.27",
+                    "code": 1500327000,
+                    "minSdk": 33,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2021-12-31 21:00:00",
+                    "lastUpdateTime": "2021-12-31 21:00:00"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "10b6991d-ffed-6611-c96b-bfcfc77fb500",
+            "date": 1718988847483,
+            "completed": true,
+            "stepResults": [],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "864x1920",
+                    "baseSize": "1080x2400",
+                    "serial": "RXCW20764NY",
+                    "deviceId": "RXCW20764NY",
+                    "name": "SM-A536E",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 997313,
+            "appStartupDuration": 213,
+            "skippedFramesCount": 216,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.myfiles",
+                    "name": "15.0.03.27",
+                    "code": 1500327000,
+                    "minSdk": 33,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2021-12-31 21:00:00",
+                    "lastUpdateTime": "2021-12-31 21:00:00"
+                }
+            ],
+            "wasSuccessful": false
+        },
+        {
+            "id": "f7064d6e-42ed-0f57-430c-63e516312f53",
+            "date": 1718990289542,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "4f3f52fb-865d-f020-16c4-de7acadb4526",
+                    "step": "d379d33a-14fb-6c19-6b48-c7b3e43a1949",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.4232787614764849,
+                                "y": 0.8501041666666667
+                            },
+                            "size": {
+                                "width": 0.11921296296296297,
+                                "height": 0.03958333333333333
+                            },
+                            "probability": 0.9985231768294195
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "7713d031-df49-457d-1478-e3df6a3fe35e-screenshot.jpg",
+                    "createdOn": 1718990290131,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "de622361-281b-c8dc-4937-aa49e68e2ed9",
+                    "step": "604e417d-9dd6-7804-c043-0c1a6532392f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "254b6d5b-0a9d-feaa-94b2-50cf117dc4df-screenshot.jpg",
+                    "createdOn": 1718990291594,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "94c04e64-9afc-53ed-a2f3-2b5932755d52",
+                    "step": "b9cdf1e5-cad6-5415-14df-1a2a868a1e5a",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5543981481481481,
+                                "y": 0.8197384545923632
+                            },
+                            "size": {
+                                "width": 0.1527777777777778,
+                                "height": 0.016145833333333335
+                            },
+                            "probability": 0.89,
+                            "text": "interno"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"interno\"",
+                    "scannedText": "SD",
+                    "screenshot": "14e8b915-ba74-0f5e-7990-f0a8d6db601a-screenshot.jpg",
+                    "createdOn": 1718990292238,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "96e9eeb3-419f-3f92-31bc-8fdf65944125",
+                    "step": "ada9488f-3361-1d03-91c6-09e8a9da7e32",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "a6d22278-cfc5-6ff2-64e1-5189f06790ce-screenshot.jpg",
+                    "createdOn": 1718990589626,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "627978d6-6f79-67c0-ba91-7852dd47880d",
+                    "step": "fe58f3eb-6f5c-0f58-9152-284d581e6188",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.2881944444444444,
+                                "y": 0.5110294117647058
+                            },
+                            "size": {
+                                "width": 0.1875,
+                                "height": 0.021354166666666667
+                            },
+                            "probability": 0.9,
+                            "text": "Licenças"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Licenças\"",
+                    "scannedText": "2itens",
+                    "screenshot": "f295d7cf-1dea-84e8-8b16-6b0166aa41db-screenshot.jpg",
+                    "createdOn": 1718991853337,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "13410306-330c-d43e-deb3-87d94631a025",
+                    "step": "ad215d6a-4194-da41-2876-2a4f09a653cb",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "9772c6f8-f697-878a-8cd0-03842bf6a44b-screenshot.jpg",
+                    "createdOn": 1718991854805,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "1c66e9dd-a3bc-6dde-04a0-12921a235551",
+                    "step": "0b0da0cd-7544-8b5a-0199-7be29871bf4f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "af36fb80-4d34-6357-5170-f6667609f8d5-screenshot.jpg",
+                    "createdOn": 1718991854856,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "33f9e3fb-bf94-cbc2-2f7b-67d3acfe0b55",
+                    "step": "875e94da-817a-7e44-03ee-daca6f01f9fb",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "7fb0be7a-4083-a2c6-3234-7b760da93000-screenshot.jpg",
+                    "createdOn": 1718991855900,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "d3fabbd2-a5be-56f3-9a6e-1cf2a2ab414a",
+                    "step": "138b5f48-5a9e-42f1-cea5-4da50597639e",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5874045437189768,
+                                "y": 0.08914473684210528
+                            },
+                            "size": {
+                                "width": 0.12037037037037036,
+                                "height": 0.015625
+                            },
+                            "probability": 0.9,
+                            "text": "Editar"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Editar\"",
+                    "scannedText": "I",
+                    "screenshot": "a84fcfd1-b906-0e1f-f146-2f9f2b3d1123-screenshot.jpg",
+                    "createdOn": 1718991856362,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "a1b9ceeb-0a7b-7178-ec47-f1f1e6a7f162",
+                    "step": "1c1ac00a-c49e-f65f-67f5-e0ced8189786",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "20df83b5-120d-5acf-3be6-19d2635345ca-screenshot.jpg",
+                    "createdOn": 1718991857808,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "3398193c-529b-8d38-d08f-a4e2165af393",
+                    "step": "79b7c37f-163a-7dc8-8069-e5b41768f284",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "0abaace6-279e-06b9-82f3-e26e4a2b4d61-screenshot.jpg",
+                    "createdOn": 1718991857853,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "7bd742d1-1e07-9e31-25a8-0dac2f3b335a",
+                    "step": "81196995-0ea9-0983-8138-7a74a7f540b9",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "db745ef3-25c7-f86d-f707-823ba79c42c9-screenshot.jpg",
+                    "createdOn": 1718991858886,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "9d39c26b-3717-b87d-fceb-0189fb0e1e56",
+                    "step": "995338cd-273a-80ec-3f83-c4a43ca9837d",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.05787037037037037,
+                                "y": 0.9163344943240455
+                            },
+                            "size": {
+                                "width": 0.09606481481481481,
+                                "height": 0.01875
+                            },
+                            "probability": 0.9,
+                            "text": "Mover"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Mover\"",
+                    "scannedText": "Mais",
+                    "screenshot": "2ea6d6a9-037f-9a1f-0b4e-a39cb22cdd39-screenshot.jpg",
+                    "createdOn": 1718991859295,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "4cbfb812-e1a2-073c-1faa-7f14ddfabf48",
+                    "step": "0da396bb-9e85-d379-af23-a8ebc34dd09d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "b0e98a8a-d472-6872-2151-c8bca6bb1c89-screenshot.jpg",
+                    "createdOn": 1718991860744,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "68258d00-50e1-8086-876b-7558add7ed9a",
+                    "step": "8c8137fc-fb99-690c-9bfd-9a49d0118a4b",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "19116651-5729-575b-dd2c-c8a31c246fb3-screenshot.jpg",
+                    "createdOn": 1718991860961,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "81b12fae-e513-513a-a246-18184c44e8d0",
+                    "step": "73136f87-5d16-1467-b36e-fca5aff805c7",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "6f1a24d6-bbb3-ac0e-12bd-e12b6e5b912a-screenshot.jpg",
+                    "createdOn": 1718991861997,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "4fdab1c4-a53e-54c3-fd42-83fcda7ff9cd",
+                    "step": "079a2d12-4dca-f99c-557b-c6cb25182246",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.25810185185185186,
+                                "y": 0.4235294117647059
+                            },
+                            "size": {
+                                "width": 0.09606481481481481,
+                                "height": 0.016666666666666666
+                            },
+                            "probability": 0.8,
+                            "text": "Usar"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Usar\"",
+                    "scannedText": "item",
+                    "screenshot": "d0cefee9-6ecd-cd60-1bb6-93ad574f4e8e-screenshot.jpg",
+                    "createdOn": 1718991864994,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "8d61bba9-5919-0f1d-bfba-0ad06f12a9c7",
+                    "step": "6fc51723-61e9-58db-8919-7927931e6488",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "44619e40-425d-4f33-c8f5-03834f20b6a5-screenshot.jpg",
+                    "createdOn": 1718991866037,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "6180542b-553c-6fe8-596b-4e16006a77b3",
+                    "step": "eee58e44-9bbc-2f30-e829-2c9f46fed3e8",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.7372685185185185,
+                                "y": 0.9034442724458205
+                            },
+                            "size": {
+                                "width": 0.09953703703703703,
+                                "height": 0.0125
+                            },
+                            "probability": 0.91,
+                            "text": "Mover"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Mover\"",
+                    "scannedText": "G",
+                    "screenshot": "301bce68-acb2-f4b4-5571-ad1cf640bfdb-screenshot.jpg",
+                    "createdOn": 1718991866396,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "5936477b-7dd9-a102-2c0b-8922409b4785",
+                    "step": "bba510bb-22d9-0dc1-98ed-7017f6c568ff",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "2d07c460-1188-7a2a-ca5c-a88508299f2a-screenshot.jpg",
+                    "createdOn": 1718991867843,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "aa43853c-2c18-b068-7166-126b6c36cf46",
+                    "step": "1c96a40a-a945-67de-f5bb-7a442955c472",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.18947368421052635
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.2640625
+                            },
+                            "probability": 1,
+                            "text": "SN\nN SDKNovo-Mt7405.sn”\n21dejun. 12:39 xR"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"SN\nN SDKNovo-Mt7405.sn”\n21dejun. 12:39 xR\"",
+                    "scannedText": "SN\nN SDKNovo-Mt7405.sn”\n21dejun. 12:39 xR",
+                    "screenshot": "1dfe9e2d-77c9-175b-e777-2bfe5df2d4c0-screenshot.jpg",
+                    "createdOn": 1718991868387,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "5fa99aed-f104-b83f-f8e4-fe5417fedb63",
+                    "step": "c8d4101b-05a0-d29b-f466-3e7533245269",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "6d2ddbb2-e0eb-ba6b-7698-edd35457552f-screenshot.jpg",
+                    "createdOn": 1718991868452,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "a4481e24-633b-e427-7c9e-e4bcb23136d4",
+                    "step": "6e7cd2a8-7b5d-3f32-55c7-db25efddc9da",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "61e6ceec-80cd-fd1f-5076-52f365168f7b-screenshot.jpg",
+                    "createdOn": 1718991869506,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "e091e27a-e8d6-be86-5734-bddd1f5bb40a",
+                    "step": "ab8012bf-f9bd-cbed-6b23-cf845f237d58",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "cdc01623-665f-3210-2950-b49ad718375e-screenshot.jpg",
+                    "createdOn": 1718991869661,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "f9424676-6403-3589-ee34-0be1eb2bd757",
+                    "step": "7ddd5f0f-51f8-6e51-5549-2f59dfcb0385",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "73e1f483-4d74-25d1-9d06-a06c258831e3-screenshot.jpg",
+                    "createdOn": 1718991870699,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "635eb237-3e63-8d67-98b4-256b6282fb99",
+                    "step": "495c927f-6f19-6865-0b47-d09f0e11643f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "a3496d8c-b9c2-fce3-3f07-4cc489c8e15d-screenshot.jpg",
+                    "createdOn": 1718991870745,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "d221450b-a484-8a15-da02-36f9af207af1",
+                    "step": "0c3c84ac-7cd8-cd13-bc11-1999b8639daf",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "0b134b5b-a5ff-1759-fe7a-6bd5d30a04aa-screenshot.jpg",
+                    "createdOn": 1718991871782,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "f64cb234-2abc-6f2a-4bf9-565698100bd1",
+                    "step": "96c2681b-ca0e-87f1-5f67-c2ae3c084bc0",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "fd5de4ee-0647-160a-adc8-be85d47db6f7-screenshot.jpg",
+                    "createdOn": 1718991871821,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "be2deaad-8e6d-ac2e-4923-f74df46066f7",
+                    "step": "9c3a74d8-24ea-a82d-25a2-88d910161cd3",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "da235d80-d3a6-9408-7663-1267d4c7041f-screenshot.jpg",
+                    "createdOn": 1718991872884,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "ace9e7e8-49a5-2729-abed-071a485b9bbd",
+                    "step": "61f599fa-faaf-60e7-df67-4d74834f59b0",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.0888544891640867
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.1
+                            },
+                            "probability": 1,
+                            "text": "LICENÇAS ATIVAS"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"LICENÇAS ATIVAS\"",
+                    "scannedText": "LICENÇAS ATIVAS",
+                    "screenshot": "e6d334d7-7755-7e6f-49c5-f6bd20a14aae-screenshot.jpg",
+                    "createdOn": 1718991873338,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "85643251-68fd-aa8b-36e7-020adc29e94b",
+                    "step": "3445b91a-2f1b-d31d-23d6-c8dac50ed5a3",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "687968e1-525c-4de7-ae22-d2a553ae48dc-screenshot.jpg",
+                    "createdOn": 1718991874378,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "c95a97a9-fa13-25d5-1481-1d705867d7ca",
+                    "step": "f85b8b4d-4dd3-797a-7b79-f255ef9d4fce",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "1c7a1a39-c695-654e-9e8c-0fa5721eb8ae-screenshot.jpg",
+                    "createdOn": 1718991874422,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "cc448742-19fc-17da-cf69-72615064f9c9",
+                    "step": "42818857-81ec-4529-e6a7-0c4cd6cae1de",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "fade7d32-9a6e-f9cc-6221-b5bb0ba2c776-screenshot.jpg",
+                    "createdOn": 1718991879457,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "a3c91073-a80b-b955-6c78-fb4a691698f8",
+                    "step": "1a140b7b-f1a8-9524-d78d-b9ab5d4b90ac",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.0455108359133127
+                            },
+                            "size": {
+                                "width": 0.6018518518518519,
+                                "height": 0.1
+                            },
+                            "probability": 1,
+                            "text": "I RILY:Tg\nGalaxy A535G > 1 Usar"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"I RILY:Tg\nGalaxy A535G > 1 Usar\"",
+                    "scannedText": "I RILY:Tg\nGalaxy A535G > 1 Usar",
+                    "screenshot": "df4100d4-3c7b-c467-7bc5-bad0e12a516b-screenshot.jpg",
+                    "createdOn": 1718991879860,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "8c3337c3-4b6a-20ad-bcba-5aad61570d2e",
+                    "step": "22d66fac-38c6-8837-5764-c30d2d83a14d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "af2b95a9-bab1-9a27-f10c-b2c4013012ba-screenshot.jpg",
+                    "createdOn": 1718991880899,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "edbac039-f696-69db-a5a7-16123fef2dfa",
+                    "step": "3cb74ff9-c36b-ccb6-d8d4-c293f9678583",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "5c90e2cd-b312-08dd-4988-3102410b40e1-screenshot.jpg",
+                    "createdOn": 1718991881933,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "90debd39-3851-32d6-337e-b5464b77bffc",
+                    "step": "4af5994c-dde4-cf62-d0bd-d6b2052c3524",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.30247678018575846
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.584375
+                            },
+                            "probability": 1,
+                            "text": ""
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"\"",
+                    "scannedText": "",
+                    "screenshot": "fc5b178d-bb97-8486-fba1-3fb81ac7023b-screenshot.jpg",
+                    "createdOn": 1718991882038,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "159d68c3-d060-b3b2-af11-e72e8ab91566",
+                    "step": "da9c3e6c-c1de-5bcd-21c8-479df163c052",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "e6d53681-d35c-ba33-133f-88b7c7aa1f41-screenshot.jpg",
+                    "createdOn": 1718991883079,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "f4cfecc7-01df-f614-551c-72fe39744f7d",
+                    "step": "491bbb85-06c8-4df0-5161-87bb7161d20f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "af3b2518-9cc2-7925-3fd6-c83f03cf1590-screenshot.jpg",
+                    "createdOn": 1718991883124,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "081c3179-59b9-17e2-f694-dfc51d52941a",
+                    "step": "921124b5-8c6d-45d1-2e49-31d50582fb0f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "a00059ac-2e3f-e2d0-d427-fe7ff733e4f7-screenshot.jpg",
+                    "createdOn": 1718991884168,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "ddc1770d-fc8c-b54f-7b33-3669beb86fde",
+                    "step": "c408f071-cf17-6d89-e868-0c4707298c79",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.6930030546009929,
+                                "y": 0.8925809468524253
+                            },
+                            "size": {
+                                "width": 0.20023148148148148,
+                                "height": 0.0140625
+                            },
+                            "probability": 0.89,
+                            "text": "PERMITIR"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"PERMITIR\"",
+                    "scannedText": "'",
+                    "screenshot": "fbeb6bf2-d452-58d1-bdca-1a9820c55efa-screenshot.jpg",
+                    "createdOn": 1718991885030,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "73342382-f8af-079a-c92e-2b9647bc4f5d",
+                    "step": "058743ad-db4d-cec3-7941-de687c2cfe7c",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "3a036e90-4078-7bc3-d53a-19dbc8c4c3d3-screenshot.jpg",
+                    "createdOn": 1718991885489,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "6f63f956-5fbf-0de3-408a-3bfb4b6d3d61",
+                    "step": "2df411c0-0846-cdd3-f9bf-fb02cf99e70f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "5af83601-363e-bf23-3272-447da0beaedf-screenshot.jpg",
+                    "createdOn": 1718991890528,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "ec874209-01cb-30f9-ac25-1adf1c373e19",
+                    "step": "4f5f2f70-e72f-e424-8700-8321ea0a28c3",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.4185758513931889
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.13541666666666666
+                            },
+                            "probability": 1,
+                            "text": "License for this serial\nnumber was generated too m..."
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"License for this serial\nnumber was generated too m...\"",
+                    "scannedText": "License for this serial\nnumber was generated too m...",
+                    "screenshot": "3ab3deb9-4784-37ab-d382-45a1eb2dbb67-screenshot.jpg",
+                    "createdOn": 1718991891033,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "2de2015b-31f8-5d6f-871a-9610351aa394",
+                    "step": "35face1b-bd74-47d4-be7b-1591e8574a1d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "87169828-26dc-ba32-cc71-f533b6755e6a-screenshot.jpg",
+                    "createdOn": 1718991891078,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "24c31b11-c71b-3ecd-131f-778d6560182b",
+                    "step": "7516f413-8469-fcd4-dc09-18129e5fff9a",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "036e48dd-08de-ea66-e9b7-e53c73946631-screenshot.jpg",
+                    "createdOn": 1718991896139,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "0d5f23c9-5d13-ae20-ab9a-e4c997708827",
+                    "step": "7f45add0-a83c-1737-d0bf-95ec00afcfdd",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "aaf94126-b538-6683-f472-9f96834a758e-screenshot.jpg",
+                    "createdOn": 1718991896206,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "73f5b9aa-a3c6-b930-c02f-2eafa4e1f42d",
+                    "step": "0b76614b-59fb-e38f-3a95-704df4291273",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "0071bcb8-d381-bd24-a1b9-fdad52629ae2-screenshot.jpg",
+                    "createdOn": 1718991906244,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "becdc004-481e-015a-7682-e3455d77ef99",
+                    "step": "38655288-3fb7-f7f8-3692-545666228b9d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "b025f21d-f6e3-686f-a6d9-1c16a0dd2b47-screenshot.jpg",
+                    "createdOn": 1718991907288,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "6a9ca296-333c-e4c2-1544-32da227dc8a5",
+                    "step": "d7a859fb-67fb-77f5-f62a-e0bc7238cff2",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "a3bd84c9-01f7-7b50-fd64-11e7550187b9-screenshot.jpg",
+                    "createdOn": 1718991907509,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "ca1c379d-1fd4-e790-592a-5984a0fdc9e8",
+                    "step": "70c00169-7d05-3f1e-9f1d-1ebba7475c46",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "f33f07c5-faa2-31c0-904c-1637396a8049-screenshot.jpg",
+                    "createdOn": 1718991908552,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "ea1b09ff-aa25-7190-c86d-62fa7d82501d",
+                    "step": "294cbcff-13a1-fb96-7851-9e5450491cb3",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.4232787614764849,
+                                "y": 0.8501041666666667
+                            },
+                            "size": {
+                                "width": 0.11921296296296297,
+                                "height": 0.03958333333333333
+                            },
+                            "probability": 0.9985231768294195
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "d8a131f0-db06-a536-38be-e06b9c2eb8df-screenshot.jpg",
+                    "createdOn": 1718991908677,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "47e468aa-0dfc-bade-e3de-7e9bc6604233",
+                    "step": "3a9a562f-42fc-2d44-d470-9a5a62bc1328",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "c7d6720e-b1e0-6a17-db83-39347925f40a-screenshot.jpg",
+                    "createdOn": 1718991910122,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "ae12a962-ab40-ebe6-03b8-d9b2185056a4",
+                    "step": "7b617010-1be8-abe0-2dd3-fc586da11aa3",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.10433436532507738
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.1
+                            },
+                            "probability": 1,
+                            "text": "@ » Armazenamento interno » 1Usar ﬁ?\nT e AN\\"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"@ » Armazenamento interno » 1Usar ﬁ?\nT e AN\\\"",
+                    "scannedText": "@ » Armazenamento interno » 1Usar ﬁ?\nT e AN\\",
+                    "screenshot": "ab63ae9f-6bd3-1db9-b883-099649558cb3-screenshot.jpg",
+                    "createdOn": 1718991910632,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "c1677e1d-86fb-33e0-fe26-0f33255327fd",
+                    "step": "11f17736-8c3b-b921-f273-852cc81ccee8",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "2e773055-26a2-e2f5-3887-7f5aade60804-screenshot.jpg",
+                    "createdOn": 1718991910686,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "aee78a6a-4001-d87f-02b2-9d3778a065f5",
+                    "step": "aac37216-fb67-706b-a45c-e760d0ec7aaf",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "1d762b30-4b9f-1928-fff4-7e9805cbc73f-screenshot.jpg",
+                    "createdOn": 1718991911729,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "5f01f7d3-1ed2-4ad1-e08b-06348a5929f1",
+                    "step": "5a8369d7-9991-b6b7-209b-b033f8fb6d78",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5874045437189768,
+                                "y": 0.08914473684210528
+                            },
+                            "size": {
+                                "width": 0.12037037037037036,
+                                "height": 0.015625
+                            },
+                            "probability": 0.9,
+                            "text": "Editar"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Editar\"",
+                    "scannedText": "o",
+                    "screenshot": "06e7973b-143a-8bfb-002f-880db2221dc8-screenshot.jpg",
+                    "createdOn": 1718991912162,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "ba7d152e-b0c3-7420-f8e1-99f038828a2d",
+                    "step": "e4f05131-371e-2cc3-c183-2aa9854504b9",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "3a98060e-b2e3-0889-6be0-0f2867bf9b8a-screenshot.jpg",
+                    "createdOn": 1718991913620,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "e0ec8755-7fb3-8151-2280-5391f8b7056e",
+                    "step": "d4c7b73f-a0c2-ac33-2764-73037023c783",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.05787037037037037,
+                                "y": 0.9163344943240455
+                            },
+                            "size": {
+                                "width": 0.09606481481481481,
+                                "height": 0.01875
+                            },
+                            "probability": 0.9,
+                            "text": "Mover"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Mover\"",
+                    "scannedText": "Mais",
+                    "screenshot": "771c8cd6-938b-fde0-368a-1b073d4f53ca-screenshot.jpg",
+                    "createdOn": 1718991914062,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "2e6bbafd-1879-91b9-2255-4413e690236e",
+                    "step": "b39ed212-2800-4585-50b1-87db91bccaf0",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "15bbbca4-c3dc-012f-6ac6-d616694769c4-screenshot.jpg",
+                    "createdOn": 1718991915516,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "560432b9-41b5-f804-c845-96f02b0ae3b3",
+                    "step": "722a695c-d9c3-6264-d39e-0c9a1162df71",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "29d59d8d-8a04-13bb-4229-f038c157229b-screenshot.jpg",
+                    "createdOn": 1718991915718,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "69dc41c4-0792-c895-85b7-2ae487a43070",
+                    "step": "e34c8409-34d6-131e-2131-95f270d9b0a1",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "7a88c55f-e1a0-6513-c352-a4bb831f796e-screenshot.jpg",
+                    "createdOn": 1718991916760,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "c169cf8e-3068-c181-3525-870880dd7586",
+                    "step": "e21ff8c1-3e2c-9825-dd3a-e839937fd7a7",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.2222222222222222,
+                                "y": 0.3365502450980392
+                            },
+                            "size": {
+                                "width": 0.12268518518518519,
+                                "height": 0.016666666666666666
+                            },
+                            "probability": 0.8,
+                            "text": "1Erro"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"1Erro\"",
+                    "scannedText": "item",
+                    "screenshot": "454233e3-e917-fd5f-28b8-a43192f8e54b-screenshot.jpg",
+                    "createdOn": 1718991919670,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "0d53200d-554c-1ded-ce50-c424127747b1",
+                    "step": "ecedadf1-dbf7-b57b-1727-88300ee14158",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.7372685185185185,
+                                "y": 0.9034442724458205
+                            },
+                            "size": {
+                                "width": 0.09953703703703703,
+                                "height": 0.0125
+                            },
+                            "probability": 0.91,
+                            "text": "Mover"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Mover\"",
+                    "scannedText": "G",
+                    "screenshot": "045ceb6a-1071-7217-db4c-b4d3578ef56d-screenshot.jpg",
+                    "createdOn": 1718991920434,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "60a5a543-6b74-4272-8cb5-98ca60373357",
+                    "step": "ea67e53e-200e-3670-67bc-7b5efecc23e5",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "96e43b0f-1fc8-d7f4-0d8f-a14312e0d57f-screenshot.jpg",
+                    "createdOn": 1718991921501,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "0863f29d-a5d0-a82a-f59e-f96f350c40d3",
+                    "step": "255522a0-5f03-d7d1-35f8-db81cad0a762",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.2235294117647059
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.71875
+                            },
+                            "probability": 1,
+                            "text": "& SDKNovo-Mt7396.sn\n\n21de jun. 12:39 y(x]:]\n. SDKNovo-Mt7397.sn\n\nAR Y AN PR ) 763 B\n. SDKNovo-Mt7398.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7399.sn\n\n21dejun. 12:39 763 B\n. SDKNovo-Mt7400.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7401.sn\n\nARG Y T WN PR ) y(x]:]\n. SDKNovo-Mt7402.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7403.sn\n\nAR LY TN PR ) 763 B"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"& SDKNovo-Mt7396.sn\n\n21de jun. 12:39 y(x]:]\n. SDKNovo-Mt7397.sn\n\nAR Y AN PR ) 763 B\n. SDKNovo-Mt7398.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7399.sn\n\n21dejun. 12:39 763 B\n. SDKNovo-Mt7400.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7401.sn\n\nARG Y T WN PR ) y(x]:]\n. SDKNovo-Mt7402.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7403.sn\n\nAR LY TN PR ) 763 B\"",
+                    "scannedText": "& SDKNovo-Mt7396.sn\n\n21de jun. 12:39 y(x]:]\n. SDKNovo-Mt7397.sn\n\nAR Y AN PR ) 763 B\n. SDKNovo-Mt7398.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7399.sn\n\n21dejun. 12:39 763 B\n. SDKNovo-Mt7400.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7401.sn\n\nARG Y T WN PR ) y(x]:]\n. SDKNovo-Mt7402.sn\n\n21de jun. 12:39 763 B\n. SDKNovo-Mt7403.sn\n\nAR LY TN PR ) 763 B",
+                    "screenshot": "7a047a08-26e6-f242-5c0b-d67e48982988-screenshot.jpg",
+                    "createdOn": 1718991923516,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "f757e736-9b12-5c25-eb83-143352384562",
+                    "step": "98ffc65a-1e98-6fa7-9c77-ef76986e73c7",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "bbdc0e9d-9130-7290-b1cb-a908b9bc7a63-screenshot.jpg",
+                    "createdOn": 1718991924564,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "d3f63dd4-3a08-d814-0df5-9d7f25d5cf38",
+                    "step": "32ff4d16-cc43-eca2-a755-fa6135851ef3",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "b70f8c2f-54ca-aa17-08c2-d89d742f407d-screenshot.jpg",
+                    "createdOn": 1718991925604,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "b528edf9-40b3-9c14-6855-32e2fcc25dcd",
+                    "step": "d4c294e9-ecd9-3c63-2f25-9c0f29ef2103",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "65ba5d81-4004-79d6-e163-850b67ce73d5-screenshot.jpg",
+                    "createdOn": 1718991925759,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "b2adaeb6-2ff9-15bd-a154-921733a2d1b3",
+                    "step": "adaacafd-3dca-7670-62f0-f95137ed3b2e",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "ed7961d7-2767-50f6-e380-069486fc1c81-screenshot.jpg",
+                    "createdOn": 1718991926799,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "914f4154-6025-17c9-5c90-9b7b12ebfe2e",
+                    "step": "c9e17d95-b1a4-572f-2733-8ac57329c891",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "bfa104fb-92ed-1c78-a654-c7e725f0a799-screenshot.jpg",
+                    "createdOn": 1718991926868,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "3db12ce2-ac66-4af9-e9cf-0e9363365b51",
+                    "step": "3a372de8-8d6e-aa56-e168-90fe0b65839a",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.11671826625386998
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.06875
+                            },
+                            "probability": 1,
+                            "text": "@ » Armazenamento interno"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"@ » Armazenamento interno\"",
+                    "scannedText": "@ » Armazenamento interno",
+                    "screenshot": "81c05550-828b-95c7-0ba2-56b02979ae09-screenshot.jpg",
+                    "createdOn": 1718991927280,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "399a9adb-1a91-bffb-9b52-627cc53a7b70",
+                    "step": "4c635484-2a06-8aa9-f1b0-681693fa429f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "88bb77cc-d506-bc7d-6c57-e19a95bc5949-screenshot.jpg",
+                    "createdOn": 1718991927322,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "d0376735-271a-b026-ed22-58bd856562b2",
+                    "step": "bddae39e-1cfc-e33e-d9b7-6cd9347bf4a3",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "cd738117-7f6c-c5cc-0fca-caef86d9e0c1-screenshot.jpg",
+                    "createdOn": 1718991927362,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "c7ad2a94-ee56-8f14-f544-df92e6d9dc12",
+                    "step": "547c8699-a7ad-e863-d64c-755b1493a48f",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.11671826625386998
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.06875
+                            },
+                            "probability": 1,
+                            "text": "@ » Armazenamento interno"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"@ » Armazenamento interno\"",
+                    "scannedText": "@ » Armazenamento interno",
+                    "screenshot": "4220a0b4-823a-05f2-0e01-79fa0944a2a1-screenshot.jpg",
+                    "createdOn": 1718991927870,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "0fbaf7c8-5342-5a31-fe1b-9664943151a4",
+                    "step": "f050e7e3-a560-bed3-5f8e-6d340dfbc874",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "f436868c-692a-5bdc-cc26-ca68390e56f3-screenshot.jpg",
+                    "createdOn": 1718991927921,
+                    "executedOn": "SM-A536E"
+                },
+                {
+                    "id": "caafe01f-3d0d-95d7-343e-dfe8f6cc4981",
+                    "step": "3625c081-f118-f56a-de77-744467fe38ca",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "a0f9370e-981d-82ff-dc14-36152f8efde6-screenshot.jpg",
+                    "createdOn": 1718991931108,
+                    "executedOn": "SM-A536E"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "864x1920",
+                    "baseSize": "1080x2400",
+                    "serial": "RXCW20764NY",
+                    "deviceId": "RXCW20764NY",
+                    "name": "SM-A536E",
+                    "brand": "samsung",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 1642494,
+            "appStartupDuration": 206,
+            "skippedFramesCount": 156,
+            "appVersions": [
+                {
+                    "packageName": "com.sec.android.app.myfiles",
+                    "name": "15.0.03.27",
+                    "code": 1500327000,
+                    "minSdk": 33,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2021-12-31 21:00:00",
+                    "lastUpdateTime": "2021-12-31 21:00:00"
+                }
+            ],
+            "wasSuccessful": false
+        }
+    ],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

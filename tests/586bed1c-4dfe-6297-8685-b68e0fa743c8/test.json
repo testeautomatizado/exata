@@ -1,0 +1,191 @@
+{
+    "version": 8,
+    "id": "586bed1c-4dfe-6297-8685-b68e0fa743c8",
+    "title": "Etapa de Licença - Ativando Licença",
+    "description": "Nessa etapa ele seleciona a licença e tenta ativar",
+    "steps": [
+        {
+            "id": "9c3a74d8-24ea-a82d-25a2-88d910161cd3",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718987682962,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "61f599fa-faaf-60e7-df67-4d74834f59b0",
+            "originalFrame": "1eb7a25f-3532-3beb-ed21-393fb23bd614_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718987682964,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.0888544891640867,
+                "width": 1,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "LICENÇAS ATIVAS",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por"
+        },
+        {
+            "id": "3445b91a-2f1b-d31d-23d6-c8dac50ed5a3",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718987683014,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "f85b8b4d-4dd3-797a-7b79-f255ef9d4fce",
+            "originalFrame": "09766afc-17fe-1699-f495-2f60fbd15608_frame.jpg",
+            "type": "xyClick",
+            "optional": false,
+            "createdOn": 1718987683022,
+            "recordedOn": "SM-A536E",
+            "longClick": false,
+            "point": {
+                "x": 0.25461679327627723,
+                "y": 0.06391155026033589
+            }
+        },
+        {
+            "id": "42818857-81ec-4529-e6a7-0c4cd6cae1de",
+            "originalFrame": "d9867cb8-7f43-2960-1c2b-2b11b0f61bec_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718987683090,
+            "recordedOn": "",
+            "duration": 5000
+        },
+        {
+            "id": "1a140b7b-f1a8-9524-d78d-b9ab5d4b90ac",
+            "originalFrame": "bd9416f1-186d-cf92-041a-6bc3a184d6e4_frame.jpg",
+            "timeout": 20,
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718987683148,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.0455108359133127,
+                "width": 0.6020618556701031,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Usar",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "22d66fac-38c6-8837-5764-c30d2d83a14d",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718987683202,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "3cb74ff9-c36b-ccb6-d8d4-c293f9678583",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718987683207,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "4af5994c-dde4-cf62-d0bd-d6b2052c3524",
+            "originalFrame": "302c83c9-3357-a20f-8f3b-4e112a0f806f_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718987683214,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.30247678018575846,
+                "width": 1,
+                "height": 0.5845201238390093
+            },
+            "matchIndex": 0,
+            "searchText": "SDKNovo",
+            "operator": "notContains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "da9c3e6c-c1de-5bcd-21c8-479df163c052",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718987683264,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "491bbb85-06c8-4df0-5161-87bb7161d20f",
+            "originalFrame": "a049646e-3534-897e-a59b-5c8f5450f3a9_frame.jpg",
+            "type": "xyClick",
+            "optional": false,
+            "createdOn": 1718987683270,
+            "recordedOn": "SM-A536E",
+            "longClick": false,
+            "point": {
+                "x": 0.495822823427031,
+                "y": 0.9178823322131946
+            }
+        },
+        {
+            "id": "921124b5-8c6d-45d1-2e49-31d50582fb0f",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718987683306,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "c408f071-cf17-6d89-e868-0c4707298c79",
+            "originalFrame": "22cfb51b-92ed-887c-cdf1-c2ab66af575b_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1718987683316,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0.049484536082474266,
+                "y": 0.8024767801857586,
+                "width": 0.9319587628865978,
+                "height": 0.13869969040247682
+            },
+            "matchIndex": 0,
+            "searchText": "PERMITIR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "864x1920",
+            "baseSize": "1080x2400",
+            "serial": "RXCW20764NY",
+            "deviceId": "RXCW20764NY",
+            "name": "SM-A536E",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1718991292088,
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

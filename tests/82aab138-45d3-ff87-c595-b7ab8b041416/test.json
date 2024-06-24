@@ -1,0 +1,364 @@
+{
+    "version": 8,
+    "id": "82aab138-45d3-ff87-c595-b7ab8b041416",
+    "title": "Etapa de Licença - Ativou",
+    "description": "",
+    "steps": [
+        {
+            "id": "5868276f-251c-f4a9-575e-ff2cc7cfdc7c",
+            "originalFrame": "65c8c998-f782-7689-47d1-b81430422b85_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718986944834,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.1306501547987616,
+                "width": 1,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "SDKNovo",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "e35ef82f-af6f-2421-4808-91f53cfe3abf",
+            "originalFrame": "0d631604-7518-1349-075a-6a4fe0de5272_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986944873,
+            "recordedOn": "SM-A536E",
+            "duration": 5000
+        },
+        {
+            "id": "c32a53e2-e5a9-d52d-a96c-4f78bc262ebc",
+            "originalFrame": "6e576c62-5d15-9236-6267-79983e6259c2_frame.jpg",
+            "type": "xyClick",
+            "optional": false,
+            "createdOn": 1718986944938,
+            "recordedOn": "SM-A536E",
+            "longClick": false,
+            "point": {
+                "x": 0.7454040629580193,
+                "y": 0.06917369391582993
+            }
+        },
+        {
+            "id": "5bc0ece3-5e8b-59c1-d974-a3958d7af799",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945005,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "5252fb2b-53bf-3518-63e5-7233b9c574c8",
+            "originalFrame": "b76ce2ca-5bce-b858-b0da-c8e8810c6991_frame.jpg",
+            "timeout": 20,
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718986945012,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.1306501547987616,
+                "width": 1,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "SDKNovo",
+            "operator": "notContains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "2bb42496-fa73-37d1-ba11-25cd9211700f",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945063,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "50f76111-2a39-3063-3429-938e1385ae3f",
+            "type": "home",
+            "optional": false,
+            "createdOn": 1718986945070,
+            "recordedOn": ""
+        },
+        {
+            "id": "df39b273-6e01-89de-796a-0d1a0799c2ed",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945076,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "b4c12788-1ffc-9e24-6000-a0b15f5a4ae1",
+            "originalFrame": "4ee404c1-faa2-83d0-0e5b-e13c782f19e8_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1718986945085,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0.0934176503653738,
+                "y": 0.56,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.4234176503653738,
+                "y": 0.8501517706576729,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "24894b17-51ce-77c9-0113-10ffe2f0dc42_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.4232787614764849,
+                        "y": 0.8501041666666667
+                    },
+                    "size": {
+                        "width": 0.11921296296296297,
+                        "height": 0.03958333333333333
+                    },
+                    "probability": 0.9985231768294195
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.4834176503653738,
+                "y": 0.8701517706576729
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "829554e3-3970-36dc-ff5c-fd125264d04e",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945146,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "eb86a36c-a63f-6090-d9ff-97c09263d796",
+            "originalFrame": "9a6e6777-f4ad-4f02-e763-544b4d3426e1_frame.jpg",
+            "type": "xyClick",
+            "optional": false,
+            "createdOn": 1718986945153,
+            "recordedOn": "SM-A536E",
+            "longClick": false,
+            "point": {
+                "x": 0.9162583343148032,
+                "y": 0.08871879892195061
+            }
+        },
+        {
+            "id": "c99a751b-4b07-9dbd-faeb-a4e74883aa0f",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945208,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "aced2d67-58e8-e71d-eb9a-383811e64094",
+            "originalFrame": "c7ed9410-3582-9135-46e3-2edf3044eb95_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1718986945215,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0.5237113402061856,
+                "y": 0.06563467492260067,
+                "width": 0.43711340206185567,
+                "height": 0.3012383900928792
+            },
+            "matchIndex": 0,
+            "searchText": "Editar",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "81f12fe9-b222-eac4-78cd-34160ea78631",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945274,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "5ae53015-fcef-f1a4-96d3-a51775e6e1f4",
+            "originalFrame": "5991f267-db15-e7d2-a8e4-6f2ba4e4779c_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1718986945284,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.872136222910217,
+                "width": 1,
+                "height": 0.07058823529411765
+            },
+            "matchIndex": 0,
+            "searchText": "Mover",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "4b4458a6-1151-3616-b5fe-bd1c3d1b56bc",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945342,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "e5aa3a4b-c6ee-ee99-f69e-85c9a1e523d9",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1718986945349,
+            "recordedOn": ""
+        },
+        {
+            "id": "fa52661d-5970-b6fa-6e61-c188d441de24",
+            "originalFrame": "1867cad7-4fac-244c-208f-f0a12dfcf39f_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1718986945355,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.21424148606811144,
+                "width": 1,
+                "height": 0.3739938080495356
+            },
+            "matchIndex": 0,
+            "searchText": "Ativa",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "a5b9cada-dc9e-4cbd-3700-641770a0db50",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945414,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "ae894642-a5ab-64e1-23b6-5dad084ab02d",
+            "originalFrame": "98666596-65ce-8545-4f83-79b3ee6c2553_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1718986945420,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 7.105427357601002e-17,
+                "y": 0.8318885448916409,
+                "width": 1,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Mover",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "51a22716-4214-ea6f-94ab-90cfca172f1f",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945472,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "2e709a7e-efae-6f2d-b54a-e392c598c3c2",
+            "originalFrame": "d179d738-ccd6-5b0f-2da8-a685b244635b_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718986945478,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.21424148606811147,
+                "width": 1,
+                "height": 0.7114551083591332
+            },
+            "matchIndex": 0,
+            "searchText": "SDKNovo",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "71e8d151-cc6c-acb5-add5-19307f15060a",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718986945532,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "b001338b-3c7d-89ac-7fe3-536892229c91",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1718986945538,
+            "recordedOn": ""
+        },
+        {
+            "id": "c1e8bfd5-e9da-52d8-fe02-f48cffd8c91c",
+            "originalFrame": "25461656-ef94-9c70-7e87-39d48519dea1_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1718986945547,
+            "recordedOn": "SM-A536E",
+            "region": {
+                "x": 0,
+                "y": 0.07801857585139317,
+                "width": 1,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Armazenamento",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "864x1920",
+            "baseSize": "1080x2400",
+            "serial": "RXCW20764NY",
+            "deviceId": "RXCW20764NY",
+            "name": "SM-A536E",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        }
+    ],
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}
