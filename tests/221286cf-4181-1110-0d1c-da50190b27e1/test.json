@@ -99,6 +99,51 @@
             "recordedOn": ""
         },
         {
+            "id": "791998fa-ced7-a14b-dc70-df1637bc634e",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328320739,
+            "recordedOn": "",
+            "testId": "68891ac6-6523-fd23-3c45-14d1f5fe2cfc",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3a2f7fb3-a69b-3623-2223-6c4eac64f722",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328345871,
+            "recordedOn": "SM-M127F",
+            "testId": "ea929a1b-3ca7-36ac-9da0-cb4f27136a6f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "962a1d41-9f3e-6a01-0985-d72c9e64e9e1",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328345876,
+            "recordedOn": "SM-M127F",
+            "testId": "84696e66-df5c-efce-7781-6a931175f06d",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f0f453df-c578-8086-a686-4b10525d8ce1",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719328345880,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "e88ccd88-2ce4-34e5-d721-ee65ad9d1638",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719328345884,
+            "recordedOn": ""
+        },
+        {
             "id": "ba90d6aa-af33-bacc-16ff-8c88427d07e1",
             "type": "subTest",
             "optional": false,
@@ -530,6 +575,60 @@
             "recordedOn": ""
         },
         {
+            "id": "a1bb2a42-bb4c-b4ea-b2b0-ae0a6569b005",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328084676,
+            "recordedOn": "",
+            "testId": "68891ac6-6523-fd23-3c45-14d1f5fe2cfc",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "684fc461-c015-0c37-0795-409f801f4b0e",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328107763,
+            "recordedOn": "",
+            "testId": "ea929a1b-3ca7-36ac-9da0-cb4f27136a6f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3017d20a-654a-f0a1-5336-07a8cb723609",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328184956,
+            "recordedOn": "",
+            "testId": "7a545801-2995-dc36-176e-30748bec31d2",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0aa4ac97-a116-37f0-985d-33651057eb4b",
+            "originalFrame": "bdfc3788-09dc-747c-9593-97e77b31ee61_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719328222975,
+            "recordedOn": "SM-M127F",
+            "duration": 1500
+        },
+        {
+            "id": "0a80819e-8119-557d-5b72-3701075650ba",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719328223165,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "767ce83a-fc9e-d031-509a-3ed1798f7fcf",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719328223247,
+            "recordedOn": ""
+        },
+        {
             "id": "6462f3f5-7759-1f99-c926-8839f0c17510",
             "type": "subTest",
             "optional": false,
@@ -845,6 +944,80 @@
             "recordedOn": ""
         },
         {
+            "id": "36d77bf6-d95a-a5e7-814d-b650fc032d4d",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328264019,
+            "recordedOn": "",
+            "testId": "68891ac6-6523-fd23-3c45-14d1f5fe2cfc",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "636d6e09-02ed-55b4-7564-b008c3f849d8",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328264026,
+            "recordedOn": "",
+            "testId": "ea929a1b-3ca7-36ac-9da0-cb4f27136a6f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "e5496bfb-b059-fe95-f449-1fe44ed12811",
+            "originalFrame": "48d10f86-6883-743e-cd58-461a2729a951_frame.jpg",
+            "timeout": 20,
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719328278887,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.5374570446735395,
+                "y": 0.3860681114551084,
+                "width": 0.354639175257732,
+                "height": 0.17430340557275542
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "086267b5-6920-2857-34bc-3a7db42ebea1",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719328279095,
+            "recordedOn": "SM-M127F",
+            "testId": "84696e66-df5c-efce-7781-6a931175f06d",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c3406979-2fab-bb6b-45ba-2889c2755232",
+            "originalFrame": "86bf1189-8573-aa81-de7e-6da63bd13114_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719328279162,
+            "recordedOn": "SM-M127F",
+            "duration": 1500
+        },
+        {
+            "id": "d2bf4069-954d-1518-2e1f-b54311ff0dee",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719328279427,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "48cb1f34-e591-993c-ed8b-13f141aa7829",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719328279495,
+            "recordedOn": ""
+        },
+        {
             "id": "0e3d1170-72d2-bcf2-9df2-34a5a182209c",
             "type": "subTest",
             "optional": false,
@@ -887,7 +1060,7 @@
         }
     ],
     "createdOn": 1716578343288,
-    "changedOn": 1719247565151,
+    "changedOn": 1719328364998,
     "isWorkingCopy": false,
     "testRuns": [
         {
