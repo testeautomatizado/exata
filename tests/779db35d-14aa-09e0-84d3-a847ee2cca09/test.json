@@ -1,0 +1,147 @@
+{
+    "version": 8,
+    "id": "779db35d-14aa-09e0-84d3-a847ee2cca09",
+    "title": "Busca Coletor na tela de Equipamentos - 2002",
+    "description": "usado para facilitar a busca por coletor",
+    "steps": [
+        {
+            "id": "7e27fbe3-0136-7a80-28b0-b4746475a1c5",
+            "originalFrame": "f6832b97-edd0-fde4-2b55-ee6bfd52ec68_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1716466876108,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0,
+                "y": 0,
+                "width": 0.8600000000000001,
+                "height": 0.6000000000000001
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.05142857142857141,
+                "y": 0.18571428571428572,
+                "width": 0.2,
+                "height": 0.2
+            },
+            "image": "77f34aa4-79a1-2fa0-55c3-fb1ee50d934a_template.png",
+            "offset": {
+                "x": 0,
+                "y": -5.551115123125783e-17
+            },
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.051041666666666666,
+                        "y": 0.185
+                    },
+                    "size": {
+                        "width": 0.2,
+                        "height": 0.2
+                    },
+                    "probability": 0.9969119057494135
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.1514285714285714,
+                "y": 0.28571428571428575
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "08f455b9-f84f-e4eb-6add-045c81dfd698",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719256490820,
+            "recordedOn": "SM-X200",
+            "testId": "b5d33c4c-c613-9685-bd18-30cdf8fd3040",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c4d9b722-541f-da36-c379-ecfbf5aa8936",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716466876163,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "0937f240-ff32-d001-41f4-2e0d8c5e9543",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1716466876176,
+            "recordedOn": ""
+        },
+        {
+            "id": "2776b4cb-dba0-f7d9-505a-058d79fa1046",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1716482017146,
+            "recordedOn": "SM-M127F",
+            "testId": "4ffaf790-e30b-4039-fe2c-a5874dfb865a",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "d38e3c19-0ee8-48a5-8887-ac10b1b3dc6c",
+            "originalFrame": "a790b580-134e-897c-ef4e-a43efee4a831_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1718132195109,
+            "recordedOn": "SM-X200",
+            "duration": 3500
+        },
+        {
+            "id": "c6b9f9fc-7dd6-441a-9431-84ee869fb0d3",
+            "originalFrame": "771868c6-0a91-c6d4-b02e-2b30a2766c6c_frame.jpg",
+            "type": "xyClick",
+            "optional": false,
+            "createdOn": 1716466876238,
+            "recordedOn": "SM-X200",
+            "longClick": false,
+            "point": {
+                "x": 0.8767272846982307,
+                "y": 0.4300716511975957
+            }
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        },
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "720x1600",
+            "baseSize": "720x1600",
+            "serial": "RX8T50DG1RJ",
+            "deviceId": "RX8T50DG1RJ",
+            "name": "SM-M127F",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1719256505245,
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}
