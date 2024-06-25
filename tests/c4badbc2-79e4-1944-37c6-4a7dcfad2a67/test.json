@@ -1,0 +1,49 @@
+{
+    "version": 8,
+    "id": "c4badbc2-79e4-1944-37c6-4a7dcfad2a67",
+    "title": "Grupo - Valida ponto inconsistente no Coletor 2001",
+    "description": "Valida ponto de colaborador fora do grupo",
+    "steps": [
+        {
+            "id": "528c5b33-47f6-9ed3-d55f-aab3ec083463",
+            "originalFrame": "230cfe0c-008b-b2e1-c372-aa49e5137ee2_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1716896824962,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.2626465661641541,
+                "y": 0.49919571045576405,
+                "width": 0.12462311557788947,
+                "height": 0.05442359249329758
+            },
+            "matchIndex": 0,
+            "searchText": "2001",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "changedOn": 1718285749113,
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

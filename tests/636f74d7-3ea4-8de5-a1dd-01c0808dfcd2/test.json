@@ -361,6 +361,276 @@
             "ocrLanguage": "eng"
         },
         {
+            "id": "f5a7ded4-a6da-0061-5029-308f351ff66a",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719344385721,
+            "recordedOn": "SM-X200",
+            "testId": "779db35d-14aa-09e0-84d3-a847ee2cca09",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "79dbe5bd-7caf-4e79-9ee1-b8292f106d66",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719344415329,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "a44a3501-62be-9fac-faab-9bbcf4fc7120",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719344415335,
+            "recordedOn": ""
+        },
+        {
+            "id": "f9490b23-32f2-2d08-e6d5-39b90791c7ac",
+            "originalFrame": "35ff970c-0ed3-ac54-4cc1-c94854cece81_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719344415342,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.26,
+                "y": 0.3090857946554149,
+                "width": 0.74,
+                "height": 0.48000000000000004
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.92,
+                "y": 0.5090857946554149,
+                "width": 0.08,
+                "height": 0.08
+            },
+            "image": "a7956c6d-318f-abb6-a257-30acec4182af_template.png",
+            "offset": {
+                "x": -0.014683544303797369,
+                "y": 0
+            },
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.9198958333333334,
+                        "y": 0.5090857946554149
+                    },
+                    "size": {
+                        "width": 0.0796875,
+                        "height": 0.08
+                    },
+                    "probability": 0.9951523610328156
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.9746835443037974,
+                "y": 0.549085794655415
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "59747e4e-0ded-b51a-770b-0d0a8443f80d",
+            "originalFrame": "4b842eb3-2b71-5545-afe9-e1a3fe4a5639_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719344415513,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.02646566164154102,
+                "y": 0.5367292225201072,
+                "width": 0.9403685092127303,
+                "height": 0.05442359249329758
+            },
+            "matchIndex": 0,
+            "searchText": "Cesta",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "bfe76d9b-7b9c-0e9f-8c57-9374d6ca94dd",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719344415728,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "67003dfb-bc8b-f2f0-a671-c31316eba4f9",
+            "originalFrame": "26797ae3-8de2-8f17-cd7a-9286fccb9d18_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719344415746,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.0013400335008375208,
+                "y": 0.6117962466487935,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Facial",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "7b4045ee-6365-e62e-d4af-eae031a178d0",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719344415938,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "0a4f2ad2-4eff-df60-1404-6d00321b6281",
+            "originalFrame": "66d5a227-4f32-b43c-8fd8-75a069664942_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719344415960,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.0013400335008375208,
+                "y": 0.6117962466487935,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "QRCode",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "a935c5d4-bbc2-8002-7b9a-b6972527ce8c",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719344416144,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "28c8d79d-5aaf-d465-4c60-85abf40c0198",
+            "originalFrame": "0d2664a8-080a-d213-41a7-4ee327b402eb_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719344416171,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.019765494137353415,
+                "y": 0.593029490616622,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Ativar",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "7e684453-e9c3-20b6-e4ec-d717c59cf468",
+            "originalFrame": "aa8293c2-cb43-d27a-f93c-ef87ef357062_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719344416391,
+            "recordedOn": "SM-X200",
+            "duration": 1500
+        },
+        {
+            "id": "39dd090d-a00f-50df-730b-6311b389dbe8",
+            "originalFrame": "4f5402be-b46d-ddc7-a23b-c6dfa92d5ad0_frame.jpg",
+            "type": "someContentClick",
+            "optional": false,
+            "createdOn": 1719344416684,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.011390284757118962,
+                "y": 0.8530831099195711,
+                "width": 0.0676716917922948,
+                "height": 0.06246648793565684
+            },
+            "matchIndex": 0,
+            "delay": 0,
+            "longClick": false
+        },
+        {
+            "id": "6df92622-aabe-04fb-6d39-5ba387d315a4",
+            "originalFrame": "148ab6e9-3eba-9d45-ed0d-5b52a2cefd30_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719344416868,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.28609715242881073,
+                "y": 0.8048257372654155,
+                "width": 0.4629815745393635,
+                "height": 0.11340482573726542
+            },
+            "matchIndex": 0,
+            "searchText": "sucesso",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "e0205a0b-0bcf-1ff1-3ecf-df603f37f7ff",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719344451472,
+            "recordedOn": "SM-X200",
+            "testId": "68891ac6-6523-fd23-3c45-14d1f5fe2cfc",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0e55f545-670f-6c9b-eb49-d6f932062fc7",
+            "originalFrame": "541cac7f-338c-3714-5207-48385313fb8e_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719344469379,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.3140893470790378,
+                "y": 0.5888544891640867,
+                "width": 0.37182130584192435,
+                "height": 0.1479876160990712
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "b4e22a94-2210-d04d-0b70-090d1a4debb5",
+            "originalFrame": "e9c7a345-3b4f-5ad9-d23c-8478524fd62e_frame.jpg",
+            "timeout": 30,
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719344469523,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.534020618556701,
+                "y": 0.3876160990712074,
+                "width": 0.354639175257732,
+                "height": 0.165015479876161
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
             "id": "29f5d1db-7ef8-d230-6a19-c5bfeec1732a",
             "type": "subTest",
             "optional": false,
@@ -402,7 +672,7 @@
         }
     ],
     "createdOn": 1717163565313,
-    "changedOn": 1718622260377,
+    "changedOn": 1719344471802,
     "isWorkingCopy": false,
     "testRuns": [
         {
