@@ -110,6 +110,21 @@
             "text": "17395"
         },
         {
+            "id": "40147b8c-61a3-79ea-9a3e-e917ff3c3cec",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719318918465,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "25c587d3-1600-cd96-effb-033247b8c8a8",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719318918467,
+            "recordedOn": ""
+        },
+        {
             "id": "a73b79a3-3b62-80e7-0591-f797d6672baa",
             "originalFrame": "05d9142e-471e-f426-10d6-ebeb8236ab8f_frame.jpg",
             "type": "click",
@@ -661,77 +676,9 @@
         }
     ],
     "createdOn": 1717609046856,
-    "changedOn": 1718647446889,
+    "changedOn": 1719318975839,
     "isWorkingCopy": false,
     "testRuns": [
-        {
-            "id": "a96765fd-ee45-86a6-4a34-b7b66dc15570",
-            "date": 1717609485907,
-            "completed": true,
-            "stepResults": [
-                {
-                    "id": "34548a33-343f-81e7-a200-ead20091e92d",
-                    "step": "720266e5-8a26-fca0-1937-977727cc1470",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "message": "TestRunner stopped manually",
-                    "screenshot": "b8528a9a-7494-241a-62d0-da5c1b4e9fd0-screenshot.jpg",
-                    "createdOn": 1717609487697,
-                    "executedOn": ""
-                },
-                {
-                    "id": "f44e494b-6187-3c09-88e7-1ac1ca6ca306",
-                    "step": "099e15d6-dba4-2d90-129a-3f1e35e6a28c",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "5a79826e-ba08-42fe-1cd5-87a07304af08-screenshot.jpg",
-                    "createdOn": 1717609491301,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "d699d927-0be9-0d33-f2d8-b2d3d8a7b95f",
-                    "step": "24889ae3-400b-1949-642f-f169766a6a3f",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "6ea06cd6-3430-7a9b-d854-806c509be78e-screenshot.jpg",
-                    "createdOn": 1717609491336,
-                    "executedOn": "SM-M127F"
-                }
-            ],
-            "devices": [
-                {
-                    "os": "Android",
-                    "abi": "arm64-v8a",
-                    "sdk": "33",
-                    "osVersion": "13",
-                    "size": "720x1600",
-                    "baseSize": "720x1600",
-                    "serial": "RX8T50DG1RJ",
-                    "deviceId": "RX8T50DG1RJ",
-                    "name": "SM-M127F",
-                    "brand": "samsung",
-                    "currentRotation": 0,
-                    "isSimulator": false
-                }
-            ],
-            "duration": 5735,
-            "appVersions": [
-                {
-                    "packageName": "exataid.exatarep",
-                    "name": "8.003.01",
-                    "code": 800301,
-                    "minSdk": 26,
-                    "targetSdk": 34,
-                    "firstInstallTime": "2024-05-13 14:22:53",
-                    "lastUpdateTime": "2024-06-04 09:08:56"
-                }
-            ],
-            "wasSuccessful": true
-        },
         {
             "id": "8b4fad39-3fa9-26af-e058-2caf1b91beaf",
             "date": 1717609615642,
@@ -1398,6 +1345,699 @@
                     "targetSdk": 34,
                     "firstInstallTime": "2024-05-13 14:22:53",
                     "lastUpdateTime": "2024-06-14 08:02:10"
+                }
+            ],
+            "wasSuccessful": true
+        },
+        {
+            "id": "8ed0a6fb-318a-902d-63ed-52ebdef17c5b",
+            "date": 1719318921447,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "21169dfb-e748-6b41-7460-59a60b27665a",
+                    "step": "720266e5-8a26-fca0-1937-977727cc1470",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.8713888888888889,
+                                "y": 0.0425
+                            },
+                            "size": {
+                                "width": 0.11944444444444445,
+                                "height": 0.04
+                            },
+                            "probability": 0.930396528797398
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "9da3f7a6-b3aa-aa8d-ff90-f5658fbebe09-screenshot.jpg",
+                    "createdOn": 1719318921966,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "206ebcf8-72ad-585e-3c6b-48ddae710c11",
+                    "step": "a650d3d9-10c5-b414-cc8c-eeeb2546f291",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "e5b21ce0-ede0-cb75-b5ec-c5a0d98e053b-screenshot.jpg",
+                    "createdOn": 1719318923509,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "d860d53a-cd03-7912-d7ac-6aafd3f4573a",
+                    "step": "bf1e4e72-0d00-4099-8775-a998422bce90",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.08611111111111111,
+                                "y": 0.4427631578947368
+                            },
+                            "size": {
+                                "width": 0.13333333333333333,
+                                "height": 0.0575
+                            },
+                            "probability": 0.9497789413769798
+                        }
+                    ],
+                    "scaleFactor": 0.96,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "bd7da66b-c49d-a373-555d-73bc6a78e940-screenshot.jpg",
+                    "createdOn": 1719318923981,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "5c7dee00-8f8b-5365-b9e3-7f205aaada9f",
+                    "step": "5747e25f-fa43-e1f8-5dfa-7273a9c122c2",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "bcd0dedc-9bcd-6412-a975-83819e670e6e-screenshot.jpg",
+                    "createdOn": 1719318925378,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "7574a501-58b6-09bf-e7a4-5099007b7551",
+                    "step": "40147b8c-61a3-79ea-9a3e-e917ff3c3cec",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "184e6a70-388d-2fbb-8f63-6b05a97c021e-screenshot.jpg",
+                    "createdOn": 1719318926412,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "49c89745-14df-c477-02c4-7a9af7b75dcb",
+                    "step": "25c587d3-1600-cd96-effb-033247b8c8a8",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "d7af32a3-eb81-43eb-ad68-f215db0ca8fa-screenshot.jpg",
+                    "createdOn": 1719318927277,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "27caaace-b007-7469-bda6-8104d94e918c",
+                    "step": "a73b79a3-3b62-80e7-0591-f797d6672baa",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.10277777777777777,
+                                "y": 0.5382894736842104
+                            },
+                            "size": {
+                                "width": 0.10555555555555556,
+                                "height": 0.036875
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1.131578947368421,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "5c6f3d79-f2c1-45c0-aed2-c492c88ee925-screenshot.jpg",
+                    "createdOn": 1719318927754,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "b471f470-c878-97e4-b478-fcd62fad4d04",
+                    "step": "0f2000bc-f4b7-a6da-70db-0c158e0dfb10",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.475,
+                                "y": 0.25326934984520116
+                            },
+                            "size": {
+                                "width": 0.13472222222222222,
+                                "height": 0.01125
+                            },
+                            "probability": 0.92,
+                            "text": "SERVICE"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"SERVICE\"",
+                    "scannedText": "I",
+                    "screenshot": "9753535b-49eb-fb56-78fa-b0559a829827-screenshot.jpg",
+                    "createdOn": 1719318928751,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "7a440c6b-06c2-82f6-fca8-17bfc0980c54",
+                    "step": "1b94de85-94ab-2142-fc08-dfcccb4e8162",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "fe99e147-0ea1-55f2-e64a-2c78eb9a9f14-screenshot.jpg",
+                    "createdOn": 1719318930293,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "46cfa34d-8d3a-5841-4c69-7cee18e4943f",
+                    "step": "95a1fbaa-c42b-b0a2-e2b5-cbaaf4fdd2b0",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.25972222222222224,
+                                "y": 0.12535797213622288
+                            },
+                            "size": {
+                                "width": 0.16805555555555557,
+                                "height": 0.02125
+                            },
+                            "probability": 0.89,
+                            "text": "NOVO"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"NOVO\"",
+                    "scannedText": "REGISTRO",
+                    "screenshot": "c5464a63-acdd-42e9-20d8-f48cb190352c-screenshot.jpg",
+                    "createdOn": 1719318930527,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "dfdb8c1c-1a80-b699-7b3e-dbd19d2b782c",
+                    "step": "c12c8b98-f5fd-6046-ba71-fc4e05968ace",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.05138888888888889,
+                                "y": 0.075625
+                            },
+                            "size": {
+                                "width": 0.12916666666666668,
+                                "height": 0.055625
+                            },
+                            "probability": 0.9641793956987111
+                        },
+                        {
+                            "position": {
+                                "x": 0.1763888888888889,
+                                "y": 0.240625
+                            },
+                            "size": {
+                                "width": 0.12916666666666668,
+                                "height": 0.055625
+                            },
+                            "probability": 0.9327714434211268
+                        }
+                    ],
+                    "scaleFactor": 0.93,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "96d38e80-65b7-14bb-c994-03945a3291b3-screenshot.jpg",
+                    "createdOn": 1719318931837,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "717b9fd2-21b9-7423-534c-fd47d22fa97d",
+                    "step": "ac747501-0b5f-615e-6121-1251dd805d0a",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "2f470742-2138-ebd3-130a-d480504eac88-screenshot.jpg",
+                    "createdOn": 1719318933302,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "10395ac0-8f86-0d03-072f-04d3c2be9237",
+                    "step": "a4cf7bce-548b-9c23-3dec-6af1a34fec6f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "36269856-a7e6-8fe4-5aed-1f9cf2f84038-screenshot.jpg",
+                    "createdOn": 1719318933325,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "841cb2ec-7250-016c-5a37-003751e0d061",
+                    "step": "da2c1fe1-bde8-1fe4-4e0b-24bcc17847d5",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.0125,
+                                "y": 0.1575
+                            },
+                            "size": {
+                                "width": 0.12916666666666668,
+                                "height": 0.05625
+                            },
+                            "probability": 0.9220789155826085
+                        }
+                    ],
+                    "scaleFactor": 0.93,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "7dcd512f-b690-d8e0-c426-f0b8507cecd5-screenshot.jpg",
+                    "createdOn": 1719318933459,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "3719ed59-1611-f397-3ea4-325a273e3f72",
+                    "step": "099e15d6-dba4-2d90-129a-3f1e35e6a28c",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "dd5b05de-6919-7e4c-8eb6-d8feb9e9852c-screenshot.jpg",
+                    "createdOn": 1719318934843,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "7806487c-6255-21b6-5b8b-db5c8a087f28",
+                    "step": "24889ae3-400b-1949-642f-f169766a6a3f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "c0a2522c-deec-56fc-02f4-331620e3dc1d-screenshot.jpg",
+                    "createdOn": 1719318934863,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "37dbe4bc-88b9-35a5-5394-d486d13680a4",
+                    "step": "6e88c46a-5f89-26d2-bcd8-a0e86ea32400",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.004166666666666667,
+                                "y": 0.23763480392156858
+                            },
+                            "size": {
+                                "width": 0.12638888888888888,
+                                "height": 0.054375
+                            },
+                            "probability": 0.9160076978379871
+                        }
+                    ],
+                    "scaleFactor": 0.91,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "8026d49a-d6f6-0d88-a393-75107178d4aa-screenshot.jpg",
+                    "createdOn": 1719318935216,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "3da0624f-487a-6f6c-12ad-eacc17a587ee",
+                    "step": "b4b3024c-4ccf-adaf-e336-0aba28a2ae45",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "840688c3-2b26-17e7-efa3-17059f76db46-screenshot.jpg",
+                    "createdOn": 1719318936606,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "c65af615-0ac4-7800-ce0b-fe78dd0f1765",
+                    "step": "42ff00a9-9756-4183-0577-2ead957b4c1f",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.029166666666666667,
+                                "y": 0.3375490196078431
+                            },
+                            "size": {
+                                "width": 0.10833333333333334,
+                                "height": 0.036875
+                            },
+                            "probability": 0.97117945274707
+                        }
+                    ],
+                    "scaleFactor": 0.9069767441860465,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "6e242d77-9354-bc54-996b-88f8cfb09900-screenshot.jpg",
+                    "createdOn": 1719318936830,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "2292d95f-c634-98c2-6806-2eb763265c07",
+                    "step": "0fc1b19b-8072-4373-acc5-c7049416afa1",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "d1c6b916-2a62-89c6-8c61-b1e79b95fcda-screenshot.jpg",
+                    "createdOn": 1719318938198,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "8732216d-abb6-c638-52e7-36aebde4257b",
+                    "step": "a53f31c3-ac7b-3733-a76f-8ee3b1b9aa6d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "867ce49f-d027-b693-f596-ff547ed1b752-screenshot.jpg",
+                    "createdOn": 1719318938218,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "0190f347-1edf-11fe-9d98-9353d600ad3b",
+                    "step": "3f1e559b-e08b-f231-055b-b0c431a7f574",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.3819444444444444,
+                                "y": 0.39853908668730653
+                            },
+                            "size": {
+                                "width": 0.22916666666666666,
+                                "height": 0.02125
+                            },
+                            "probability": 0.91,
+                            "text": "SALVAR"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"SALVAR\"",
+                    "scannedText": "SALVAR",
+                    "screenshot": "24187be5-7a02-9f05-c268-d00411dc90ad-screenshot.jpg",
+                    "createdOn": 1719318938487,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "1a0ba461-5a93-e2a3-d42f-09b7379bee55",
+                    "step": "c4c87f3f-fe76-355a-6e60-bac13e774f10",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "04eb2fc8-1eb9-2c80-2ef1-b36fc85f1f69-screenshot.jpg",
+                    "createdOn": 1719318940028,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "23131311-981b-7ad4-9386-4cb9fa9e6117",
+                    "step": "765e2e1d-3142-fd6a-2d0b-6b90a36b9816",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "33645e50-287f-be21-bb9b-3d007835c536-screenshot.jpg",
+                    "createdOn": 1719318940901,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "06b378a5-8ab6-207c-b6e5-b6102c3cc7c8",
+                    "step": "8a4f275b-f8d7-61bc-726e-dd8c3f6eedba",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "0bb849b4-67fb-1992-2d5f-b0c5a075c35f-screenshot.jpg",
+                    "createdOn": 1719318942447,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "dc68109b-6074-f23c-14a3-072676eecf82",
+                    "step": "c27b196c-f45f-98ba-9dc1-72aebb25a54d",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.3,
+                                "y": 0.1891969814241486
+                            },
+                            "size": {
+                                "width": 0.25416666666666665,
+                                "height": 0.0175
+                            },
+                            "probability": 0.91,
+                            "text": "AUTENTICAÇÃO"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"AUTENTICAÇÃO\"",
+                    "scannedText": "EXATAID",
+                    "screenshot": "566de35b-a108-3447-cfe8-5053216afa02-screenshot.jpg",
+                    "createdOn": 1719318942935,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "25a80500-cdb1-38ab-e89f-838585f07a78",
+                    "step": "fb77eaab-678b-be00-3ce2-fae8822a4590",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "5977546c-f1de-0da1-ba3e-abccfd50e4fa-screenshot.jpg",
+                    "createdOn": 1719318944480,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "2d7d2ee8-1365-471f-d204-2e987854b38c",
+                    "step": "6705ddb1-b1f1-b63f-83d4-5c2cfb9dfe21",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "d7e2c028-4d17-da05-e035-25132b18ab3f-screenshot.jpg",
+                    "createdOn": 1719318944522,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "f4a09c4e-f19d-fe11-2b6a-fb57042a9278",
+                    "step": "14de7f3d-a106-46d8-b3ff-b3c9863c07ca",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "32172ab7-b8ac-a305-d6e0-4cbba0fe1caa-screenshot.jpg",
+                    "createdOn": 1719318945985,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "cec2852c-c31e-b861-41a3-daa62cb424f9",
+                    "step": "975cee11-7139-a782-1ea1-46a6db3594c6",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "54c410cc-437a-50c7-9aa3-dcc547ec4e30-screenshot.jpg",
+                    "createdOn": 1719318947531,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "8fa41633-e898-50bd-8616-e14f5eeb9406",
+                    "step": "60775311-8737-3304-cf7d-a44e1e0925df",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "1cb32c85-b91f-124f-8494-a94e04cda410-screenshot.jpg",
+                    "createdOn": 1719318948391,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "5a6e055a-6740-c38d-a9c4-b1eb51e4ff46",
+                    "step": "07ac746c-eba2-1e59-6f69-c94678ae120b",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "24fe5266-0194-2bef-b643-f2f48e3291c9-screenshot.jpg",
+                    "createdOn": 1719318948434,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "0ada87ba-aa40-a070-ba78-c873352bca74",
+                    "step": "17027e78-a2ff-6d50-6885-631e6a43d635",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "23baf985-d4a7-0f34-88ce-5f3219bc932e-screenshot.jpg",
+                    "createdOn": 1719318949936,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "d27d670c-eb05-c76c-cb2c-cf61d4f17804",
+                    "step": "03ce18a5-37e0-1f0a-67b8-43a9ad00b8c1",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "494cbea7-061c-1ebe-9157-361295d8986d-screenshot.jpg",
+                    "createdOn": 1719318951475,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "054c9884-2b5d-b6be-0ec7-3296fdb42fa0",
+                    "step": "08fdf9e1-a52a-fbb1-ac2e-33964c376e4f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "97ddd078-bcbf-7f60-3b50-c640c15d632a-screenshot.jpg",
+                    "createdOn": 1719318952363,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "cd3e2fbd-b6e7-f2c3-a2fe-a9721c1fb063",
+                    "step": "f14cbb9b-1747-01cd-2a23-91706a72d294",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.3875,
+                                "y": 0.34343653250774
+                            },
+                            "size": {
+                                "width": 0.22916666666666666,
+                                "height": 0.02125
+                            },
+                            "probability": 0.91,
+                            "text": "SALVAR"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"SALVAR\"",
+                    "scannedText": "SALVAR",
+                    "screenshot": "022ee50c-8c16-42ad-a392-d7bcecd77d68-screenshot.jpg",
+                    "createdOn": 1719318952962,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "47b4a3bf-09b0-9fde-3113-c8197fc9826c",
+                    "step": "7c85e82f-3d13-7f24-5ccd-a7f1f623ea1c",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "2987afb6-a08a-1138-df45-132b1c1540d8-screenshot.jpg",
+                    "createdOn": 1719318954509,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "a26703fe-5e14-3e5a-f85d-e53d120de7f4",
+                    "step": "e70ec64e-f18d-e612-2e9a-561752811ee1",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "811741f6-4d07-60aa-2281-eb1bfdcd1070-screenshot.jpg",
+                    "createdOn": 1719318955389,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "94a17f9b-24f6-6001-02ce-bd4497076715",
+                    "step": "910e0889-829d-0b5d-b60b-57a6cb65befc",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5923539518900344,
+                                "y": 0.32099264705882363
+                            },
+                            "size": {
+                                "width": 0.2625,
+                                "height": 0.011875
+                            },
+                            "probability": 0.92,
+                            "text": "SINCRONIZAR"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"SINCRONIZAR\"",
+                    "scannedText": "SINCRONIZAR",
+                    "screenshot": "b2de02ef-8f54-0829-5439-aba3ebe63645-screenshot.jpg",
+                    "createdOn": 1719318956923,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "c296b290-ae18-f227-7260-9c741adc630e",
+                    "step": "74d8c648-f16a-785b-75cc-23723fcd13e4",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "113116c9-8166-45fb-ddad-29d2f8490b67-screenshot.jpg",
+                    "createdOn": 1719318971956,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "71841e67-7aaf-e89c-5332-9942ddba6559",
+                    "step": "4df35bc6-eeb3-9395-f794-c862250c4a4d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "1cb2eb40-3b0a-d641-c901-22b08aa373af-screenshot.jpg",
+                    "createdOn": 1719318971999,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "9c5dd8ee-d471-1db7-799b-a4bf179c43d3",
+                    "step": "451dc6a3-a03c-f9d8-3115-3c8cd1d553a1",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.10446735395189002,
+                                "y": 0.20185758513931887
+                            },
+                            "size": {
+                                "width": 0.37777777777777777,
+                                "height": 0.1675
+                            },
+                            "probability": 1,
+                            "text": "y \\\nNI\nCADASTRAR\nFACE\n."
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"y \\\nNI\nCADASTRAR\nFACE\n.\"",
+                    "scannedText": "y \\\nNI\nCADASTRAR\nFACE\n.",
+                    "screenshot": "c969fe66-41e5-638a-be91-1a757ea18e71-screenshot.jpg",
+                    "createdOn": 1719318972284,
+                    "executedOn": "moto g(9) play"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "30",
+                    "osVersion": "11",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "ZF5237LLGW",
+                    "deviceId": "ZF5237LLGW",
+                    "name": "moto g(9) play",
+                    "brand": "motorola",
+                    "currentRotation": 0,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 51169,
+            "appStartupDuration": 148,
+            "skippedFramesCount": 93,
+            "appVersions": [
+                {
+                    "packageName": "exataid.exatarep",
+                    "name": "8.003.09",
+                    "code": 800309,
+                    "minSdk": 26,
+                    "targetSdk": 34,
+                    "firstInstallTime": "2024-06-20 16:58:00",
+                    "lastUpdateTime": "2024-06-22 08:46:55"
                 }
             ],
             "wasSuccessful": true

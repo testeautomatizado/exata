@@ -120,6 +120,21 @@
             "text": "17395"
         },
         {
+            "id": "c3d8ad63-1b82-adb1-823f-79e8eb2ff9e2",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719318854726,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "e4735c30-0b82-c2ca-57b3-a6061a5c4dd4",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719318854728,
+            "recordedOn": ""
+        },
+        {
             "id": "a555e631-1bf9-53fd-4133-9db2b2d729d5",
             "originalFrame": "3efbba5d-7042-99eb-e71a-b122cd1b93c0_frame.jpg",
             "type": "click",
@@ -402,7 +417,7 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1719255948381,
+    "changedOn": 1719318871622,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -867,42 +882,64 @@
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "7cb8b0ab-b528-299c-15d4-0b4388f156d6",
+                    "id": "05e90262-d0ef-38b3-dd78-752c4a5618a7",
+                    "step": "c3d8ad63-1b82-adb1-823f-79e8eb2ff9e2",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "f26d4e44-3d66-3ef7-675b-6e6ae9e309f4-screenshot.jpg",
+                    "createdOn": 1719318858244,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "f0770ff4-1e73-d926-a0d3-1f8e7a932be8",
+                    "step": "e4735c30-0b82-c2ca-57b3-a6061a5c4dd4",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "5e45b722-09eb-efec-806e-7f0e80be9d24-screenshot.jpg",
+                    "createdOn": 1719318859103,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "78082aa4-ff6b-14f2-ab6b-2069c7a83957",
                     "step": "a555e631-1bf9-53fd-4133-9db2b2d729d5",
                     "matches": [
                         {
                             "position": {
-                                "x": 0.10277777777777777,
-                                "y": 0.3539144736842105
+                                "x": 0.09861111111111111,
+                                "y": 0.5382894736842104
                             },
                             "size": {
-                                "width": 0.11944444444444445,
-                                "height": 0.04
+                                "width": 0.10833333333333334,
+                                "height": 0.03625
                             },
-                            "probability": 0.9918801140713517
+                            "probability": 0.9102307120630587
                         }
                     ],
-                    "scaleFactor": 1,
+                    "scaleFactor": 0.9069767441860465,
                     "success": true,
                     "message": "",
-                    "screenshot": "419166b4-af72-908d-5574-3c353bc592d5-screenshot.jpg",
-                    "createdOn": 1717610891712,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "25a02cb6-f443-6238-b91b-05a21c125fae-screenshot.jpg",
+                    "createdOn": 1719318859365,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "7e2d9b6a-a35a-3413-d069-24b26af92d5b",
+                    "id": "b43f6b07-672c-4f07-41a8-7f9edb208700",
                     "step": "5d2973ae-6642-e1b8-054e-9dd7e79f47d9",
                     "matches": [
                         {
                             "position": {
-                                "x": 0.5039375715922108,
-                                "y": 0.13165247678018574
+                                "x": 0.5053264604810996,
+                                "y": 0.13102747678018573
                             },
                             "size": {
-                                "width": 0.15694444444444444,
-                                "height": 0.011875
+                                "width": 0.1486111111111111,
+                                "height": 0.01125
                             },
-                            "probability": 0.9,
+                            "probability": 0.92,
                             "text": "COLETOR"
                         }
                     ],
@@ -910,80 +947,80 @@
                     "success": true,
                     "message": "Text found in region: \"COLETOR\"",
                     "scannedText": "COLETOR",
-                    "screenshot": "aa68b134-74e6-8f73-b2d2-3c928b80e58b-screenshot.jpg",
-                    "createdOn": 1717610892991,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "81ac1935-c9c1-3aac-6108-2498a2766f8b-screenshot.jpg",
+                    "createdOn": 1719318860424,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "0c69ac6b-2a09-4244-1613-b2bd26d3c224",
+                    "id": "b3f4e5f5-a688-5dc0-83cc-c768baaea5f1",
                     "step": "84a0fc8c-e843-84c0-8006-4ce3285c05ed",
                     "matches": [
                         {
                             "position": {
-                                "x": 0.075,
-                                "y": 0.44368421052631574
+                                "x": 0.07361111111111111,
+                                "y": 0.45243421052631577
                             },
                             "size": {
-                                "width": 0.1388888888888889,
-                                "height": 0.06
+                                "width": 0.12638888888888888,
+                                "height": 0.055
                             },
-                            "probability": 0.9999825159708658
+                            "probability": 0.9392863771476073
                         }
                     ],
-                    "scaleFactor": 1,
+                    "scaleFactor": 0.91,
                     "success": true,
                     "message": "",
-                    "screenshot": "1e152110-bee3-7245-c8fb-65ca5d9c6b13-screenshot.jpg",
-                    "createdOn": 1717610893860,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "a727d602-f8af-d78f-a738-d5c45f53d7ce-screenshot.jpg",
+                    "createdOn": 1719318862259,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "4dcaae7c-d53e-3828-5ee7-20d838b5d89f",
+                    "id": "a987c76a-4e1e-c95c-38db-50866a6ece73",
                     "step": "9c1a0330-1b15-a87a-5b04-cf0b5aadcb00",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "9ecf4010-f777-b626-ba2e-f0a76c7b4e62-screenshot.jpg",
-                    "createdOn": 1717610895551,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "d5a4f1a0-b2fd-93e4-2a1c-fd53d1a46b0e-screenshot.jpg",
+                    "createdOn": 1719318863633,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "74133ac6-6cce-0aab-8299-ce5d38961f1c",
+                    "id": "ab5a363f-7c18-a67b-ced5-decdc16b2bbc",
                     "step": "5dede7a3-4564-b55f-d64f-b4a93ab246fb",
                     "matches": [
                         {
                             "position": {
-                                "x": 0.11666666666666667,
-                                "y": 0.358125
+                                "x": 0.1111111111111111,
+                                "y": 0.408125
                             },
                             "size": {
-                                "width": 0.11944444444444445,
-                                "height": 0.04
+                                "width": 0.10833333333333334,
+                                "height": 0.036875
                             },
-                            "probability": 0.9914019724761701
+                            "probability": 0.9189773981374995
                         }
                     ],
-                    "scaleFactor": 1,
+                    "scaleFactor": 0.9069767441860465,
                     "success": true,
                     "message": "",
-                    "screenshot": "ad2b001a-4e69-b856-c05a-1b80de6d9d55-screenshot.jpg",
-                    "createdOn": 1717610895742,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "cb43c045-f4f4-916e-b180-2a40cb3c3a35-screenshot.jpg",
+                    "createdOn": 1719318864097,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "3267a0d3-8694-a86a-c188-08a21d0c99be",
+                    "id": "a3c2d2b9-40e2-ebc1-63f4-d7790e4cbf0b",
                     "step": "af2a5a4e-803a-810b-139e-d6cc70df8a31",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "382d1072-55f4-f7ce-5603-038fa2aa5b6f-screenshot.jpg",
-                    "createdOn": 1717610897285,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "66ce8127-5aec-c6ab-37b1-8c35218dc0d8-screenshot.jpg",
+                    "createdOn": 1719318865635,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "f10e5939-82a0-5685-3aaf-df2bfd98ec2e",
+                    "id": "eb83db3a-cb0d-b8ea-9059-0f17da2a754b",
                     "step": "a15fdd5f-73b2-6f84-6ded-be9b50699b88",
                     "matches": [
                         {
@@ -1001,54 +1038,76 @@
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "c1c217aa-4504-26fb-c356-e887c962005d-screenshot.jpg",
-                    "createdOn": 1717610897373,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "19145136-f31e-1264-cf8d-3313d69b4a88-screenshot.jpg",
+                    "createdOn": 1719318865709,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "3ca2b71d-99fb-26e9-5d0d-64c34c5e8f4d",
+                    "id": "d80450f7-d4c4-3f0c-579e-47fd7b9fd621",
+                    "step": "188fbc42-a443-d316-acb4-3b6323d9e37f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "a2778bb5-7b08-2953-5d2d-7b28f3e917ba-screenshot.jpg",
+                    "createdOn": 1719318867188,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "af2e41c2-0fb4-96fe-b337-bc978ed76778",
+                    "step": "11b726f0-a7a4-7b02-4c5c-4c5bd2ba38f3",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "8649a1ac-3129-9995-186e-770be35997c2-screenshot.jpg",
+                    "createdOn": 1719318867206,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "3b5ecacd-55dc-c142-a904-a69e289a1c06",
                     "step": "03bf7218-9fe8-15db-5f87-dbb61fc6b33e",
                     "matches": [
                         {
                             "position": {
-                                "x": 0.5473538011695905,
-                                "y": 0.148125
+                                "x": 0.5445760233918128,
+                                "y": 0.145625
                             },
                             "size": {
                                 "width": 0.11944444444444445,
                                 "height": 0.04
                             },
-                            "probability": 0.9975692171455807
+                            "probability": 0.9578611776309213
                         }
                     ],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "11ed0271-c6eb-6850-54dc-c538f52e0b09-screenshot.jpg",
-                    "createdOn": 1717610899022,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "68e4ad2f-046b-6308-9a6e-5f05a10d31ba-screenshot.jpg",
+                    "createdOn": 1719318867370,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "c452bd4e-8951-1d3e-0b3a-b4f05ab51b8e",
+                    "id": "7acad421-273a-234f-028c-a7370c4203e8",
                     "step": "3900aae5-9cb9-8876-d248-757a6c4dd126",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "77e1d4ad-3c19-6f6b-6f92-9fe71bd1ec67-screenshot.jpg",
-                    "createdOn": 1717610900077,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "db92e9f1-dc20-db14-05f6-a3eb834afb73-screenshot.jpg",
+                    "createdOn": 1719318868468,
+                    "executedOn": "moto g(9) play"
                 },
                 {
-                    "id": "ac1c4326-50a4-6a96-cff7-e21fdcd7a01e",
+                    "id": "54849182-ab34-ab76-adf7-6e86421c44c0",
                     "step": "c45891b3-38c3-87b3-def7-a79bc3683d69",
                     "matches": [],
                     "scaleFactor": 1,
                     "success": true,
                     "message": "",
-                    "screenshot": "2824d65b-b25d-5fd6-be88-3e10e19f8c5f-screenshot.jpg",
-                    "createdOn": 1717610900271,
-                    "executedOn": "SM-M127F"
+                    "screenshot": "43894c26-307a-b29d-9fb0-d164e7c75dc4-screenshot.jpg",
+                    "createdOn": 1719318869356,
+                    "executedOn": "moto g(9) play"
                 }
             ],
             "devices": [
@@ -1065,23 +1124,37 @@
                     "brand": "samsung",
                     "currentRotation": 0,
                     "isSimulator": false
+                },
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "30",
+                    "osVersion": "11",
+                    "size": "720x1600",
+                    "baseSize": "720x1600",
+                    "serial": "ZF5237LLGW",
+                    "deviceId": "ZF5237LLGW",
+                    "name": "moto g(9) play",
+                    "brand": "motorola",
+                    "currentRotation": 0,
+                    "isSimulator": false
                 }
             ],
-            "duration": 31825,
+            "duration": 1707987582,
             "appStartupDuration": 187,
             "skippedFramesCount": 58,
             "appVersions": [
                 {
                     "packageName": "exataid.exatarep",
-                    "name": "8.003.01",
-                    "code": 800301,
+                    "name": "8.003.09",
+                    "code": 800309,
                     "minSdk": 26,
                     "targetSdk": 34,
-                    "firstInstallTime": "2024-05-13 14:22:53",
-                    "lastUpdateTime": "2024-06-04 09:08:56"
+                    "firstInstallTime": "2024-06-20 16:58:00",
+                    "lastUpdateTime": "2024-06-22 08:46:55"
                 }
             ],
-            "wasSuccessful": true
+            "wasSuccessful": false
         }
     ],
     "testRunExports": [],
