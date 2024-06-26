@@ -5,6 +5,14 @@
     "description": "Vincula colaborador no grupo",
     "steps": [
         {
+            "id": "5584568b-d09c-2c87-68c2-880023df0b7a",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418734710,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
             "id": "95e359cd-339f-3481-537c-75a9fc12f60e",
             "originalFrame": "2ca05db0-90dc-675e-ce73-b6b5351e4dd7_frame.jpg",
             "type": "someContentClick",
@@ -20,6 +28,14 @@
             "matchIndex": 0,
             "delay": 0,
             "longClick": false
+        },
+        {
+            "id": "6c3e6bdb-f5b9-b44d-52ca-000903a8070a",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418743228,
+            "recordedOn": "",
+            "duration": 1000
         },
         {
             "id": "b3f5f918-d389-05c2-30e3-1a923f04f89d",
@@ -42,6 +58,14 @@
             "longClick": false
         },
         {
+            "id": "a46eb664-1132-89cb-c502-72227cb12fe5",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418745228,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
             "id": "88636d35-48e4-7194-577c-36cfaf3a18e7",
             "originalFrame": "a3871e31-bd66-781b-c866-9b1d3d0a44c5_frame.jpg",
             "type": "scanTextClick",
@@ -60,6 +84,14 @@
             "variableName": "scannedText",
             "ocrLanguage": "eng",
             "longClick": false
+        },
+        {
+            "id": "62da6769-ba9f-90ea-a3aa-50b7b3a9c666",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418746683,
+            "recordedOn": "",
+            "duration": 1000
         },
         {
             "id": "35bf0e6a-a109-9aa6-001e-138a8d2048f9",
@@ -105,6 +137,14 @@
             "optional": false,
             "createdOn": 1716824351974,
             "recordedOn": ""
+        },
+        {
+            "id": "25e948b6-5120-cdec-145b-3d864e41a207",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418749738,
+            "recordedOn": "",
+            "duration": 1000
         },
         {
             "id": "0d66e37a-3ce7-7827-bcc3-f63b1d3bdff4",
@@ -266,6 +306,14 @@
             "longClick": false
         },
         {
+            "id": "5084ad50-39ad-8368-739c-4b77dadf6dd3",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418754693,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
             "id": "04198967-de43-3528-dcac-3c8e2c0fd31e",
             "originalFrame": "2d493e07-d59f-2bcf-b5ad-ff1bb618ceff_frame.jpg",
             "type": "scanTextClick",
@@ -337,6 +385,14 @@
             "optional": false,
             "createdOn": 1716824352356,
             "recordedOn": ""
+        },
+        {
+            "id": "d0c86714-4b57-0e16-7f8e-f6d0fbb4b4cf",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418758979,
+            "recordedOn": "",
+            "duration": 1000
         },
         {
             "id": "fbde69ee-bfe5-9248-654e-126c0cb7294c",
@@ -450,6 +506,14 @@
             "recordedOn": ""
         },
         {
+            "id": "f3d4f0d5-041e-3fa0-b4f3-3382af19050a",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418762960,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
             "id": "942cd157-8952-09d8-19ef-d2727bedfb7d",
             "type": "subTest",
             "optional": false,
@@ -510,6 +574,14 @@
             "locatorFallbacks": []
         },
         {
+            "id": "e8203492-33a9-a2ee-0d19-c684dc47a6a2",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719418765715,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
             "id": "60074fd0-9a32-5e38-0a89-00106d59a2fe",
             "originalFrame": "dfe16c00-e8b4-58c4-e415-b39898a61c35_frame.jpg",
             "type": "click",
@@ -564,9 +636,10 @@
         {
             "os": "Android",
             "abi": "arm64-v8a",
-            "sdk": "33",
-            "osVersion": "13",
+            "sdk": "34",
+            "osVersion": "14",
             "size": "1200x1920",
+            "baseSize": "1200x1920",
             "serial": "R9XT3043MRJ",
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
@@ -575,7 +648,7 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1716912866389,
+    "changedOn": 1719418767549,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -648,5 +721,6 @@
         }
     ],
     "testRunExports": [],
-    "completed": true
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
 }
