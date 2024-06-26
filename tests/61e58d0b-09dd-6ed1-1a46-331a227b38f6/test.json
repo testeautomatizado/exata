@@ -1201,6 +1201,36 @@
             "duration": 1000
         },
         {
+            "id": "a897f0fa-82d5-7896-4184-005a2cc3e1fb",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407465106,
+            "recordedOn": "SM-X200",
+            "testId": "aec6a824-bd62-76d6-d779-f0278db90812",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "216c5687-5441-4e54-eb40-1bb9c99bab18",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407494903,
+            "recordedOn": "SM-X200",
+            "testId": "a493da33-17fd-5efa-f40f-43b2603f491f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "95d31314-e8d6-7a8d-e1f0-83e804b2b6f2",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407576807,
+            "recordedOn": "SM-X200",
+            "testId": "aec6a824-bd62-76d6-d779-f0278db90812",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
             "id": "98f6ed2c-0aff-e83c-5b3e-d31fc7ee9417",
             "originalFrame": "1fbeccb3-a99c-9d52-ed59-934cbdac338e_frame.jpg",
             "type": "scanTextClick",
@@ -2063,11 +2093,1489 @@
             "recordedOn": ""
         },
         {
-            "id": "f544c308-9aa8-f006-7a84-7f6f57adea14",
+            "id": "3a934335-ee80-6061-a1a3-477f78f5eba0",
+            "originalFrame": "a7bf3c62-2f0a-ef6f-6594-be4814af3515_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407702906,
+            "recordedOn": "SM-M127F",
+            "duration": 2500
+        },
+        {
+            "id": "cfe3a3d5-8fea-1794-5a2b-52e80652c1de",
+            "originalFrame": "c7ab69bf-ecf2-4188-aff7-891d06911981_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407703055,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.1079037800687285,
+                "y": 0.3876160990712074,
+                "width": 0.354639175257732,
+                "height": 0.17430340557275542
+            },
+            "matchIndex": 0,
+            "searchText": "REFEIÇÃO",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por",
+            "longClick": false
+        },
+        {
+            "id": "411478e5-947f-4612-4ec4-71eb1516ccbc",
+            "originalFrame": "e8587fa8-97b8-0ace-5239-8726be7c540b_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407703285,
+            "recordedOn": "",
+            "duration": 2000
+        },
+        {
+            "id": "3d91a378-8a83-f941-9067-62ae47c049c3",
+            "originalFrame": "2bbc656b-4545-6998-f8db-8574f740b5d8_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407703486,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.10103092783505156,
+                "y": 0.13684210526315788,
+                "width": 0.7876288659793815,
+                "height": 0.21764705882352928
+            },
+            "matchIndex": 0,
+            "searchText": "FACIAL",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "603c6ad4-7205-8880-4bc9-81b92a2fe094",
             "type": "subTest",
             "optional": false,
-            "createdOn": 1718814227887,
+            "createdOn": 1719407703750,
             "recordedOn": "SM-M127F",
+            "testId": "8ee6fd07-4541-4dca-5459-e0eb1fb8184c",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "ef376e7e-877e-7cd2-1737-b72f7a1a41cb",
+            "originalFrame": "1880b46c-7331-ce4d-59fe-81602f25d5b6_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407703804,
+            "recordedOn": "SM-M127F",
+            "duration": 5000
+        },
+        {
+            "id": "3fe266d0-f676-1662-c4d8-76de080a753e",
+            "originalFrame": "08d5e7e2-6677-d776-6fb7-fe3200ecc0fb_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719407704092,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.021993127147766314,
+                "y": 0.07492260061919509,
+                "width": 0.9780068728522338,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "REFEITORIO TESTE",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "c9d47386-de41-8f03-a811-c074ea8f87be",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407704413,
+            "recordedOn": "SM-M127F",
+            "testId": "11aface8-8648-f221-0f1c-446d1a0d08fb",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "14bf202a-d71e-f7a0-2d84-0cf6ea40a918",
+            "originalFrame": "0d701721-7d0a-ce9d-1c18-15d393e5fa74_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407704469,
+            "recordedOn": "",
+            "duration": 2000
+        },
+        {
+            "id": "ddfb72a9-a5ab-0f52-ff93-05089633fe46",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719407704689,
+            "recordedOn": ""
+        },
+        {
+            "id": "f1cb8310-fa89-f24d-846b-a7824bf4ad2d",
+            "originalFrame": "94698198-38cd-b431-7e28-f393bf8ad7ca_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407704744,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.1079037800687285,
+                "y": 0.3876160990712074,
+                "width": 0.354639175257732,
+                "height": 0.17430340557275542
+            },
+            "matchIndex": 0,
+            "searchText": "REFEIÇÃO",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por",
+            "longClick": false
+        },
+        {
+            "id": "b3ed805a-c18a-bb85-0856-9c6d8eaf5fc5",
+            "originalFrame": "26123788-446d-0ee3-f9c6-d6f327f99b20_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407704962,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.10103092783505156,
+                "y": 0.13684210526315788,
+                "width": 0.7876288659793815,
+                "height": 0.21764705882352928
+            },
+            "matchIndex": 0,
+            "searchText": "FACIAL",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "2b21333b-03cd-73bb-c0fc-263980fd9f24",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407705227,
+            "recordedOn": "SM-M127F",
+            "testId": "e81670c4-88d6-2cb3-3b00-f7243e324f42",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "2f9df9d9-4910-d1c0-314d-34a91d24658e",
+            "originalFrame": "8774bf84-e31c-cd54-646f-72b2eb808da8_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407705282,
+            "recordedOn": "SM-M127F",
+            "duration": 10000
+        },
+        {
+            "id": "14c7bc94-a510-c6e4-7a76-55eeb62f94e8",
+            "originalFrame": "f8da792f-7467-a1f3-b0dc-fcd8d7e3cc3c_frame.jpg",
+            "type": "xyClick",
+            "optional": false,
+            "createdOn": 1719407705502,
+            "recordedOn": "SM-M127F",
+            "longClick": false,
+            "point": {
+                "x": 0.8559463986599665,
+                "y": 0.8864047345060003
+            }
+        },
+        {
+            "id": "81a47fb5-43b3-1f43-3d51-24041cd415a2",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407705726,
+            "recordedOn": "SM-M127F",
+            "testId": "39219bb5-4961-33b4-23dc-d427f8d8334c",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "a1e9ed05-ceef-238a-e60d-feb7ecaef1b3",
+            "originalFrame": "b73505c5-c03d-072c-d5a7-a2b347ac8433_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407705783,
+            "recordedOn": "",
+            "duration": 2000
+        },
+        {
+            "id": "11279585-01f8-6d26-14e0-b225505eaabc",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719407706063,
+            "recordedOn": ""
+        },
+        {
+            "id": "2a1a3674-c6e6-78e7-0ca4-594cdaf6fc6a",
+            "originalFrame": "7db89815-e345-a1d9-fb1a-32e88890ceda_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407706125,
+            "recordedOn": "",
+            "duration": 5000
+        },
+        {
+            "id": "2f8e53f7-4513-8522-7688-c8ad656c1666",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719407706346,
+            "recordedOn": ""
+        },
+        {
+            "id": "e69420c8-a74b-a0dd-dbc5-717b19bd2ee9",
+            "originalFrame": "400fe62d-1bef-0108-2dae-1d69685456ef_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407706409,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.1079037800687285,
+                "y": 0.3876160990712074,
+                "width": 0.354639175257732,
+                "height": 0.17430340557275542
+            },
+            "matchIndex": 0,
+            "searchText": "REFEIÇÃO",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por",
+            "longClick": false
+        },
+        {
+            "id": "473267d4-c16b-88a1-8cc9-65e094407c21",
+            "originalFrame": "a426e27b-d778-a444-6d68-e212bad65ee7_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407706638,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.13539518900343642,
+                "y": 0.39226006191950463,
+                "width": 0.7395189003436425,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "REQUISIÇÃO",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por",
+            "longClick": false
+        },
+        {
+            "id": "1034e51f-d6b7-4114-e0da-6d498712bcc1",
+            "originalFrame": "54551d3d-0912-087e-aa64-d6b3db2806d6_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407706915,
+            "recordedOn": "",
+            "duration": 2000
+        },
+        {
+            "id": "3709c7d0-afd1-7c43-d59d-a8aab24f8d4e",
+            "originalFrame": "d34f5f6d-1ac8-24af-53bc-30fda3efcef2_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407707241,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.21999999999999997,
+                "y": 0,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.7727485380116959,
+                "y": 0.19473684210526315,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "9305b501-f6c9-a13f-8052-b488fd9fc313_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7727777777777778,
+                        "y": 0.194375
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9954262273505389
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.8327485380116959,
+                "y": 0.21473684210526314
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "276bada2-9417-e4ca-ce8a-d896317b3ff0",
+            "originalFrame": "3613a902-35e1-1a62-9020-af00721863c5_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407707607,
+            "recordedOn": "",
+            "duration": 2000
+        },
+        {
+            "id": "f13af90d-202c-0c03-c591-3436c6a2edf1",
+            "originalFrame": "c41daf74-999c-81ee-9197-e3e9f3a922d9_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407708263,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.06666666666666671,
+                "y": 0.09814241486068113,
+                "width": 0.897594501718213,
+                "height": 0.06594427244582043
+            },
+            "matchIndex": 0,
+            "searchText": "descrição",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por",
+            "longClick": false
+        },
+        {
+            "id": "4ae9000e-7853-e466-d7dd-f396bdf50da9",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407708579,
+            "recordedOn": "SM-M127F",
+            "testId": "c8700190-a670-fd57-e6e6-c8c67adbb8d2",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "8a4a6030-a744-d5fe-8ab7-a6058f0bb935",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407708644,
+            "recordedOn": "SM-M127F",
+            "testId": "d03bd9bc-fa09-acbc-f854-b81014abb192",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "2213ed14-85db-b057-41fc-0ce0f30420fa",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407708708,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "39294042-3247-1caa-d171-ce6ec5db32f5",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719407708778,
+            "recordedOn": ""
+        },
+        {
+            "id": "23c39b0c-f6f9-3e5b-0279-974cbb088530",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407708844,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "f9fe3725-2e13-3f53-156f-ad91191dc4ba",
+            "originalFrame": "8163e8b9-5fca-0b5e-0e15-639207c3fd97_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407708912,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.13649122807017547,
+                "y": 0.16736842105263158,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "045a7221-c25b-cf21-395d-dbce26ae3416_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.1361111111111111,
+                        "y": 0.166875
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.999291617112747
+                },
+                {
+                    "position": {
+                        "x": 0.26805555555555555,
+                        "y": 0.111875
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9965340654177562
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.19649122807017547,
+                "y": 0.18736842105263157
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "REFEITORIO"
+                }
+            ]
+        },
+        {
+            "id": "c67a3153-6872-a4c3-7f3f-45df755b9b67",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407709207,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "65058047-8f13-eef6-8d0f-a196ff90cc52",
+            "originalFrame": "1a2930a5-20d3-cc34-b0bd-666a4804e0af_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407709273,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.21999999999999997,
+                "y": 0.06,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.8616374269005849,
+                "y": 0.26,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "aae3f0c8-c9fd-8478-de91-fc8b4b535bd9_template.png",
+            "offset": {
+                "x": 1.1102230246251565e-16,
+                "y": 0
+            },
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8616666666666666,
+                        "y": 0.26
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.996532153532263
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.9216374269005848,
+                "y": 0.28
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "cebe70e2-d746-a681-de44-25e94b87aa99",
+            "originalFrame": "b66b0e05-4d4f-e103-d7aa-46bca5e98d6d_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407709751,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.019532163742690067,
+                "y": 0.16736842105263158,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "06069e27-6bc7-5c7a-f8c3-47793802e54e_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.019444444444444445,
+                        "y": 0.166875
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9990894941924943
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.07953216374269007,
+                "y": 0.18736842105263157
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "[C]"
+                }
+            ]
+        },
+        {
+            "id": "e57dbf81-8abe-f50a-2d0e-ad39d774267b",
+            "originalFrame": "16d13086-de1f-95fc-7489-632c1aadcf00_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407710097,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.12929824561403502,
+                "y": 0.56,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.45929824561403504,
+                "y": 0.8684210526315789,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "707dbf21-c0ce-51e1-c89f-331a292f467f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.45846491228070174,
+                        "y": 0.868125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9939407740618827
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.519298245614035,
+                "y": 0.8884210526315789
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "ESCOLHER"
+                }
+            ]
+        },
+        {
+            "id": "4fdfb333-ed7a-c7c8-f8b7-5e4531f9b944",
+            "originalFrame": "058a065f-e451-9c88-de0d-740b4fbd8e12_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407710404,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.21999999999999997,
+                "y": 0.3189473684210526,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.8616374269005849,
+                "y": 0.5189473684210526,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "9defe94a-ec3e-b338-86db-4890ba306fd4_template.png",
+            "offset": {
+                "x": 1.1102230246251565e-16,
+                "y": 0
+            },
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8616666666666666,
+                        "y": 0.5189473684210526
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9984519333818489
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.9216374269005848,
+                "y": 0.5389473684210526
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "98ae596c-75ad-88c2-6d60-686222ba7b64",
+            "originalFrame": "53cfa924-5dee-1a79-a0ce-993e536a377f_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407710635,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.10842105263157895,
+                "y": 0.17789473684210527,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "7caf2696-de7e-9617-0076-66b698a64505_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.10833333333333334,
+                        "y": 0.1775
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9995612727832044
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.16842105263157894,
+                "y": 0.19789473684210526
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "[[]"
+                }
+            ]
+        },
+        {
+            "id": "6623fda5-cc80-fe8a-47ac-4bacf271c728",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407710869,
+            "recordedOn": "SM-M127F",
+            "duration": 1500,
+            "subtype": "waitForAnimationFinish"
+        },
+        {
+            "id": "f59328bc-723b-be22-8080-eea501499457",
+            "originalFrame": "6b09f270-80b0-d06d-a1cf-d43bbb9e4e7b_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407710938,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0.030526315789473707,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.024210526315789474,
+                "y": 0.23052631578947372,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "d54f4e78-f5cb-9870-bebe-7157a27db07d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.02361111111111111,
+                        "y": 0.2305263157894737
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9999108711878458
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.08421052631578947,
+                "y": 0.2505263157894737
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "[J"
+                }
+            ]
+        },
+        {
+            "id": "b99539eb-d64e-8a35-6a02-28e0e84ea34b",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407711260,
+            "recordedOn": "SM-M127F",
+            "duration": 1500,
+            "subtype": "waitForAnimationFinish"
+        },
+        {
+            "id": "d6e613f0-6332-acfe-ffd1-acaf26933f4c",
+            "originalFrame": "561feaf7-ec6e-5c0d-3a09-51848361bf4c_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407711331,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.10842105263157895,
+                "y": 0.18000000000000002,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "1c8e5a5e-b7a4-e159-71b3-0751da5e4753_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.10833333333333334,
+                        "y": 0.18
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9999537966796197
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.16842105263157894,
+                "y": 0.2
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "831df970-32fe-ad3e-335d-4cfd129b52d9",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407711559,
+            "recordedOn": "SM-M127F",
+            "duration": 1500,
+            "subtype": "waitForAnimationFinish"
+        },
+        {
+            "id": "fbaa988b-e52d-c538-28b1-9e647033d126",
+            "originalFrame": "f0ecc48e-9247-9e08-fcdf-424c4a7a5fe5_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407711631,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.1994736842105263,
+                "y": 0,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.5294736842105263,
+                "y": 0.17789473684210527,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "5787a019-671a-3a8a-ccfb-b8feca6d05f8_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5300292397660818,
+                        "y": 0.1775
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9994170075085402
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.5894736842105264,
+                "y": 0.19789473684210526
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": []
+        },
+        {
+            "id": "754b7f50-8cf5-dce0-c4b0-9b77c160e3e9",
+            "originalFrame": "e4f229a1-a42b-5365-a492-fea1470c08c9_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407711927,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0.10588235294117646,
+                "width": 0.9903780068728523,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Nome",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "9abaf732-b0b6-dff6-9a88-eb3a4ede62aa",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407712165,
+            "recordedOn": "SM-M127F",
+            "testId": "6ccaae75-6be5-774d-c4ad-6845720fac1e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f179c15e-2e23-1b8a-5763-a2733a25b2e2",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407712237,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "0b235b9c-316a-0146-fe0b-318a7aa6f9b5",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719407712308,
+            "recordedOn": ""
+        },
+        {
+            "id": "47f3f24c-2257-cd74-6e3f-1668cb68c379",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407712388,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "552a4b72-6d8d-f829-fbe8-c6ba38e17bae",
+            "originalFrame": "fe52c7d9-61d5-e262-9c77-2d51d36224a6_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719407712460,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0.20959752321981423,
+                "width": 1,
+                "height": 0.2656346749226006
+            },
+            "matchIndex": 0,
+            "searchText": "COLABORADOR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "c5b96bdc-0ab8-6058-57a6-116b04900053",
+            "originalFrame": "d46c4492-893a-9b2a-36db-7fac9d871087_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407712803,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0,
+                "y": 0.024210526315789488,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.010175438596491226,
+                "y": 0.2242105263157895,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "2faf4047-49be-457d-51de-6369c1231ecc_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.009722222222222222,
+                        "y": 0.2242105263157895
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9967906265191138
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.07017543859649122,
+                "y": 0.2442105263157895
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "[[]"
+                }
+            ]
+        },
+        {
+            "id": "1ab7b8bb-3186-dcfb-4608-e0cf02bdbcd3",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407713067,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "b544f46a-aa35-7f75-2ab7-9a961caca528",
+            "originalFrame": "0998baa1-bb33-8549-826c-8023a99d2785_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407713146,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.21999999999999997,
+                "y": 0.56,
+                "width": 0.78,
+                "height": 0.44
+            },
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.5669005847953217,
+                "y": 0.8684210526315789,
+                "width": 0.12,
+                "height": 0.04
+            },
+            "image": "f78a2b93-7a70-6454-d280-aa2ca171d7de_template.png",
+            "offset": {
+                "x": 1.1102230246251565e-16,
+                "y": 0
+            },
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5672222222222222,
+                        "y": 0.868125
+                    },
+                    "size": {
+                        "width": 0.11944444444444445,
+                        "height": 0.04
+                    },
+                    "probability": 0.9951044474199913
+                }
+            ],
+            "mouseDownPosition": {
+                "x": 0.6269005847953216,
+                "y": 0.8884210526315789
+            },
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "ESCOLHER"
+                }
+            ]
+        },
+        {
+            "id": "7cb50764-fd74-53b0-f5e2-e489398ea9b7",
+            "originalFrame": "be7f92a9-f0a9-f74c-344d-657575b30673_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407713486,
+            "recordedOn": "SM-M127F",
+            "duration": 2500
+        },
+        {
+            "id": "c38005e4-6969-74f2-091c-5a49e249c7fe",
+            "originalFrame": "447c439c-f768-1ac7-f0ee-b1ae0af6bd94_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407713868,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.049484536082474266,
+                "y": 0.83343653250774,
+                "width": 0.9505154639175256,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "CONFIRMAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "45a3ed28-ef43-6645-f766-1d274a41abb2",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407714101,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "9bfd86c1-b4a9-facf-4831-6ea44cbf889a",
+            "originalFrame": "98edfb5a-90c4-cba5-9d8f-fe734f62786d_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407714178,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.07010309278350518,
+                "y": 0.3953560371517028,
+                "width": 0.8735395189003436,
+                "height": 0.18513931888544893
+            },
+            "matchIndex": 0,
+            "searchText": "OK",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "043625ab-38a6-1368-3253-0de404c88df9",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407714519,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "19d7f00f-4794-db7c-78fe-5b1ed7e2e0fb",
+            "originalFrame": "2fae8636-112e-3fda-39d3-7dd3c82e3b36_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719407714599,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.07353951890034366,
+                "y": 0.3953560371517028,
+                "width": 0.8632302405498281,
+                "height": 0.18204334365325078
+            },
+            "matchIndex": 0,
+            "searchText": "Requisições Lançadas",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por"
+        },
+        {
+            "id": "09fe841d-211d-bf28-208e-a3aea6cc7e6f",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407714870,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "27bf413f-5b2c-b484-e988-eaa6ab3ac051",
+            "originalFrame": "4806c6c3-525d-fdcc-0510-b719a7c70a5a_frame.jpg",
+            "timeout": 20,
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407714986,
+            "recordedOn": "SM-M127F",
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.7371900826446286,
+                "y": 0.5183035714285711,
+                "width": 0.1619834710743802,
+                "height": 0.05312500000000002
+            },
+            "image": "5ca6d983-05b3-9fd6-0b77-1063e4b28273_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7361111111111112,
+                        "y": 0.518125
+                    },
+                    "size": {
+                        "width": 0.16111111111111112,
+                        "height": 0.053125
+                    },
+                    "probability": 0.9986019978509324
+                }
+            ],
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "0K"
+                }
+            ]
+        },
+        {
+            "id": "c5b8d18c-f089-e053-f3f6-c0d2a52a850f",
+            "originalFrame": "9a286992-1277-23ff-f32c-fb343a6e8fc2_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407715424,
+            "recordedOn": "SM-M127F",
+            "duration": 2500
+        },
+        {
+            "id": "d71768c6-69d0-2293-a969-09726819fa64",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407715687,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "f37e82df-b005-e123-b9da-d07b320858f8",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719407715771,
+            "recordedOn": ""
+        },
+        {
+            "id": "79058523-fd0b-eb1c-c38b-18ed2484acfe",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407715850,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "ecabd277-beff-d52f-806c-8b6d2869c7d6",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407715932,
+            "recordedOn": "SM-X200",
+            "testId": "aec6a824-bd62-76d6-d779-f0278db90812",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0df2fbc1-abfc-16e2-7961-45ef92f01539",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407895640,
+            "recordedOn": "SM-X200",
+            "testId": "aec6a824-bd62-76d6-d779-f0278db90812",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "8e63eb37-0c13-18d1-7174-978efae546a7",
+            "originalFrame": "d160d0e0-5073-b4b4-2446-6ce90c1fe728_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407895648,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.1079037800687285,
+                "y": 0.3876160990712074,
+                "width": 0.354639175257732,
+                "height": 0.17430340557275542
+            },
+            "matchIndex": 0,
+            "searchText": "REFEIÇÃO",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por",
+            "longClick": false
+        },
+        {
+            "id": "ec9c259d-9dc2-1a46-95ee-fe681d338d5f",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407895993,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "dcbbe8fa-554c-ab2d-78d0-e20a812661c5",
+            "originalFrame": "e3dbaf9d-c467-862d-7448-878104ce6657_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407896086,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.15257731958762885,
+                "y": 0.5439628482972136,
+                "width": 0.7257731958762886,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "ENTREGA",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "06a70286-8867-7c92-ad9a-9ab6effa755a",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407896418,
+            "recordedOn": "SM-M127F",
+            "testId": "e81670c4-88d6-2cb3-3b00-f7243e324f42",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "85d147a3-120c-ccbc-961f-1fa6f762e83a",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407896502,
+            "recordedOn": "",
+            "duration": 1000
+        },
+        {
+            "id": "01caeeac-b74a-2159-44c6-6b7f4659e017",
+            "originalFrame": "9b74f61f-74d8-f1fd-12f5-42df051bfabd_frame.jpg",
+            "timeout": 60,
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719407896586,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.004810996563573875,
+                "y": 0.028482972136222882,
+                "width": 0.9780068728522338,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "ENTREGA DE ITENS",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "730299c4-400c-2570-7923-983f7fbb48a3",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407897718,
+            "recordedOn": "SM-M127F",
+            "testId": "6f64d5d3-297e-150e-87b1-a1d2bddec760",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3623845e-780b-f768-6978-266818062035",
+            "originalFrame": "5e3d4232-0048-4701-143c-96063d48c24c_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719407897804,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.7608247422680414,
+                "y": 0.21424148606811144,
+                "width": 0.09690721649484535,
+                "height": 0.04427244582043343
+            },
+            "matchIndex": 0,
+            "searchText": "1",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
+            "id": "36d15386-279e-3376-ab4b-2e32963f2d53",
+            "originalFrame": "dfa8bb3b-f8c3-15b2-661c-370fa82da97e_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719407898088,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.02542955326460479,
+                "y": 0.8318885448916409,
+                "width": 0.9745704467353952,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "CONFIRMAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "b2df0f06-26be-920f-afbb-d22c1c24fe7e",
+            "originalFrame": "e332bf5a-2a5e-3575-7819-aa5fd6e72236_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407898568,
+            "recordedOn": "SM-M127F",
+            "duration": 1500
+        },
+        {
+            "id": "aa19a08c-3dab-956f-14ca-f64187053fe5",
+            "originalFrame": "af12b8f6-4e1c-f9c3-6b90-43def48b3404_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407898985,
+            "recordedOn": "SM-M127F",
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.7603305785123973,
+                "y": 0.5235119047619048,
+                "width": 0.1223140495867769,
+                "height": 0.044940476190476204
+            },
+            "image": "f6ba96df-01c4-0402-0b2f-1f10b640cf5d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7597222222222222,
+                        "y": 0.523125
+                    },
+                    "size": {
+                        "width": 0.12222222222222222,
+                        "height": 0.044375
+                    },
+                    "probability": 0.99763292565494
+                }
+            ],
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "0oK"
+                }
+            ]
+        },
+        {
+            "id": "94ebac67-4299-267d-57ee-ef1027279157",
+            "originalFrame": "7006d800-9747-c0db-68f5-7fcc93f739ca_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719407899637,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.07010309278350518,
+                "y": 0.39226006191950463,
+                "width": 0.8563573883161512,
+                "height": 0.18204334365325078
+            },
+            "matchIndex": 0,
+            "searchText": "Requisição, finalizada",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por"
+        },
+        {
+            "id": "41cbfd03-993f-20fa-6389-1fc6a55c8b5e",
+            "originalFrame": "796dda0b-3b86-7cdb-78da-3ae36a7e9777_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1719407900738,
+            "recordedOn": "SM-M127F",
+            "matchIndex": 0,
+            "selection": {
+                "x": 0.7603305785123973,
+                "y": 0.5235119047619048,
+                "width": 0.1223140495867769,
+                "height": 0.044940476190476204
+            },
+            "image": "5e65b67f-7e41-dfc6-2092-016110133c13_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7597222222222222,
+                        "y": 0.523125
+                    },
+                    "size": {
+                        "width": 0.12222222222222222,
+                        "height": 0.044375
+                    },
+                    "probability": 0.99763292565494
+                }
+            ],
+            "mouseMoveCoordinates": [],
+            "longClick": false,
+            "locatorFallbacks": [
+                {
+                    "type": "text",
+                    "text": "0oK"
+                }
+            ]
+        },
+        {
+            "id": "7afd50c5-342d-b518-87c2-8fe3feaa54fd",
+            "originalFrame": "89bc915b-be94-87e7-bed8-d304550840c1_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407901023,
+            "recordedOn": "SM-M127F",
+            "duration": 3500
+        },
+        {
+            "id": "14d1b625-222e-9afb-d847-6179b10d33b3",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719407901589,
+            "recordedOn": ""
+        },
+        {
+            "id": "191e90e0-9bb4-aab1-3118-555ab676fec8",
+            "originalFrame": "dccd0486-90b8-c4f0-7c6b-abaf640c3d2a_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719407901685,
+            "recordedOn": "SM-M127F",
+            "duration": 3500
+        },
+        {
+            "id": "4fe14e07-da78-12d3-8181-79160881ac5b",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719407905781,
+            "recordedOn": "SM-X200",
             "testId": "aec6a824-bd62-76d6-d779-f0278db90812",
             "isExpanded": true,
             "failureMode": "firstOptional"
@@ -2087,10 +3595,24 @@
             "brand": "samsung",
             "currentRotation": 0,
             "isSimulator": false
+        },
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
         }
     ],
     "createdOn": 1717441934796,
-    "changedOn": 1718814256293,
+    "changedOn": 1719407914278,
     "isWorkingCopy": false,
     "testRuns": [
         {

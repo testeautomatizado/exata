@@ -1,0 +1,72 @@
+{
+    "version": 8,
+    "id": "b478a503-1b93-5838-87ad-e2bdbaaae3d5",
+    "title": "Sincronismo com 6 módulos",
+    "description": "",
+    "steps": [
+        {
+            "id": "a164bc0c-9fe1-2d2c-fd4a-2ddc7812c4a8",
+            "originalFrame": "71e8d14c-8e11-be3c-a67a-2ecc0ddc2828_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719401807076,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.5374570446735395,
+                "y": 0.5795665634674922,
+                "width": 0.3649484536082474,
+                "height": 0.17739938080495357
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "5e016e83-b45b-bbbf-d9f8-0d86cb4388d8",
+            "originalFrame": "3f66c8ff-8681-0f31-9d47-ab2d433fc828_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719401807139,
+            "recordedOn": "SM-M127F",
+            "duration": 12000
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        },
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "33",
+            "osVersion": "13",
+            "size": "720x1600",
+            "baseSize": "720x1600",
+            "serial": "RX8T50DG1RJ",
+            "deviceId": "RX8T50DG1RJ",
+            "name": "SM-M127F",
+            "brand": "samsung",
+            "currentRotation": 0,
+            "isSimulator": false
+        }
+    ],
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}

@@ -64,6 +64,45 @@
             "failureMode": "firstOptional"
         },
         {
+            "id": "e64a05ff-de39-e83c-018c-290d9c570cf7",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719405376122,
+            "recordedOn": "SM-X200",
+            "testId": "68891ac6-6523-fd23-3c45-14d1f5fe2cfc",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "741b5515-2252-8886-4f99-15106fa4e0fc",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719405400340,
+            "recordedOn": "SM-M127F",
+            "testId": "ea929a1b-3ca7-36ac-9da0-cb4f27136a6f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b846fcf1-d4b6-e995-0ab6-8695a78590fd",
+            "originalFrame": "6f68c1f5-aa8f-98fb-a5e6-680f60f812df_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719405400347,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.09072164948453608,
+                "y": 0.3938080495356037,
+                "width": 0.37182130584192435,
+                "height": 0.1696594427244582
+            },
+            "matchIndex": 0,
+            "searchText": "DIVERSOS",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
             "id": "89e2f4a9-8c7e-5276-a573-01a034beaa6b",
             "type": "subTest",
             "optional": false,
@@ -166,7 +205,7 @@
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
             "brand": "samsung",
-            "currentRotation": 0,
+            "currentRotation": 1,
             "isSimulator": false
         },
         {
@@ -185,7 +224,7 @@
         }
     ],
     "createdOn": 1717421459126,
-    "changedOn": 1718727950272,
+    "changedOn": 1719405421914,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -5680,42 +5719,6 @@
                     "message": "",
                     "screenshot": "72cb23d7-87dd-036e-4ce7-b98ed17d0e6a-screenshot.jpg",
                     "createdOn": 1718975985257,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "574ee5a9-5371-daba-2326-93a5f2fd3e08",
-                    "step": "910e0889-829d-0b5d-b60b-57a6cb65befc",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.5784650630011454,
-                                "y": 0.5297426470588236
-                            },
-                            "size": {
-                                "width": 0.2847222222222222,
-                                "height": 0.013125
-                            },
-                            "probability": 0.89,
-                            "text": "SINCRONIZAR"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"SINCRONIZAR\"",
-                    "scannedText": "SINCRONIZAR",
-                    "screenshot": "9b94c54d-d223-f855-6ebc-8127f2b8c07e-screenshot.jpg",
-                    "createdOn": 1718975985818,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "d076ce0f-6206-6b17-a12e-d9e4245710f5",
-                    "step": "74d8c648-f16a-785b-75cc-23723fcd13e4",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "c79bd90f-b607-7336-3de9-804fa08a2581-screenshot.jpg",
-                    "createdOn": 1718976001299,
                     "executedOn": "SM-M127F"
                 },
                 {
@@ -18543,42 +18546,6 @@
                     "message": "",
                     "screenshot": "932f3a7d-d0f1-82ba-5b3e-f7d5f421c7c9-screenshot.jpg",
                     "createdOn": 1719250443410,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "fde85a17-4ceb-4f60-0bc6-c916a3646918",
-                    "step": "910e0889-829d-0b5d-b60b-57a6cb65befc",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.5784650630011454,
-                                "y": 0.5297426470588236
-                            },
-                            "size": {
-                                "width": 0.2847222222222222,
-                                "height": 0.013125
-                            },
-                            "probability": 0.89,
-                            "text": "SINCRONIZAR"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"SINCRONIZAR\"",
-                    "scannedText": "SINCRONIZAR",
-                    "screenshot": "3b68c35c-1b63-47f2-6224-5a10db7a3e39-screenshot.jpg",
-                    "createdOn": 1719250444214,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "ca6599ee-9563-9512-e18d-6164c4875e2c",
-                    "step": "74d8c648-f16a-785b-75cc-23723fcd13e4",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "b62e5104-c572-582b-093b-2e98d63ebe69-screenshot.jpg",
-                    "createdOn": 1719250459265,
                     "executedOn": "SM-M127F"
                 },
                 {
