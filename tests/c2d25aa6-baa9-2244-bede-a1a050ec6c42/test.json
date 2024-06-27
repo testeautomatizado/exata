@@ -346,6 +346,118 @@
             "ocrLanguage": "eng"
         },
         {
+            "id": "29a66467-b204-529f-4785-02041e6d26ca",
+            "originalFrame": "64e80b48-3e55-ac11-59cc-fe400e007e3e_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719491179509,
+            "recordedOn": "SM-M127F",
+            "duration": 5000
+        },
+        {
+            "id": "8f0fafb7-a3ec-f58a-044f-5bd4080913b8",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1719491179583,
+            "recordedOn": ""
+        },
+        {
+            "id": "3be9c863-c02a-f9ce-f166-d2c06b9ee70b",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719491182737,
+            "recordedOn": "",
+            "duration": 60000
+        },
+        {
+            "id": "ef50afe8-65b9-6918-591e-672c3f9d865a",
+            "originalFrame": "2584227e-8bb8-83f1-97d1-ac2a13e8dfe7_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719491201192,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.08041237113402065,
+                "y": 0.3876160990712074,
+                "width": 0.37869415807560136,
+                "height": 0.17739938080495357
+            },
+            "matchIndex": 0,
+            "searchText": "DIVERSOS",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "acf3128f-0048-5784-18a5-a2d373e5a15d",
+            "originalFrame": "96533b37-9a32-3e9c-a0d6-254e7c0bad4f_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719491201336,
+            "recordedOn": "SM-M127F",
+            "duration": 2500
+        },
+        {
+            "id": "0abd9796-5f75-72bd-86b1-988d999df531",
+            "originalFrame": "237c6755-a0a2-9d12-7ae5-ac020ce16e1a_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719491201692,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.07353951890034366,
+                "y": 0.4,
+                "width": 0.8494845360824742,
+                "height": 0.17430340557275542
+            },
+            "matchIndex": 0,
+            "searchText": "TERCEIROS",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "aa3b81eb-acd1-b336-1895-5210ef159367",
+            "originalFrame": "aaf3380f-456e-0cd0-e13c-f9c86950dd71_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719491201887,
+            "recordedOn": "SM-M127F",
+            "duration": 2500
+        },
+        {
+            "id": "f4d32591-c79a-fe14-fd0c-db5227437a3e",
+            "originalFrame": "9b859daf-0e50-c660-b546-7c6ef2cd391c_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719491202110,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.06666666666666671,
+                "y": 0.39226006191950463,
+                "width": 0.8597938144329896,
+                "height": 0.18204334365325078
+            },
+            "matchIndex": 0,
+            "searchText": "ESCOLHER",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "6b9eef62-5081-a168-bfe9-a73407de3ee5",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719491202308,
+            "recordedOn": "SM-M127F",
+            "testId": "e81670c4-88d6-2cb3-3b00-f7243e324f42",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
             "id": "a3daacb4-17c9-88b0-708c-c3bef0847e24",
             "originalFrame": "7a256128-f8f8-492d-14c4-b3e2be14a073_frame.jpg",
             "timeout": 80,
@@ -704,7 +816,7 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1719406326623,
+    "changedOn": 1719491211355,
     "isWorkingCopy": false,
     "testRuns": [
         {

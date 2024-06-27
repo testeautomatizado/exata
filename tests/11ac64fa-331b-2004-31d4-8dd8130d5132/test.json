@@ -55,6 +55,56 @@
             "ocrLanguage": "eng"
         },
         {
+            "id": "a9d2a3cb-534d-109b-cc43-1dbfe0ff320b",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719492551960,
+            "recordedOn": "",
+            "testId": "68891ac6-6523-fd23-3c45-14d1f5fe2cfc",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "846a60e5-8022-55d7-27ef-0b174806956a",
+            "originalFrame": "297dc2be-dce9-cf55-4c6f-49710c300452_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719492564603,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.31752577319587627,
+                "y": 0.5888544891640867,
+                "width": 0.3615120274914089,
+                "height": 0.14643962848297215
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
+        },
+        {
+            "id": "25854a8e-46e4-5971-0d2f-3cb9c6ce8960",
+            "originalFrame": "a78f7324-4d7e-719b-9786-91a23effdb78_frame.jpg",
+            "timeout": 60,
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719492564742,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.5374570446735395,
+                "y": 0.3876160990712074,
+                "width": 0.35807560137457045,
+                "height": 0.17120743034055727
+            },
+            "matchIndex": 0,
+            "searchText": "SINCRONIZAR",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        },
+        {
             "id": "fbe7cba7-b5f6-a5cc-2392-1bf29c1e6a41",
             "type": "subTest",
             "optional": false,
@@ -77,7 +127,7 @@
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
             "brand": "samsung",
-            "currentRotation": 0,
+            "currentRotation": 1,
             "isSimulator": false
         },
         {
@@ -95,7 +145,7 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1718737042265,
+    "changedOn": 1719492577752,
     "isWorkingCopy": false,
     "testRuns": [
         {
