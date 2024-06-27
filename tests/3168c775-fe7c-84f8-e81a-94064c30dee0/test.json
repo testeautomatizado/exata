@@ -272,6 +272,60 @@
             "failureMode": "firstOptional"
         },
         {
+            "id": "24910f7a-9490-5ba3-e46a-3458ee7caee5",
+            "originalFrame": "e46b13c8-beec-fa66-c8b0-342e30954df7_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1716999861277,
+            "recordedOn": "SM-M127F",
+            "duration": 5000
+        },
+        {
+            "id": "6622787a-544b-0b16-7cba-595b148563a1",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1716999874459,
+            "recordedOn": ""
+        },
+        {
+            "id": "0a13cb69-015f-722a-cedf-49651b3be95a",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719489548485,
+            "recordedOn": "",
+            "duration": 60
+        },
+        {
+            "id": "4a75d065-b70d-e1fc-c238-b928ca312e39",
+            "originalFrame": "9c2c89d8-5454-f39c-ebca-b6f59ccda15a_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719489565206,
+            "recordedOn": "SM-M127F",
+            "region": {
+                "x": 0.10103092783505155,
+                "y": 0.3891640866873065,
+                "width": 0.354639175257732,
+                "height": 0.16811145510835915
+            },
+            "matchIndex": 0,
+            "searchText": "REFEIÇÃO",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "por",
+            "longClick": false
+        },
+        {
+            "id": "cf0ee330-5705-9bdc-63ab-7656329a361e",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1719489565333,
+            "recordedOn": "SM-M127F",
+            "testId": "e81670c4-88d6-2cb3-3b00-f7243e324f42",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
             "id": "94069d23-329d-e919-d88a-cdd085f92b41",
             "originalFrame": "faa00d6d-507e-0061-586d-bff86b37a3c6_frame.jpg",
             "timeout": 80,
@@ -292,20 +346,29 @@
             "ocrLanguage": "eng"
         },
         {
-            "id": "24910f7a-9490-5ba3-e46a-3458ee7caee5",
-            "originalFrame": "e46b13c8-beec-fa66-c8b0-342e30954df7_frame.jpg",
+            "id": "a11062dc-07d4-1325-c3df-babe6231c69b",
+            "originalFrame": "bd99ef2f-4706-6f83-e645-69375c55199e_frame.jpg",
             "type": "waitForDuration",
             "optional": false,
-            "createdOn": 1716999861277,
+            "createdOn": 1719489574552,
             "recordedOn": "SM-M127F",
-            "duration": 3500
+            "duration": 5000
         },
         {
-            "id": "6622787a-544b-0b16-7cba-595b148563a1",
+            "id": "8e000d4d-fde0-7e08-4c1d-ea9b4420e017",
             "type": "back",
             "optional": false,
-            "createdOn": 1716999874459,
+            "createdOn": 1719489574681,
             "recordedOn": ""
+        },
+        {
+            "id": "d1687909-bf30-2429-b94f-f564c86deea4",
+            "originalFrame": "86a578a6-8cc2-9ae8-dc97-6ae0c1155b0d_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719489578730,
+            "recordedOn": "SM-M127F",
+            "duration": 5000
         },
         {
             "id": "c513c9b7-7c9a-6253-7fa4-a2d5ede34f52",
@@ -363,12 +426,12 @@
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
             "brand": "samsung",
-            "currentRotation": 0,
+            "currentRotation": 1,
             "isSimulator": false
         }
     ],
     "createdOn": 1716997257975,
-    "changedOn": 1718906914890,
+    "changedOn": 1719489580503,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -1205,17 +1268,6 @@
                     "scannedText": "Erro: Usuario CPF:\n37667417059 excedeu o limite\nde Refei¢oes Tipo:TES\niyt\nI 0 <",
                     "screenshot": "1a9492da-eccc-7227-73fb-8b5d0a2dfd5e-screenshot.jpg",
                     "createdOn": 1718717745983,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "4f76fde9-a713-b14f-1ee2-4eeb2595e2a7",
-                    "step": "24910f7a-9490-5ba3-e46a-3458ee7caee5",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "00d70357-ec9c-d372-6de0-8e460e6c5d69-screenshot.jpg",
-                    "createdOn": 1718717749534,
                     "executedOn": "SM-M127F"
                 },
                 {
