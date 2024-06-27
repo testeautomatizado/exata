@@ -1,7 +1,7 @@
 {
     "version": 8,
     "id": "f4e6ffc4-0a30-35bf-8fac-6ebfdf80c2fd",
-    "title": "5 Habilita e Valida Módulo Refeição no coletor",
+    "title": "5-14 Habilita Módulo Refeição no coletor",
     "description": "",
     "steps": [
         {
@@ -985,26 +985,6 @@
             "failureMode": "firstOptional"
         },
         {
-            "id": "9c0d4437-907e-6a95-0769-3665dddd4842",
-            "originalFrame": "1268d8b0-43d5-3d04-e650-41483f389315_frame.jpg",
-            "timeout": 20,
-            "type": "scanTextWait",
-            "optional": false,
-            "createdOn": 1717505594874,
-            "recordedOn": "SM-M127F",
-            "region": {
-                "x": 0.1079037800687285,
-                "y": 0.3860681114551084,
-                "width": 0.354639175257732,
-                "height": 0.17120743034055727
-            },
-            "matchIndex": 0,
-            "searchText": "REFEIÇÃO",
-            "operator": "contains",
-            "variableName": "scannedText",
-            "ocrLanguage": "por"
-        },
-        {
             "id": "3bbb3b39-697d-d6b9-128b-015d9efd695f",
             "type": "subTest",
             "optional": false,
@@ -1023,26 +1003,6 @@
             "testId": "ea929a1b-3ca7-36ac-9da0-cb4f27136a6f",
             "isExpanded": true,
             "failureMode": "firstOptional"
-        },
-        {
-            "id": "943b5f49-5809-94d9-1f09-8df02504d2aa",
-            "originalFrame": "4f47228c-601c-e484-d486-c0f8a6a19e8f_frame.jpg",
-            "timeout": 20,
-            "type": "scanTextWait",
-            "optional": false,
-            "createdOn": 1719407143839,
-            "recordedOn": "SM-M127F",
-            "region": {
-                "x": 0.1079037800687285,
-                "y": 0.3860681114551084,
-                "width": 0.354639175257732,
-                "height": 0.17120743034055727
-            },
-            "matchIndex": 0,
-            "searchText": "REFEIÇÃO",
-            "operator": "contains",
-            "variableName": "scannedText",
-            "ocrLanguage": "por"
         }
     ],
     "devices": [
@@ -1076,7 +1036,7 @@
         }
     ],
     "createdOn": 1717505592598,
-    "changedOn": 1719407149429,
+    "changedOn": 1719514557122,
     "isWorkingCopy": false,
     "testRuns": [],
     "testRunExports": [],

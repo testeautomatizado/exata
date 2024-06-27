@@ -1,0 +1,48 @@
+{
+    "version": 8,
+    "id": "de2460c1-7fb4-1073-6971-7f94bd139193",
+    "title": "Busca resultado na tela de Lançamento de refeição",
+    "description": "",
+    "steps": [
+        {
+            "id": "06e68f44-102c-5e14-4f43-019392453a13",
+            "originalFrame": "c1fb88a9-1fa1-950b-5ca3-33ba4b01ac13_frame.jpg",
+            "type": "scanTextWait",
+            "optional": false,
+            "createdOn": 1719510870455,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0.18061976549413739,
+                "y": 0.44021447721179624,
+                "width": 0.35242881072026805,
+                "height": 0.06246648793565684
+            },
+            "matchIndex": 0,
+            "searchText": "TESTE AUTOMATICO REPEATO",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng"
+        }
+    ],
+    "devices": [
+        {
+            "os": "Android",
+            "abi": "arm64-v8a",
+            "sdk": "34",
+            "osVersion": "14",
+            "size": "1200x1920",
+            "baseSize": "1200x1920",
+            "serial": "R9XT3043MRJ",
+            "deviceId": "R9XT3043MRJ",
+            "name": "SM-X200",
+            "brand": "samsung",
+            "currentRotation": 1,
+            "isSimulator": false
+        }
+    ],
+    "isWorkingCopy": false,
+    "testRuns": [],
+    "testRunExports": [],
+    "externalStepsNeedOverride": [],
+    "removeStepsFromSameStepGroups": []
+}
