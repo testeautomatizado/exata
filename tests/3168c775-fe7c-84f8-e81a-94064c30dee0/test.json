@@ -262,70 +262,6 @@
             "failureMode": "firstOptional"
         },
         {
-            "id": "73d7e94b-f913-556b-62e8-9a653f2f7dd2",
-            "type": "subTest",
-            "optional": false,
-            "createdOn": 1716998312923,
-            "recordedOn": "SM-X200",
-            "testId": "15b1022c-c3f0-47d7-e056-e03e77e19d09",
-            "isExpanded": true,
-            "failureMode": "firstOptional"
-        },
-        {
-            "id": "24910f7a-9490-5ba3-e46a-3458ee7caee5",
-            "originalFrame": "e46b13c8-beec-fa66-c8b0-342e30954df7_frame.jpg",
-            "type": "waitForDuration",
-            "optional": false,
-            "createdOn": 1716999861277,
-            "recordedOn": "SM-M127F",
-            "duration": 5000
-        },
-        {
-            "id": "6622787a-544b-0b16-7cba-595b148563a1",
-            "type": "back",
-            "optional": false,
-            "createdOn": 1716999874459,
-            "recordedOn": ""
-        },
-        {
-            "id": "0a13cb69-015f-722a-cedf-49651b3be95a",
-            "type": "waitForDuration",
-            "optional": false,
-            "createdOn": 1719489548485,
-            "recordedOn": "",
-            "duration": 60
-        },
-        {
-            "id": "4a75d065-b70d-e1fc-c238-b928ca312e39",
-            "originalFrame": "9c2c89d8-5454-f39c-ebca-b6f59ccda15a_frame.jpg",
-            "type": "scanTextClick",
-            "optional": false,
-            "createdOn": 1719489565206,
-            "recordedOn": "SM-M127F",
-            "region": {
-                "x": 0.10103092783505155,
-                "y": 0.3891640866873065,
-                "width": 0.354639175257732,
-                "height": 0.16811145510835915
-            },
-            "matchIndex": 0,
-            "searchText": "REFEIÇÃO",
-            "operator": "contains",
-            "variableName": "scannedText",
-            "ocrLanguage": "por",
-            "longClick": false
-        },
-        {
-            "id": "cf0ee330-5705-9bdc-63ab-7656329a361e",
-            "type": "subTest",
-            "optional": false,
-            "createdOn": 1719489565333,
-            "recordedOn": "SM-M127F",
-            "testId": "e81670c4-88d6-2cb3-3b00-f7243e324f42",
-            "isExpanded": true,
-            "failureMode": "firstOptional"
-        },
-        {
             "id": "94069d23-329d-e919-d88a-cdd085f92b41",
             "originalFrame": "faa00d6d-507e-0061-586d-bff86b37a3c6_frame.jpg",
             "timeout": 80,
@@ -414,24 +350,10 @@
             "brand": "samsung",
             "currentRotation": 0,
             "isSimulator": false
-        },
-        {
-            "os": "Android",
-            "abi": "arm64-v8a",
-            "sdk": "34",
-            "osVersion": "14",
-            "size": "1200x1920",
-            "baseSize": "1200x1920",
-            "serial": "R9XT3043MRJ",
-            "deviceId": "R9XT3043MRJ",
-            "name": "SM-X200",
-            "brand": "samsung",
-            "currentRotation": 1,
-            "isSimulator": false
         }
     ],
     "createdOn": 1716997257975,
-    "changedOn": 1719489580503,
+    "changedOn": 1719589730038,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -718,31 +640,6 @@
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "5e9b4472-9716-5fa0-d436-34c258d0908f",
-                    "step": "00da6746-7689-9181-e98f-7e5f9af06eca",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.338602520045819,
-                                "y": 0.6052380030959753
-                            },
-                            "size": {
-                                "width": 0.3263888888888889,
-                                "height": 0.02125
-                            },
-                            "probability": 0.89,
-                            "text": "TRASEIRA"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"TRASEIRA\"",
-                    "scannedText": "TRASEIRA",
-                    "screenshot": "d568e25c-0c4d-ce3d-1b9d-c92c20723664-screenshot.jpg",
-                    "createdOn": 1716997673752,
-                    "executedOn": "SM-M127F"
-                },
-                {
                     "id": "15271c16-6f72-d411-3902-f490153c7842",
                     "step": "e0adac7d-42b1-fdc1-662c-17dc71621b5a",
                     "matches": [],
@@ -751,42 +648,6 @@
                     "message": "",
                     "screenshot": "ec7e12d0-7668-86b7-f236-f1c6cc47a854-screenshot.jpg",
                     "createdOn": 1716997674195,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "52e46da7-6e1f-4e6c-2253-3f8c84e6a9af",
-                    "step": "9be89962-ff84-4d0e-df23-25c46bfc9868",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.004810996563573866,
-                                "y": 0.7018575851393188
-                            },
-                            "size": {
-                                "width": 0.9944444444444445,
-                                "height": 0.2375
-                            },
-                            "probability": 1,
-                            "text": "COLABORADOR\nVISITANTE UM\nl'n n\"l\nI-.n Ea..l"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"COLABORADOR\nVISITANTE UM\nl'n n\"l\nI-.n Ea..l\"",
-                    "scannedText": "COLABORADOR\nVISITANTE UM\nl'n n\"l\nI-.n Ea..l",
-                    "screenshot": "906362c3-c570-0dab-dec0-4a90e71dd842-screenshot.jpg",
-                    "createdOn": 1716999776263,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "9a8e12c5-6e6a-924c-7f5d-823e1a855618",
-                    "step": "73d7e94b-f913-556b-62e8-9a653f2f7dd2",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "a16c36f8-8b29-b4f2-6571-c7a578b97046-screenshot.jpg",
-                    "createdOn": 1716999776336,
                     "executedOn": "SM-M127F"
                 },
                 {
@@ -1174,31 +1035,6 @@
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "b38eebb4-5316-b6a5-381e-5db7cad33e33",
-                    "step": "00da6746-7689-9181-e98f-7e5f9af06eca",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.338602520045819,
-                                "y": 0.6052380030959753
-                            },
-                            "size": {
-                                "width": 0.3263888888888889,
-                                "height": 0.02125
-                            },
-                            "probability": 0.89,
-                            "text": "TRASEIRA"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"TRASEIRA\"",
-                    "scannedText": "TRASEIRA",
-                    "screenshot": "b562c1d2-2360-1830-fd0b-8df36956c9ab-screenshot.jpg",
-                    "createdOn": 1718717585817,
-                    "executedOn": "SM-M127F"
-                },
-                {
                     "id": "4f37b4bf-7720-be36-73d9-b4d8a2bbf2b0",
                     "step": "e0adac7d-42b1-fdc1-662c-17dc71621b5a",
                     "matches": [],
@@ -1207,42 +1043,6 @@
                     "message": "",
                     "screenshot": "4146ccd3-a768-97d3-ee0b-6e8bc03b279b-screenshot.jpg",
                     "createdOn": 1718717585840,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "62a56b1d-b74e-43fd-3cd4-50acbf782022",
-                    "step": "9be89962-ff84-4d0e-df23-25c46bfc9868",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.004810996563573866,
-                                "y": 0.7018575851393188
-                            },
-                            "size": {
-                                "width": 0.9944444444444445,
-                                "height": 0.2375
-                            },
-                            "probability": 1,
-                            "text": "COLABORADOR\nVISITANTE CINCO\nl'n n\"l\nI-.n :&E-l"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"COLABORADOR\nVISITANTE CINCO\nl'n n\"l\nI-.n :&E-l\"",
-                    "scannedText": "COLABORADOR\nVISITANTE CINCO\nl'n n\"l\nI-.n :&E-l",
-                    "screenshot": "4d3f2069-62b6-395a-be53-d4745b233a5e-screenshot.jpg",
-                    "createdOn": 1718717592950,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "15a4c0b9-589d-6735-0037-55641b8a9bfd",
-                    "step": "73d7e94b-f913-556b-62e8-9a653f2f7dd2",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "7adec5b3-9a31-7e3d-8d8d-b7dba6a23acb-screenshot.jpg",
-                    "createdOn": 1718717592985,
                     "executedOn": "SM-M127F"
                 },
                 {
@@ -1268,17 +1068,6 @@
                     "scannedText": "Erro: Usuario CPF:\n37667417059 excedeu o limite\nde Refei¢oes Tipo:TES\niyt\nI 0 <",
                     "screenshot": "1a9492da-eccc-7227-73fb-8b5d0a2dfd5e-screenshot.jpg",
                     "createdOn": 1718717745983,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "2853dddd-9463-bf3a-874b-1dc661b26fa0",
-                    "step": "6622787a-544b-0b16-7cba-595b148563a1",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "aa74a4d2-5a00-10ca-bc57-d1acd037c95f-screenshot.jpg",
-                    "createdOn": 1718717749727,
                     "executedOn": "SM-M127F"
                 },
                 {
