@@ -262,34 +262,6 @@
             "failureMode": "firstOptional"
         },
         {
-            "id": "41c51bc6-d84e-d7ba-99d6-e6729d6f3bd5",
-            "type": "waitForDuration",
-            "optional": false,
-            "createdOn": 1719836997245,
-            "recordedOn": "",
-            "duration": 30000
-        },
-        {
-            "id": "94069d23-329d-e919-d88a-cdd085f92b41",
-            "originalFrame": "faa00d6d-507e-0061-586d-bff86b37a3c6_frame.jpg",
-            "timeout": 80,
-            "type": "scanTextWait",
-            "optional": false,
-            "createdOn": 1716999793644,
-            "recordedOn": "SM-M127F",
-            "region": {
-                "x": 0,
-                "y": 0.6817337461300309,
-                "width": 1,
-                "height": 0.3182662538699691
-            },
-            "matchIndex": 0,
-            "searchText": "excedeu o limite",
-            "operator": "contains",
-            "variableName": "scannedText",
-            "ocrLanguage": "eng"
-        },
-        {
             "id": "a11062dc-07d4-1325-c3df-babe6231c69b",
             "originalFrame": "bd99ef2f-4706-6f83-e645-69375c55199e_frame.jpg",
             "type": "waitForDuration",
@@ -361,7 +333,7 @@
         }
     ],
     "createdOn": 1716997257975,
-    "changedOn": 1719837010564,
+    "changedOn": 1719849664376,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -1051,31 +1023,6 @@
                     "message": "",
                     "screenshot": "4146ccd3-a768-97d3-ee0b-6e8bc03b279b-screenshot.jpg",
                     "createdOn": 1718717585840,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "3eaa5336-8066-fb64-fe1b-7584aa9b4de0",
-                    "step": "94069d23-329d-e919-d88a-cdd085f92b41",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0,
-                                "y": 0.6817337461300309
-                            },
-                            "size": {
-                                "width": 1,
-                                "height": 0.318125
-                            },
-                            "probability": 1,
-                            "text": "Erro: Usuario CPF:\n37667417059 excedeu o limite\nde Refei¢oes Tipo:TES\niyt\nI 0 <"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"Erro: Usuario CPF:\n37667417059 excedeu o limite\nde Refei¢oes Tipo:TES\niyt\nI 0 <\"",
-                    "scannedText": "Erro: Usuario CPF:\n37667417059 excedeu o limite\nde Refei¢oes Tipo:TES\niyt\nI 0 <",
-                    "screenshot": "1a9492da-eccc-7227-73fb-8b5d0a2dfd5e-screenshot.jpg",
-                    "createdOn": 1718717745983,
                     "executedOn": "SM-M127F"
                 },
                 {
