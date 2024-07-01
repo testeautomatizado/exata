@@ -115,6 +115,26 @@
             "createdOn": 1719592235091,
             "recordedOn": "SM-X200",
             "duration": 3500
+        },
+        {
+            "id": "99733a1c-a4ec-0bf1-b003-cd2cf85e5c8d",
+            "originalFrame": "5251c76d-903e-40a2-d0ba-409ebc7fabcd_frame.jpg",
+            "type": "scanTextClick",
+            "optional": false,
+            "createdOn": 1719856574197,
+            "recordedOn": "SM-X200",
+            "region": {
+                "x": 0,
+                "y": 0.15603217158176944,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "matchIndex": 0,
+            "searchText": "Equipamento",
+            "operator": "contains",
+            "variableName": "scannedText",
+            "ocrLanguage": "eng",
+            "longClick": false
         }
     ],
     "devices": [
@@ -147,9 +167,61 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1719592236493,
+    "changedOn": 1719856603294,
     "isWorkingCopy": false,
-    "testRuns": [],
+    "testRuns": [
+        {
+            "id": "8f602613-e0f0-712b-330b-fddf0f13e5c7",
+            "date": 1719856588006,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "bcf10cde-0453-eca0-3972-bbe4fa7cda80",
+                    "step": "99733a1c-a4ec-0bf1-b003-cd2cf85e5c8d",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.071875,
+                                "y": 0.19019883824843611
+                            },
+                            "size": {
+                                "width": 0.090625,
+                                "height": 0.0225
+                            },
+                            "probability": 0.9,
+                            "text": "Equipamento"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"Equipamento\"",
+                    "scannedText": "Ns",
+                    "screenshot": "ccedfbe4-8eeb-cb77-8001-dfbea80c127a-screenshot.jpg",
+                    "createdOn": 1719856600655,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "1200x1920",
+                    "baseSize": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 13096,
+            "appVersions": [],
+            "wasSuccessful": false
+        }
+    ],
     "testRunExports": [],
     "externalStepsNeedOverride": [],
     "removeStepsFromSameStepGroups": []

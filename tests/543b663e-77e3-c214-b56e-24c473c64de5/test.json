@@ -6,15 +6,15 @@
     "steps": [
         {
             "id": "cc74920e-d354-d591-6642-f622e4ab103f",
-            "originalFrame": "5aa2f01b-f089-ec39-a580-e38cf470b95f_frame.jpg",
+            "originalFrame": "3e59598c-2301-a5c1-8e04-95ffed1a4642_frame.jpg",
             "type": "scanTextWait",
             "optional": false,
             "createdOn": 1717430143166,
             "recordedOn": "SM-X200",
             "region": {
-                "x": 0.34472361809045227,
+                "x": 0.2726968174204355,
                 "y": 0.6171581769436998,
-                "width": 0.21842546063651594,
+                "width": 0.2904522613065327,
                 "height": 0.27694369973190347
             },
             "matchIndex": 0,
@@ -40,9 +40,71 @@
             "isSimulator": false
         }
     ],
-    "changedOn": 1719339734007,
+    "changedOn": 1719859996018,
     "isWorkingCopy": false,
-    "testRuns": [],
+    "testRuns": [
+        {
+            "id": "e75b0ace-d468-e988-4893-e80af9b68c9f",
+            "date": 1719859993125,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "43527c70-f58a-6163-7dc0-3ba52c0d180a",
+                    "step": "cc74920e-d354-d591-6642-f622e4ab103f",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.2726968174204355,
+                                "y": 0.6171581769436998
+                            },
+                            "size": {
+                                "width": 0.29010416666666666,
+                                "height": 0.27666666666666667
+                            },
+                            "probability": 1,
+                            "text": "- @ e\nREFEITORIO TESTE repeato"
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "Text found in region: \"- @ e\nREFEITORIO TESTE repeato\"",
+                    "scannedText": "- @ e\nREFEITORIO TESTE repeato",
+                    "screenshot": "97d9f3f7-546f-9b4f-8353-972d55dd702f-screenshot.jpg",
+                    "createdOn": 1719859993671,
+                    "executedOn": "SM-X200"
+                }
+            ],
+            "devices": [
+                {
+                    "os": "Android",
+                    "abi": "arm64-v8a",
+                    "sdk": "34",
+                    "osVersion": "14",
+                    "size": "1200x1920",
+                    "baseSize": "1200x1920",
+                    "serial": "R9XT3043MRJ",
+                    "deviceId": "R9XT3043MRJ",
+                    "name": "SM-X200",
+                    "brand": "samsung",
+                    "currentRotation": 1,
+                    "isSimulator": false
+                }
+            ],
+            "duration": 844,
+            "appVersions": [
+                {
+                    "packageName": "com.android.chrome",
+                    "name": "117.0.5938.60",
+                    "code": 593806031,
+                    "minSdk": 29,
+                    "targetSdk": 34,
+                    "firstInstallTime": "1969-12-31 20:59:59",
+                    "lastUpdateTime": "1969-12-31 20:59:59"
+                }
+            ],
+            "wasSuccessful": true
+        }
+    ],
     "testRunExports": [],
     "externalStepsNeedOverride": [],
     "removeStepsFromSameStepGroups": []

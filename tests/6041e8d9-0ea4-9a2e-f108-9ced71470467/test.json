@@ -2371,6 +2371,15 @@
             "failureMode": "firstOptional"
         },
         {
+            "id": "eb74ad2f-2790-a6d9-3a7f-98a31ccbca10",
+            "originalFrame": "996afae0-6024-b3d5-5606-0fea46ea9127_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1719857100414,
+            "recordedOn": "SM-X200",
+            "duration": 1500
+        },
+        {
             "id": "488d2863-dc34-6781-f547-bee0b6b04db9",
             "originalFrame": "85f79d0b-537b-0eb3-89cb-7963c02b2ec9_frame.jpg",
             "type": "scanTextClick",
@@ -3626,13 +3635,6 @@
             "duration": 1000
         },
         {
-            "id": "c007ae34-06aa-0eaf-5506-13ddb546df3f",
-            "type": "back",
-            "optional": false,
-            "createdOn": 1718047414780,
-            "recordedOn": ""
-        },
-        {
             "id": "1acd4b8c-bc2e-779a-abb3-25c69c4192d1",
             "originalFrame": "3b72000c-1d73-5cdf-9a54-143e760d5276_frame.jpg",
             "type": "waitForDuration",
@@ -4006,7 +4008,7 @@
             "deviceId": "R9XT3043MRJ",
             "name": "SM-X200",
             "brand": "samsung",
-            "currentRotation": 0,
+            "currentRotation": 1,
             "isSimulator": false
         },
         {
@@ -4025,7 +4027,7 @@
         }
     ],
     "createdOn": 1716480128849,
-    "changedOn": 1719319858034,
+    "changedOn": 1719857124652,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -9374,31 +9376,6 @@
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "f9d2bbd8-2564-7cc2-c4bc-045811eb9e34",
-                    "step": "53a92839-5458-989e-bc34-796af5472e73",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.4402010050251256,
-                                "y": 0.3946380697050938
-                            },
-                            "size": {
-                                "width": 0.24010416666666667,
-                                "height": 0.5475
-                            },
-                            "probability": 1,
-                            "text": "COLETOR 2001\natd. p"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"COLETOR 2001\natd. p\"",
-                    "scannedText": "COLETOR 2001\natd. p",
-                    "screenshot": "4e8e159c-cde5-9d87-3faa-339db37fa8a5-screenshot.jpg",
-                    "createdOn": 1719232665979,
-                    "executedOn": "SM-X200"
-                },
-                {
                     "id": "7f53aef9-5433-e983-6a7c-b70a9fb8dc40",
                     "step": "e63ee1e9-60be-c9ba-dab6-dde63216b6bd",
                     "matches": [],
@@ -9440,17 +9417,6 @@
                     "message": "",
                     "screenshot": "25d86721-0334-e5ca-0b2a-87d0d52231f0-screenshot.jpg",
                     "createdOn": 1719232671182,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "e44919f8-9926-73cd-b0fb-231938321b90",
-                    "step": "c007ae34-06aa-0eaf-5506-13ddb546df3f",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "45efadc0-5bdb-4ea4-82a8-d475611eedc0-screenshot.jpg",
-                    "createdOn": 1719232671478,
                     "executedOn": "SM-X200"
                 },
                 {
@@ -15061,31 +15027,6 @@
                     "executedOn": "SM-X200"
                 },
                 {
-                    "id": "5d177a53-ba0a-6e7d-6aa6-bfc9ddcdbc16",
-                    "step": "53a92839-5458-989e-bc34-796af5472e73",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.4402010050251256,
-                                "y": 0.3946380697050938
-                            },
-                            "size": {
-                                "width": 0.24010416666666667,
-                                "height": 0.5475
-                            },
-                            "probability": 1,
-                            "text": "COLETOR 2001\natd. p"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"COLETOR 2001\natd. p\"",
-                    "scannedText": "COLETOR 2001\natd. p",
-                    "screenshot": "839a80f7-b2f1-ce7e-5a2e-be7bd4a95cf5-screenshot.jpg",
-                    "createdOn": 1719246932670,
-                    "executedOn": "SM-X200"
-                },
-                {
                     "id": "cbfe2366-f77e-a536-6a02-2e49c8fd192c",
                     "step": "e63ee1e9-60be-c9ba-dab6-dde63216b6bd",
                     "matches": [],
@@ -15127,17 +15068,6 @@
                     "message": "",
                     "screenshot": "b41aba56-bad0-b679-a77c-ee8d381a278d-screenshot.jpg",
                     "createdOn": 1719246937921,
-                    "executedOn": "SM-X200"
-                },
-                {
-                    "id": "05ea04bb-3915-7751-0f32-85e45f15a628",
-                    "step": "c007ae34-06aa-0eaf-5506-13ddb546df3f",
-                    "matches": [],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "832c12f6-cb0c-6aa9-cf6a-c0f2f38b826d-screenshot.jpg",
-                    "createdOn": 1719246938229,
                     "executedOn": "SM-X200"
                 },
                 {
