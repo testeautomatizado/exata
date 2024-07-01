@@ -3110,22 +3110,19 @@
         },
         {
             "id": "375d9f27-e32b-6394-d99f-811b00087a2e",
-            "originalFrame": "c41daf74-999c-81ee-9197-e3e9f3a922d9_frame.jpg",
-            "type": "scanTextClick",
+            "originalFrame": "729b00ad-4ec5-f00d-ad9f-4d8905a58f6d_frame.jpg",
+            "type": "someContentClick",
             "optional": false,
             "createdOn": 1719407708263,
             "recordedOn": "SM-M127F",
             "region": {
-                "x": 0.06666666666666671,
-                "y": 0.09814241486068113,
-                "width": 0.897594501718213,
-                "height": 0.06594427244582043
+                "x": 0,
+                "y": 0.07647058823529412,
+                "width": 1,
+                "height": 0.1
             },
             "matchIndex": 0,
-            "searchText": "descrição",
-            "operator": "contains",
-            "variableName": "scannedText",
-            "ocrLanguage": "por",
+            "delay": 0,
             "longClick": false
         },
         {
@@ -4307,7 +4304,7 @@
         }
     ],
     "createdOn": 1717441934796,
-    "changedOn": 1719598775295,
+    "changedOn": 1719840365262,
     "isWorkingCopy": false,
     "testRuns": [
         {
@@ -8060,29 +8057,6 @@
                     "executedOn": "SM-M127F"
                 },
                 {
-                    "id": "5ec52967-8950-fc7a-9864-57e846aeca12",
-                    "step": "e723ab2a-3902-6f6b-2bd6-ce84936f6e54",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.7727777777777778,
-                                "y": 0.194375
-                            },
-                            "size": {
-                                "width": 0.11944444444444445,
-                                "height": 0.04
-                            },
-                            "probability": 0.9954262273505389
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "",
-                    "screenshot": "76d97072-85a8-244c-7174-27b14e308b54-screenshot.jpg",
-                    "createdOn": 1719497186276,
-                    "executedOn": "SM-M127F"
-                },
-                {
                     "id": "5d7768af-a7a6-1a28-29a6-faa17c99d897",
                     "step": "f441dc9f-91ea-642d-da04-721b90581942",
                     "matches": [],
@@ -8091,31 +8065,6 @@
                     "message": "",
                     "screenshot": "d1853021-38c3-6418-ef6f-d4142dac63bd-screenshot.jpg",
                     "createdOn": 1719497188596,
-                    "executedOn": "SM-M127F"
-                },
-                {
-                    "id": "f4540d6d-37b0-769c-308f-1b19ee0cc15d",
-                    "step": "375d9f27-e32b-6394-d99f-811b00087a2e",
-                    "matches": [
-                        {
-                            "position": {
-                                "x": 0.36666666666666664,
-                                "y": 0.12814241486068112
-                            },
-                            "size": {
-                                "width": 0.225,
-                                "height": 0.023125
-                            },
-                            "probability": 0.92,
-                            "text": "descrição"
-                        }
-                    ],
-                    "scaleFactor": 1,
-                    "success": true,
-                    "message": "Text found in region: \"descrição\"",
-                    "scannedText": "refeitório",
-                    "screenshot": "8bf94838-8958-e644-b8ba-f68dbe53ffd4-screenshot.jpg",
-                    "createdOn": 1719497190579,
                     "executedOn": "SM-M127F"
                 },
                 {
@@ -9925,6 +9874,52 @@
                     "screenshot": "0207bfd0-841c-6d99-3317-1e844a35a009-screenshot.jpg",
                     "createdOn": 1719598629120,
                     "executedOn": "SM-M127F"
+                },
+                {
+                    "id": "04b1ccfb-8315-7cb1-405f-c0d8e77fa4ff",
+                    "step": "e723ab2a-3902-6f6b-2bd6-ce84936f6e54",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.7838888888888889,
+                                "y": 0.18875
+                            },
+                            "size": {
+                                "width": 0.11666666666666667,
+                                "height": 0.03875
+                            },
+                            "probability": 0.928527693459149
+                        }
+                    ],
+                    "scaleFactor": 0.9767441860465116,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "57957939-316a-5797-8d8d-0632fc107b57-screenshot.jpg",
+                    "createdOn": 1719840322046,
+                    "executedOn": "moto g(9) play"
+                },
+                {
+                    "id": "59834281-259b-5520-3adf-91b8ad07c424",
+                    "step": "375d9f27-e32b-6394-d99f-811b00087a2e",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": 0.07647058823529412
+                            },
+                            "size": {
+                                "width": 1,
+                                "height": 0.1
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "message": "",
+                    "screenshot": "f73ece87-e678-6659-cc97-fc4fa055ed02-screenshot.jpg",
+                    "createdOn": 1719840358062,
+                    "executedOn": "moto g(9) play"
                 }
             ],
             "devices": [
@@ -9957,7 +9952,7 @@
                     "isSimulator": false
                 }
             ],
-            "duration": 785669650,
+            "duration": 1027398780,
             "appStartupDuration": 1234,
             "skippedFramesCount": 30,
             "appVersions": [
